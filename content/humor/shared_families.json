@@ -1,0 +1,17 @@
+{
+  "passive-voice-accountability": ["g0455", "p0340"],
+  "automatic-renewal-loyalty": ["g0360", "p0184"],
+  "ninety-nine-cent-pricing": ["g0933", "p0240"],
+  "season-to-taste": ["g0665", "p0516"],
+  "bedtime-routine-delays-bed": ["g0739", "p0584"],
+  "fashionably-late": ["g0386", "p0258"],
+  "complaint-ticket-number": ["g0143", "p0068"],
+  "form-session-timeout": ["g0186", "p0100"],
+  "tree-rings-age": ["g0578", "p0501"],
+  "overlong-receipts": ["g0329", "p0202"],
+  "dandelion-distribution": ["g0590", "p0471"],
+  "grant-funded-uncertainty": ["g0537", "p0399"],
+  "theory-ignores-results": ["g0534", "p0398"],
+  "ivy-career-climbing": ["g0601", "p0457"],
+  "shortcut-savings-wasted": ["g0231", "p0851"]
+}

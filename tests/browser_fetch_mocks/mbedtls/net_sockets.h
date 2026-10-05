@@ -1,0 +1,2 @@
+#pragma once
+constexpr int MBEDTLS_ERR_NET_SEND_FAILED=-10,MBEDTLS_ERR_NET_RECV_FAILED=-11;

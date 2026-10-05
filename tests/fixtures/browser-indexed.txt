@@ -1,0 +1,9 @@
+Synthetic indexed PNG fixtures, generated for browser regression tests.
+No external artwork. Four files use bit depths 1, 2, 4, 8; dimensions 13 x 11.
+Palette index at (x,y) = (x+y) % (1<<depth).
+Palette RGB = (index*255/(n-1), 255-index*255/(n-1), 40), integer division.
+Index zero has alpha 128; all other entries have alpha 255.
+Each scanline uses PNG filter None with MSB-first packed indices, zero pad bits,
+zlib compression, and valid IHDR/PLTE/tRNS/IDAT/IEND CRCs.
+Odd width and nonuniform rows check byte packing, palette expansion and alpha.
+Tests also corrupt PLTE data to check CRC rejection without publishing a cache.

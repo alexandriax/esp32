@@ -1,0 +1,104 @@
+name: Moss Display
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: moss-display-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  verify:
+    name: Test and build universal Mac app
+    runs-on: macos-15
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - run: python3 scripts/check-public-source.py
+      - run: scripts/test.sh
+      - name: Build and test without release credentials
+        env:
+          MOSS_ARCHS: arm64 x86_64
+        run: scripts/build-display-host.sh --unsigned
+      - run: scripts/package-display-host.sh
+      - uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6
+        with:
+          name: Moss-Display-unsigned-test-build
+          path: build/release/*
+          if-no-files-found: error
+          retention-days: 14
+      - name: Release configuration
+        if: github.ref == 'refs/heads/main' && vars.MACOS_RELEASES_ENABLED != 'true'
+        run: echo 'Signed release publishing is awaiting private signing/notary credentials. The unsigned test artifact is available above.' >> "$GITHUB_STEP_SUMMARY"
+  sign:
+    name: Sign and notarize trusted main
+    needs: verify
+    if: github.repository == 'alexandriax/esp32' && github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && vars.MACOS_RELEASES_ENABLED == 'true'
+    runs-on: macos-15
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - name: Import ephemeral signing identity
+        env:
+          MACOS_CERTIFICATE_P12_BASE64: ${{ secrets.MACOS_CERTIFICATE_P12_BASE64 }}
+          MACOS_CERTIFICATE_PASSWORD: ${{ secrets.MACOS_CERTIFICATE_PASSWORD }}
+        run: scripts/ci-import-signing.sh
+      - name: Build signed universal app
+        env:
+          MOSS_ARCHS: arm64 x86_64
+        run: scripts/build-display-host.sh
+      - run: scripts/package-display-host.sh
+      - name: Notarize, staple and repackage
+        env:
+          NOTARY_KEY_P8: ${{ secrets.NOTARY_KEY_P8 }}
+          NOTARY_KEY_ID: ${{ secrets.NOTARY_KEY_ID }}
+          NOTARY_ISSUER_ID: ${{ secrets.NOTARY_ISSUER_ID }}
+        run: scripts/ci-notarize-display.sh
+      - uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6
+        with:
+          name: Moss-Display-signed-release
+          path: build/release/*
+          if-no-files-found: error
+          retention-days: 30
+      - name: Remove private signing material
+        if: always()
+        run: |
+          security delete-keychain "$RUNNER_TEMP/moss-signing.keychain-db" 2>/dev/null || true
+          rm -f "$RUNNER_TEMP/moss-signing.p12" "$RUNNER_TEMP/moss-notary.p8"
+  release:
+    name: Publish downloadable release
+    needs: sign
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131 # v7
+        with:
+          name: Moss-Display-signed-release
+          path: release
+      - name: Publish verified build
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RELEASE_TAG: moss-display-build-${{ github.run_number }}
+          SOURCE_COMMIT: ${{ github.sha }}
+        run: |
+          cd release
+          sha256sum --check SHA256SUMS
+          cat > notes.md <<'NOTES'
+          Universal **Moss Display** companion for Apple Silicon and Intel Macs, macOS 15 or later.
+          Developer ID signed, notarized by Apple, and stapled for offline verification.
+
+          Download `Moss-Display-macOS.zip`, unzip it, and move **Moss Display.app** to Applications. Keep that location for updates. Enable Screen & System Audio Recording when macOS requests it. Choose **Utilities → Remote Display** on the device.
+
+          `SHA256SUMS` verifies the download. Firmware is built separately; this download does not flash the device.
+          NOTES
+          gh release create "$RELEASE_TAG" Moss-Display-macOS.zip SHA256SUMS \
+            --target "$SOURCE_COMMIT" --title "Moss Display · build ${GITHUB_RUN_NUMBER}" \
+            --notes-file notes.md --latest

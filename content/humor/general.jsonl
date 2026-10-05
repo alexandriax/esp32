@@ -1,0 +1,1024 @@
+{"id":"g0001","text":"My calendar invited me to a meeting with myself. Somehow I was optional.","mood":"neutral","topic":"work","family":"g-calendar-self"}
+{"id":"g0002","text":"We kept the meeting minutes. Nobody wanted the hours.","mood":"bored","topic":"work","family":"g-meeting-time-cost"}
+{"id":"g0003","text":"My job description says flexible. Mostly it means bending around other people's decisions.","mood":"neutral","topic":"work","family":"g-job-description"}
+{"id":"g0004","text":"I bought a standing desk. My deadlines remain comfortably seated.","mood":"neutral","topic":"work","family":"g-standing-desk"}
+{"id":"g0005","text":"Teamwork is sharing the blame before anyone asks about the credit.","mood":"neutral","topic":"work","family":"g-teamwork-credit"}
+{"id":"g0006","text":"My out-of-office reply has better boundaries than I do.","mood":"rested","topic":"work","family":"g-out-of-office"}
+{"id":"g0007","text":"Reply All is how a printer question becomes a company event.","mood":"bored","topic":"work","family":"g-reply-all"}
+{"id":"g0008","text":"A coffee break is a meeting with someone who actually helps.","mood":"neutral","topic":"work","family":"g-coffee-break"}
+{"id":"g0009","text":"My performance review praised my potential. Apparently my actual work was unavailable.","mood":"neutral","topic":"work","family":"g-office-empty-recognition"}
+{"id":"g0010","text":"The open office removed walls so we could hear everyone's private despair.","mood":"neutral","topic":"work","family":"g-open-plan"}
+{"id":"g0011","text":"Our brainstorm produced a cloud of reasons to schedule another brainstorm.","mood":"bored","topic":"work","family":"g-meetings-create-meetings"}
+{"id":"g0012","text":"I achieved work-life balance. Both sides are equally confused.","mood":"tired","topic":"work","family":"g-work-life-balance"}
+{"id":"g0013","text":"I took annual leave. The work stayed and had children.","mood":"tired","topic":"work","family":"g-annual-leave"}
+{"id":"g0014","text":"I climbed the corporate ladder. The view is mostly other ladders.","mood":"neutral","topic":"work","family":"g-corporate-ladder"}
+{"id":"g0015","text":"The agenda had one item: find out why we have so many meetings.","mood":"bored","topic":"work","family":"g-meetings-create-meetings"}
+{"id":"g0016","text":"My printer has been quietly quitting since 2014.","mood":"neutral","topic":"work","family":"g-printer-defiance"}
+{"id":"g0017","text":"Inbox zero is a lovely neighborhood I once drove through.","mood":"neutral","topic":"work","family":"g-inbox-zero"}
+{"id":"g0018","text":"My job title got longer. My desk did not.","mood":"neutral","topic":"work","family":"g-corporate-inflated-labels"}
+{"id":"g0019","text":"Our company values transparency. That explains the invisible raises.","mood":"neutral","topic":"work","family":"g-work-more-than-reward"}
+{"id":"g0020","text":"My mentor told me to be indispensable. Now I can't take Friday off.","mood":"neutral","topic":"work","family":"g-mentorship"}
+{"id":"g0021","text":"Networking is asking what someone does while hoping they can do something for you.","mood":"bored","topic":"work","family":"g-networking"}
+{"id":"g0022","text":"Casual Friday lets my shirt admit what my face has known all week.","mood":"tired","topic":"work","family":"g-casual-friday"}
+{"id":"g0023","text":"Management went on a retreat. Morale improved immediately.","mood":"neutral","topic":"work","family":"g-leadership-retreat"}
+{"id":"g0024","text":"The expense report wanted the purpose of my sandwich. I wrote survival.","mood":"neutral","topic":"work","family":"g-expense-report"}
+{"id":"g0025","text":"Our team-building exercise taught us we all wanted to leave together.","mood":"bored","topic":"work","family":"g-team-building"}
+{"id":"g0026","text":"My productivity app reminds me how long I've spent configuring my productivity app.","mood":"neutral","topic":"work","family":"g-software-extra-work"}
+{"id":"g0027","text":"My email signature has three certifications and no evidence I can find the attachment.","mood":"neutral","topic":"work","family":"g-email-signature"}
+{"id":"g0028","text":"The new hire asked how things work. A dangerous first impression.","mood":"neutral","topic":"work","family":"g-new-hire"}
+{"id":"g0029","text":"My promotion came with more responsibility. We are still negotiating the other part.","mood":"neutral","topic":"work","family":"g-work-more-than-reward"}
+{"id":"g0030","text":"The project scope expanded. Oddly, the deadline remained quite slim.","mood":"neutral","topic":"work","family":"g-project-scope"}
+{"id":"g0031","text":"My status update is that preparing status updates has changed my status.","mood":"bored","topic":"work","family":"g-meetings-create-meetings"}
+{"id":"g0032","text":"We achieved synergy: two departments doing one department's job twice.","mood":"bored","topic":"work","family":"g-corporate-inflated-labels"}
+{"id":"g0033","text":"I turned my camera off to improve the quality of my reaction.","mood":"tired","topic":"work","family":"g-meeting-camera"}
+{"id":"g0034","text":"The office plant gets sunlight, water, and no performance targets. Clear favoritism.","mood":"neutral","topic":"work","family":"g-office-plant"}
+{"id":"g0035","text":"They asked my greatest weakness. I said interviews disguised as personality tests.","mood":"neutral","topic":"work","family":"g-interview-weakness"}
+{"id":"g0036","text":"My orientation covered every emergency except not knowing what my job is.","mood":"bored","topic":"work","family":"g-orientation"}
+{"id":"g0037","text":"Overtime is time that wasn't important until it belonged to me.","mood":"tired","topic":"work","family":"g-overtime"}
+{"id":"g0038","text":"Your urgent email has been placed behind the previous urgent emails.","mood":"neutral","topic":"work","family":"g-reply-urgency"}
+{"id":"g0039","text":"We launched a pilot project. It immediately requested a co-pilot and more funding.","mood":"neutral","topic":"work","family":"g-project-pilot"}
+{"id":"g0040","text":"Management asked for more visibility. I suggested turning on the lights.","mood":"neutral","topic":"work","family":"g-management-visibility"}
+{"id":"g0041","text":"For five years of loyalty, I received an email from a system that can't spell my name.","mood":"tired","topic":"work","family":"g-office-empty-recognition"}
+{"id":"g0042","text":"I volunteered to take notes. Now my confusion is the official record.","mood":"neutral","topic":"work","family":"g-meeting-notes"}
+{"id":"g0043","text":"The office offers unlimited snacks and carefully limited compensation.","mood":"neutral","topic":"work","family":"g-work-more-than-reward"}
+{"id":"g0044","text":"Professional development is learning new ways to describe the work you already do.","mood":"neutral","topic":"work","family":"g-corporate-inflated-labels"}
+{"id":"g0045","text":"This call could have been an email. That email could have been a private thought.","mood":"neutral","topic":"work","family":"g-meeting-time-cost"}
+{"id":"g0046","text":"My work password expires more often than our bad policies.","mood":"bored","topic":"work","family":"g-work-password"}
+{"id":"g0047","text":"I have job security. Nobody else understands the spreadsheet either.","mood":"neutral","topic":"work","family":"g-job-security"}
+{"id":"g0048","text":"The company calls us a family. That explains why leaving requires so much guilt.","mood":"neutral","topic":"work","family":"g-company-family"}
+{"id":"g0049","text":"Business cards are little paper promises to forget each other professionally.","mood":"neutral","topic":"work","family":"g-business-cards"}
+{"id":"g0050","text":"We started the meeting with a quick round of introductions. That was the whole morning.","mood":"bored","topic":"work","family":"g-meeting-time-cost"}
+{"id":"g0051","text":"My career path has excellent scenery and no signs.","mood":"neutral","topic":"work","family":"g-career-path"}
+{"id":"g0052","text":"Delegation is the art of making your emergency someone else's growth opportunity.","mood":"neutral","topic":"work","family":"g-delegation"}
+{"id":"g0053","text":"My office birthday cake came with a reminder to log the break.","mood":"tired","topic":"work","family":"g-work-birthday"}
+{"id":"g0054","text":"Our five-year plan assumes we will eventually understand last Tuesday.","mood":"neutral","topic":"work","family":"g-strategic-plan"}
+{"id":"g0055","text":"A shared document is a room where everyone's cursor has somewhere more important to be.","mood":"neutral","topic":"work","family":"g-shared-document"}
+{"id":"g0056","text":"I translated the corporate jargon. It said maybe.","mood":"neutral","topic":"work","family":"g-corporate-inflated-labels"}
+{"id":"g0057","text":"We created a feedback loop. Now the same criticism arrives quarterly.","mood":"neutral","topic":"work","family":"g-meetings-create-meetings"}
+{"id":"g0058","text":"The presentation was thin on ideas but very bold in several places.","mood":"bored","topic":"work","family":"g-presentation-font"}
+{"id":"g0059","text":"My commute gives me time to reflect on why I need a commute.","mood":"tired","topic":"work","family":"g-work-commute"}
+{"id":"g0060","text":"The hiring process has six rounds. Apparently the position is heavyweight champion.","mood":"neutral","topic":"work","family":"g-hiring-process"}
+{"id":"g0061","text":"Being on mute is the closest I get to editorial control.","mood":"neutral","topic":"work","family":"g-meeting-mute"}
+{"id":"g0062","text":"The anonymous employee survey asked for my department, manager, and exact shoe size.","mood":"neutral","topic":"work","family":"g-office-empty-recognition"}
+{"id":"g0063","text":"I read a book on leadership. It was mostly telling other people to read books on leadership.","mood":"neutral","topic":"work","family":"g-leadership-book"}
+{"id":"g0064","text":"My work laptop is portable, so the work can follow me into increasingly beautiful places.","mood":"tired","topic":"work","family":"g-work-laptop"}
+{"id":"g0065","text":"The handover document says ask the previous person. The previous person wrote the document.","mood":"neutral","topic":"work","family":"g-handover"}
+{"id":"g0066","text":"A deadline is a suggestion wearing a tie.","mood":"neutral","topic":"work","family":"g-deadline-drama"}
+{"id":"g0067","text":"Payroll has a remarkable gift for making a whole month look brief.","mood":"neutral","topic":"work","family":"g-payroll"}
+{"id":"g0068","text":"All our project indicators are green. Someone removed the other colors.","mood":"neutral","topic":"work","family":"g-project-green"}
+{"id":"g0069","text":"My cover letter explains why I have dreamed of processing invoices since childhood.","mood":"neutral","topic":"work","family":"g-cover-letter"}
+{"id":"g0070","text":"The office chair has lumbar support. I remain professionally unsupported.","mood":"neutral","topic":"work","family":"g-office-chair"}
+{"id":"g0071","text":"My probation period ended. I am now trusted to make the same mistakes permanently.","mood":"neutral","topic":"work","family":"g-probation"}
+{"id":"g0072","text":"We use tickets to track tasks. Work has become an amusement park with no rides.","mood":"bored","topic":"work","family":"g-work-tickets"}
+{"id":"g0073","text":"My brain dump was rejected for missing the approved template.","mood":"bored","topic":"work","family":"g-brain-dump"}
+{"id":"g0074","text":"I changed fine to absolutely delighted. Professionalism is mostly subtitles.","mood":"neutral","topic":"work","family":"g-professional-tone"}
+{"id":"g0075","text":"A recruiter said my profile was unique. The greeting said Dear Candidate.","mood":"neutral","topic":"work","family":"g-recruiter"}
+{"id":"g0076","text":"My reference said I work well under pressure. He was describing the environment he caused.","mood":"neutral","topic":"work","family":"g-job-reference"}
+{"id":"g0077","text":"The water cooler knows more about the company than the company newsletter.","mood":"bored","topic":"work","family":"g-water-cooler"}
+{"id":"g0078","text":"Taking a sick day requires sounding ill enough to prove you shouldn't be on the phone.","mood":"neutral","topic":"work","family":"g-sick-day"}
+{"id":"g0079","text":"The new workflow software has streamlined how we explain why nothing is finished.","mood":"neutral","topic":"work","family":"g-work-software"}
+{"id":"g0080","text":"I was put on hold at work. Finally, someone recognized my preferred pace.","mood":"neutral","topic":"work","family":"g-call-hold"}
+{"id":"g0081","text":"The document needed printing urgently so it could sit in a folder with authority.","mood":"neutral","topic":"work","family":"g-urgent-print"}
+{"id":"g0082","text":"Every project needs an owner. Mostly for when it escapes.","mood":"neutral","topic":"work","family":"g-project-owner"}
+{"id":"g0083","text":"My timesheet needs a category for remembering what I did.","mood":"neutral","topic":"work","family":"g-timesheets"}
+{"id":"g0084","text":"The workshop on efficiency began with twenty minutes of troubleshooting the projector.","mood":"bored","topic":"work","family":"g-workshop"}
+{"id":"g0085","text":"We rented an offsite venue to think outside the box. It was a conference room.","mood":"bored","topic":"work","family":"g-strategy-offsite"}
+{"id":"g0086","text":"Benchmarking is discovering everyone else is also guessing, but with charts.","mood":"bored","topic":"work","family":"g-benchmarking"}
+{"id":"g0087","text":"My chat status says available. My expression has filed an appeal.","mood":"tired","topic":"work","family":"g-work-chat-status"}
+{"id":"g0088","text":"A corner office lets you look disappointed in two directions.","mood":"neutral","topic":"work","family":"g-corner-office"}
+{"id":"g0089","text":"The project review found lessons learned. None had a forwarding address.","mood":"bored","topic":"work","family":"g-project-postmortem"}
+{"id":"g0090","text":"Our dress code is smart casual. My clothes are still taking the aptitude test.","mood":"neutral","topic":"work","family":"g-work-dress-code"}
+{"id":"g0091","text":"Just following up is corporate for I refuse to let this quietly become your problem.","mood":"neutral","topic":"work","family":"g-email-followup"}
+{"id":"g0092","text":"A second monitor doubles the number of things I can avoid at once.","mood":"bored","topic":"work","family":"g-second-monitor"}
+{"id":"g0093","text":"My long-term career goal is to stop having to invent long-term career goals.","mood":"neutral","topic":"work","family":"g-career-goals"}
+{"id":"g0094","text":"I arranged holiday coverage. My inbox hired a substitute anxiety.","mood":"neutral","topic":"work","family":"g-holiday-coverage"}
+{"id":"g0095","text":"The task takes five minutes. Permission to do it takes a season.","mood":"neutral","topic":"work","family":"g-work-approval"}
+{"id":"g0096","text":"My welcome pack contained a notebook, a pen, and the expectation of gratitude.","mood":"neutral","topic":"work","family":"g-welcome-pack"}
+{"id":"g0097","text":"A conference badge is permission to stare at someone's chest while remembering their name.","mood":"neutral","topic":"work","family":"g-conference-badge"}
+{"id":"g0098","text":"The office thermostat is where team spirit goes to become a civil dispute.","mood":"neutral","topic":"work","family":"g-office-temperature"}
+{"id":"g0099","text":"Our meeting rooms are named after mountains. The agendas do feel uphill.","mood":"neutral","topic":"work","family":"g-meeting-room-name"}
+{"id":"g0100","text":"Any questions is the most optimistic slide in a presentation.","mood":"bored","topic":"work","family":"g-presentation-questions"}
+{"id":"g0101","text":"The baton in our relay race is an email nobody wants to open.","mood":"bored","topic":"work","family":"g-work-handoffs"}
+{"id":"g0102","text":"My manager's door is always open. Their calendar is a different architectural style.","mood":"neutral","topic":"work","family":"g-manager-door"}
+{"id":"g0103","text":"My annual objectives include becoming better at predicting next year's annual objectives.","mood":"bored","topic":"work","family":"g-annual-objectives"}
+{"id":"g0104","text":"The staff canteen serves food at prices that remember who pays us.","mood":"neutral","topic":"work","family":"g-work-canteen"}
+{"id":"g0105","text":"The job ad promised a fast-paced environment. Translation: we have not fixed the queue.","mood":"neutral","topic":"work","family":"g-corporate-inflated-labels"}
+{"id":"g0106","text":"My pension statement says future me will need a very economical personality.","mood":"neutral","topic":"work","family":"g-work-pension"}
+{"id":"g0107","text":"I transferred departments. The acronyms changed, which counts as travel.","mood":"neutral","topic":"work","family":"g-internal-transfer"}
+{"id":"g0108","text":"The conference speaker promised actionable insights. I acted by finding coffee.","mood":"bored","topic":"work","family":"g-conference-talk"}
+{"id":"g0109","text":"We changed the company logo. The old problems now look much cleaner.","mood":"neutral","topic":"work","family":"g-work-logo"}
+{"id":"g0110","text":"My estimate includes a generous allowance for learning what you actually meant.","mood":"bored","topic":"work","family":"g-project-estimate"}
+{"id":"g0111","text":"Our busy season begins in January and ends in the employee handbook.","mood":"tired","topic":"work","family":"g-busy-season"}
+{"id":"g0112","text":"A working lunch is a sandwich with witnesses.","mood":"tired","topic":"work","family":"g-work-lunch"}
+{"id":"g0113","text":"The project sponsor offers support in the same way a balcony offers support to a parade.","mood":"neutral","topic":"work","family":"g-project-sponsor"}
+{"id":"g0114","text":"Our vision statement is so broad it can see nothing in particular.","mood":"bored","topic":"work","family":"g-corporate-inflated-labels"}
+{"id":"g0115","text":"The exit interview is when the company briefly subscribes to your opinion.","mood":"neutral","topic":"work","family":"g-exit-interview"}
+{"id":"g0116","text":"I found a shortcut. It now has its own approval process.","mood":"neutral","topic":"work","family":"g-work-shortcut"}
+{"id":"g0117","text":"The training video asked if I was paying attention. It had not earned that relationship.","mood":"tired","topic":"work","family":"g-work-training-video"}
+{"id":"g0118","text":"We ended with action items. It was nice to meet the fictional part of the meeting.","mood":"bored","topic":"work","family":"g-meetings-create-meetings"}
+{"id":"g0119","text":"My bonus was described as symbolic. I would prefer a symbol accepted by my landlord.","mood":"neutral","topic":"work","family":"g-work-more-than-reward"}
+{"id":"g0120","text":"A laser pointer lets a vague idea arrive at a very precise location.","mood":"neutral","topic":"work","family":"g-presentation-laser"}
+{"id":"g0121","text":"The vacant role has been doing impressive work for months without a salary.","mood":"tired","topic":"work","family":"g-job-vacancy"}
+{"id":"g0122","text":"We archive old projects so future teams can ignore them in an organized way.","mood":"bored","topic":"work","family":"g-work-archive"}
+{"id":"g0123","text":"I put an inspirational quote above my desk. It has applied for a transfer.","mood":"neutral","topic":"work","family":"g-work-inspiration"}
+{"id":"g0124","text":"Freelancing means being your own boss and discovering you are difficult to work for.","mood":"neutral","topic":"work","family":"g-freelance"}
+{"id":"g0125","text":"My contract includes a notice period. Mine began when I noticed the job.","mood":"neutral","topic":"work","family":"g-work-contract"}
+{"id":"g0126","text":"Our succession plan assumes someone will willingly succeed us.","mood":"neutral","topic":"work","family":"g-succession-plan"}
+{"id":"g0127","text":"I made a point during the meeting. The silence gave it plenty of room to grow.","mood":"bored","topic":"work","family":"g-work-silence"}
+{"id":"g0128","text":"The retirement party celebrated thirty years by making someone stay another hour.","mood":"bored","topic":"work","family":"g-meeting-time-cost"}
+{"id":"g0129","text":"The form asked why I needed the form. I admire a bureaucracy with philosophical interests.","mood":"neutral","topic":"bureaucracy","family":"g-administrative-recursion"}
+{"id":"g0130","text":"I took a number. It felt good to have a place in society, even a temporary one.","mood":"bored","topic":"bureaucracy","family":"g-queue-number"}
+{"id":"g0131","text":"They needed proof of my address. Apparently showing up exhausted from getting there was not enough.","mood":"neutral","topic":"bureaucracy","family":"g-proof-address"}
+{"id":"g0132","text":"The public consultation invited opinions on a decision already wearing its coat.","mood":"bored","topic":"bureaucracy","family":"g-consultation-after-decision"}
+{"id":"g0133","text":"Red tape is surprisingly difficult to recycle into a useful ribbon.","mood":"neutral","topic":"bureaucracy","family":"g-red-tape"}
+{"id":"g0134","text":"The help desk is open during the hours when needing help would be most inconvenient.","mood":"neutral","topic":"bureaucracy","family":"g-helpdesk-hours"}
+{"id":"g0135","text":"The committee grew until every decision had a natural predator.","mood":"bored","topic":"bureaucracy","family":"g-committee-size"}
+{"id":"g0136","text":"My application is being processed. So is limestone, on a similar schedule.","mood":"bored","topic":"bureaucracy","family":"g-request-waiting"}
+{"id":"g0137","text":"The exception proves the rule needs a friend in management.","mood":"neutral","topic":"bureaucracy","family":"g-policy-exception"}
+{"id":"g0138","text":"The waiting room has outdated magazines to make progress feel less urgent.","mood":"bored","topic":"bureaucracy","family":"g-waiting-room"}
+{"id":"g0139","text":"A certified copy is a copy with someone important nodding beside it.","mood":"neutral","topic":"bureaucracy","family":"g-paperwork-authority"}
+{"id":"g0140","text":"I signed in all the wrong places. Finally, a document that captures my personality.","mood":"neutral","topic":"bureaucracy","family":"g-form-signature"}
+{"id":"g0141","text":"The rule was simple until it met its footnotes.","mood":"neutral","topic":"bureaucracy","family":"g-regulation-footnote"}
+{"id":"g0142","text":"Planning permission is asking someone who dislikes your plan to imagine liking it later.","mood":"neutral","topic":"bureaucracy","family":"g-planning-permission"}
+{"id":"g0143","text":"My complaint received a reference number. Now it can be ignored individually.","mood":"neutral","topic":"bureaucracy","family":"g-complaint-reference"}
+{"id":"g0144","text":"The policy changed while I was reading it. A rare example of paperwork outrunning a person.","mood":"neutral","topic":"bureaucracy","family":"g-form-changes-not-facts"}
+{"id":"g0145","text":"My passport photo proves I am capable of regretting travel before departure.","mood":"neutral","topic":"bureaucracy","family":"g-passport-photo"}
+{"id":"g0146","text":"The appointment window is four hours wide. An unusually expensive view.","mood":"neutral","topic":"bureaucracy","family":"g-appointment-window"}
+{"id":"g0147","text":"They asked for two forms of identification. I brought optimism and its replacement.","mood":"neutral","topic":"bureaucracy","family":"g-identification"}
+{"id":"g0148","text":"The form requires black ink. Blue apparently makes facts unreliable.","mood":"neutral","topic":"bureaucracy","family":"g-form-black-ink"}
+{"id":"g0149","text":"Committee minutes are how uncertainty gets a permanent address.","mood":"neutral","topic":"bureaucracy","family":"g-committee-minutes"}
+{"id":"g0150","text":"I agreed to the terms because disagreement didn't fit on the button.","mood":"neutral","topic":"bureaucracy","family":"g-terms-conditions"}
+{"id":"g0151","text":"The council installed a sign explaining why they couldn't install a sign.","mood":"neutral","topic":"bureaucracy","family":"g-local-council"}
+{"id":"g0152","text":"My permit expired before I understood what it permitted.","mood":"neutral","topic":"bureaucracy","family":"g-permit-expiry"}
+{"id":"g0153","text":"The official seal makes a document look like it won a small regional baking contest.","mood":"neutral","topic":"bureaucracy","family":"g-paperwork-authority"}
+{"id":"g0154","text":"The queue moved just enough to renew our lease on hope.","mood":"bored","topic":"bureaucracy","family":"g-queue-jump"}
+{"id":"g0155","text":"The public notice was posted where only a very motivated pigeon would see it.","mood":"neutral","topic":"bureaucracy","family":"g-public-notice"}
+{"id":"g0156","text":"The optional field became mandatory when I tried being honest about the word optional.","mood":"neutral","topic":"bureaucracy","family":"g-optional-mandatory"}
+{"id":"g0157","text":"The process map needed a legend. Ideally one with a sword and a way out.","mood":"bored","topic":"bureaucracy","family":"g-process-map"}
+{"id":"g0158","text":"My request is under review. It seems to enjoy life under there.","mood":"bored","topic":"bureaucracy","family":"g-request-waiting"}
+{"id":"g0159","text":"The office offers assistance completing the form to request assistance.","mood":"neutral","topic":"bureaucracy","family":"g-accessibility-form"}
+{"id":"g0160","text":"An archive box is a retirement home for decisions nobody wants to revisit.","mood":"neutral","topic":"bureaucracy","family":"g-archive-box"}
+{"id":"g0161","text":"The procedure treats everyone equally. Nobody gets through it comfortably.","mood":"neutral","topic":"bureaucracy","family":"g-policy-interpretation"}
+{"id":"g0162","text":"Renewal is proving you're still the person they already decided you were.","mood":"neutral","topic":"bureaucracy","family":"g-renewal"}
+{"id":"g0163","text":"A public hearing is a place where listening is technically present.","mood":"bored","topic":"bureaucracy","family":"g-public-hearing"}
+{"id":"g0164","text":"The plain-language guide came with a glossary and a separate plain-language guide.","mood":"neutral","topic":"bureaucracy","family":"g-policy-plain-language"}
+{"id":"g0165","text":"One missing document can make a whole folder feel unemployed.","mood":"neutral","topic":"bureaucracy","family":"g-missing-document"}
+{"id":"g0166","text":"I entered the date correctly for the wrong country. Time is a local custom.","mood":"neutral","topic":"bureaucracy","family":"g-form-date-format"}
+{"id":"g0167","text":"My registration is confirmed pending confirmation of my registration.","mood":"neutral","topic":"bureaucracy","family":"g-administrative-recursion"}
+{"id":"g0168","text":"The permit must be clearly displayed. The rules can remain hidden in a basement.","mood":"neutral","topic":"bureaucracy","family":"g-permit-display"}
+{"id":"g0169","text":"A rubber stamp is the sound of a thought being made someone else's problem.","mood":"neutral","topic":"bureaucracy","family":"g-paperwork-authority"}
+{"id":"g0170","text":"My case was escalated. The stairs appear to lead back to reception.","mood":"neutral","topic":"bureaucracy","family":"g-request-waiting"}
+{"id":"g0171","text":"The service charter promises dignity. It says nothing about chairs.","mood":"neutral","topic":"bureaucracy","family":"g-service-charter"}
+{"id":"g0172","text":"We apply the rules consistently, except when explaining what consistently means.","mood":"neutral","topic":"bureaucracy","family":"g-policy-interpretation"}
+{"id":"g0173","text":"My middle name only comes out when a database wants to feel close to me.","mood":"neutral","topic":"bureaucracy","family":"g-form-middle-name"}
+{"id":"g0174","text":"I requested my records. They requested a record of my request.","mood":"bored","topic":"bureaucracy","family":"g-administrative-recursion"}
+{"id":"g0175","text":"The comment period closed just as I thought of a useful adjective.","mood":"neutral","topic":"bureaucracy","family":"g-comment-period"}
+{"id":"g0176","text":"My parking appeal argued that the sign was unclear. The reply was beautifully formatted.","mood":"neutral","topic":"bureaucracy","family":"g-parking-appeal"}
+{"id":"g0177","text":"The budget meeting saved money by removing everything that made the budget worth having.","mood":"neutral","topic":"bureaucracy","family":"g-public-budget"}
+{"id":"g0178","text":"The application required a recent photo. My expression aged during submission.","mood":"neutral","topic":"bureaucracy","family":"g-application-photo"}
+{"id":"g0179","text":"An administrative fee is a fee for deciding how much fee to charge.","mood":"neutral","topic":"bureaucracy","family":"g-administrative-fee"}
+{"id":"g0180","text":"Change control is where improvement goes to explain itself.","mood":"neutral","topic":"bureaucracy","family":"g-change-control"}
+{"id":"g0181","text":"The hold music has completed more revolutions than my request.","mood":"bored","topic":"bureaucracy","family":"g-waiting-music"}
+{"id":"g0182","text":"A review panel adds enough opinions to turn a yes into a historical question.","mood":"bored","topic":"bureaucracy","family":"g-review-panel"}
+{"id":"g0183","text":"Reception sent me to another reception. I am collecting beginnings.","mood":"bored","topic":"bureaucracy","family":"g-office-directions"}
+{"id":"g0184","text":"Nobody owns the policy. It seems to have developed independently in the filing cabinet.","mood":"neutral","topic":"bureaucracy","family":"g-policy-ownership"}
+{"id":"g0185","text":"The information is publicly available, provided the public knows the secret folder name.","mood":"neutral","topic":"bureaucracy","family":"g-public-record"}
+{"id":"g0186","text":"The form timed out. Even the form lost interest in my application.","mood":"bored","topic":"bureaucracy","family":"g-form-save"}
+{"id":"g0187","text":"The letter informed me that another letter would explain the first letter.","mood":"bored","topic":"bureaucracy","family":"g-notification-letter"}
+{"id":"g0188","text":"For urgent matters, use the same form and worry faster.","mood":"neutral","topic":"bureaucracy","family":"g-admin-urgency"}
+{"id":"g0189","text":"An approved vendor is someone who survived becoming an approved vendor.","mood":"neutral","topic":"bureaucracy","family":"g-approved-vendor"}
+{"id":"g0190","text":"The policy has a sunset clause. It appears to live near the poles.","mood":"neutral","topic":"bureaucracy","family":"g-policy-sunset"}
+{"id":"g0191","text":"The suggestion box has a narrow slot to keep expectations under control.","mood":"neutral","topic":"bureaucracy","family":"g-feedback-box"}
+{"id":"g0192","text":"Final approval is the last step before finding out who actually approves things.","mood":"neutral","topic":"bureaucracy","family":"g-request-waiting"}
+{"id":"g0193","text":"My smart fridge knows I'm out of milk. So did the empty shelf, with fewer updates.","mood":"neutral","topic":"technology","family":"g-smart-fridge"}
+{"id":"g0194","text":"Autocorrect has strong opinions for something that thinks my name is a snack.","mood":"neutral","topic":"technology","family":"g-autocorrect"}
+{"id":"g0195","text":"The update improved stability. My distrust is now very stable.","mood":"neutral","topic":"technology","family":"g-software-update"}
+{"id":"g0196","text":"The cloud is someone else's computer enjoying a monthly payment.","mood":"neutral","topic":"technology","family":"g-cloud-storage"}
+{"id":"g0197","text":"My password manager protects me from both hackers and my own memory.","mood":"neutral","topic":"technology","family":"g-password-amnesia"}
+{"id":"g0198","text":"The website respects my privacy in a box that covers the entire article.","mood":"neutral","topic":"technology","family":"g-terms-cookie"}
+{"id":"g0199","text":"The printer says no paper while sitting directly on top of the paper. A management candidate.","mood":"neutral","topic":"technology","family":"g-printer-defiance"}
+{"id":"g0200","text":"Bluetooth pairing is a courtship ritual conducted by appliances with commitment issues.","mood":"neutral","topic":"technology","family":"g-bluetooth-pairing"}
+{"id":"g0201","text":"The loading bar reached 99%. Apparently the last percent is a research project.","mood":"bored","topic":"technology","family":"g-loading-bar"}
+{"id":"g0202","text":"My doorbell sends a video every time someone proves a doorbell was sufficient.","mood":"neutral","topic":"technology","family":"g-smart-doorbell"}
+{"id":"g0203","text":"I rotate a USB plug three times before it fits. Geometry has declined to comment.","mood":"neutral","topic":"technology","family":"g-usb-orientation"}
+{"id":"g0204","text":"My phone's battery percentage is a countdown to becoming present.","mood":"tired","topic":"technology","family":"g-phone-battery"}
+{"id":"g0205","text":"My search history suggests I am either learning everything or coping badly.","mood":"neutral","topic":"technology","family":"g-search-history"}
+{"id":"g0206","text":"The free trial ends just after you've arranged your life around it.","mood":"neutral","topic":"technology","family":"g-software-trial"}
+{"id":"g0207","text":"I silenced my notifications. Now my phone interrupts me to explain that they're silenced.","mood":"neutral","topic":"technology","family":"g-notifications"}
+{"id":"g0208","text":"The robot vacuum got trapped under a chair. Automation has reached my skill level.","mood":"neutral","topic":"technology","family":"g-robot-vacuum"}
+{"id":"g0209","text":"The error code was very specific about how little it planned to help.","mood":"neutral","topic":"technology","family":"g-error-code"}
+{"id":"g0210","text":"My watch told me to stand. I miss when it only judged my punctuality.","mood":"neutral","topic":"technology","family":"g-smartwatch"}
+{"id":"g0211","text":"Turning it off and on again is technology's way of recommending a short nap.","mood":"tired","topic":"technology","family":"g-tech-support-restart"}
+{"id":"g0212","text":"A new browser tab is hope with a tiny rectangle around it.","mood":"bored","topic":"technology","family":"g-new-tab"}
+{"id":"g0213","text":"I downloaded six apps to help me use fewer apps.","mood":"neutral","topic":"technology","family":"g-software-extra-work"}
+{"id":"g0214","text":"The software roadmap is a scenic tour of things you cannot do yet.","mood":"neutral","topic":"technology","family":"g-software-roadmap"}
+{"id":"g0215","text":"Face recognition failed before coffee. We share a healthy skepticism.","mood":"neutral","topic":"technology","family":"g-facial-recognition"}
+{"id":"g0216","text":"My voice assistant heard everything except the request.","mood":"neutral","topic":"technology","family":"g-voice-assistant"}
+{"id":"g0217","text":"The flashlight app needs my location. Presumably to know where darkness is.","mood":"neutral","topic":"technology","family":"g-app-permissions"}
+{"id":"g0218","text":"My television has a home screen. The shows now live several doors away.","mood":"neutral","topic":"technology","family":"g-smart-tv"}
+{"id":"g0219","text":"Wireless charging still needs a wire. The wire just got a better agent.","mood":"neutral","topic":"technology","family":"g-wireless-charger"}
+{"id":"g0220","text":"The startup disrupted the market by making the old service require an account.","mood":"neutral","topic":"technology","family":"g-sponsored-convenience"}
+{"id":"g0221","text":"The code comment says obvious. An excellent place to begin feeling otherwise.","mood":"bored","topic":"technology","family":"g-code-comments"}
+{"id":"g0222","text":"The red notification badge is a tiny landlord for my attention.","mood":"neutral","topic":"technology","family":"g-notification-badge"}
+{"id":"g0223","text":"A webinar lets me attend a seminar while also attending to the dishwasher.","mood":"bored","topic":"technology","family":"g-webinar"}
+{"id":"g0224","text":"Final-final-revised is less a filename than a cry for help with hyphens.","mood":"neutral","topic":"technology","family":"g-file-names"}
+{"id":"g0225","text":"My phone is full of memories it refuses to let me make more of.","mood":"neutral","topic":"technology","family":"g-phone-storage"}
+{"id":"g0226","text":"My light bulb lost Wi-Fi. Darkness has become a networking problem.","mood":"neutral","topic":"technology","family":"g-smart-lightbulb"}
+{"id":"g0227","text":"The website asked me to prove I'm human. I selected every square containing doubt.","mood":"neutral","topic":"technology","family":"g-captcha"}
+{"id":"g0228","text":"A dashboard is where data goes to become a weather forecast for management.","mood":"neutral","topic":"technology","family":"g-software-dashboard"}
+{"id":"g0229","text":"Automatic backup is a lovely promise until you need to know what automatic meant.","mood":"neutral","topic":"technology","family":"g-automatic-backup"}
+{"id":"g0230","text":"My spam filter lets through miracles and blocks the plumber.","mood":"neutral","topic":"technology","family":"g-email-filter"}
+{"id":"g0231","text":"I learned a keyboard shortcut and immediately spent the saved time telling someone.","mood":"neutral","topic":"technology","family":"g-keyboard-shortcut"}
+{"id":"g0232","text":"Low power mode is my phone's name for Tuesday.","mood":"tired","topic":"technology","family":"g-low-power-mode"}
+{"id":"g0233","text":"My phone knows exactly where I am and still recommends a shop that closed two years ago.","mood":"neutral","topic":"technology","family":"g-location-services"}
+{"id":"g0234","text":"I used to own software. Now we maintain a complicated relationship.","mood":"neutral","topic":"technology","family":"g-subscription-software"}
+{"id":"g0235","text":"The video paused to buffer. A brave choice during a talk about speed.","mood":"bored","topic":"technology","family":"g-video-buffering"}
+{"id":"g0236","text":"The restaurant replaced its menu with a small test of my camera skills.","mood":"neutral","topic":"technology","family":"g-sponsored-convenience"}
+{"id":"g0237","text":"Unboxing videos are proof that packaging can have a more exciting life than the product.","mood":"neutral","topic":"technology","family":"g-tech-unboxing"}
+{"id":"g0238","text":"Default settings are decisions made by someone who has never met my living room.","mood":"neutral","topic":"technology","family":"g-software-default"}
+{"id":"g0239","text":"My sleep tracker gave my nap a score. Rest is now an extracurricular activity.","mood":"tired","topic":"technology","family":"g-wearable-sleep"}
+{"id":"g0240","text":"The space bar does the most work in a sentence and never gets a word in.","mood":"neutral","topic":"technology","family":"g-keyboard-space"}
+{"id":"g0241","text":"The algorithm thinks I love the thing I clicked once while confused.","mood":"neutral","topic":"technology","family":"g-algorithm-taste"}
+{"id":"g0242","text":"My smart home has seven passwords and a door I still push the wrong way.","mood":"neutral","topic":"technology","family":"g-smart-home"}
+{"id":"g0243","text":"The operating system needs to restart to apply my decision to stop restarting.","mood":"neutral","topic":"technology","family":"g-operating-system"}
+{"id":"g0244","text":"The demo worked perfectly. Reality has been asked to behave more like the demo.","mood":"neutral","topic":"technology","family":"g-tech-demo"}
+{"id":"g0245","text":"Wireless earbuds remove the cord so you can lose two things independently.","mood":"neutral","topic":"technology","family":"g-wireless-earbuds"}
+{"id":"g0246","text":"The website is beautifully designed around the one button I need.","mood":"neutral","topic":"technology","family":"g-web-design"}
+{"id":"g0247","text":"Data migration is moving house while the old house is still on fire conceptually.","mood":"neutral","topic":"technology","family":"g-software-migration"}
+{"id":"g0248","text":"Focus mode blocks distractions except the irresistible pleasure of checking Focus mode.","mood":"bored","topic":"technology","family":"g-phone-focus"}
+{"id":"g0249","text":"My computer's fan has opinions about every decision I make.","mood":"tired","topic":"technology","family":"g-computer-fan"}
+{"id":"g0250","text":"The app offers a guided tour before revealing what it does.","mood":"bored","topic":"technology","family":"g-app-onboarding"}
+{"id":"g0251","text":"The benchmark says my laptop is fast. We apparently disagree on what waiting means.","mood":"neutral","topic":"technology","family":"g-tech-benchmark"}
+{"id":"g0252","text":"Read receipts turned silence into a feature with documentation.","mood":"neutral","topic":"technology","family":"g-message-read"}
+{"id":"g0253","text":"The license says I may use the product. Ownership would be getting ideas above my station.","mood":"neutral","topic":"technology","family":"g-software-license"}
+{"id":"g0254","text":"My phone case costs more than the phone I had before phones needed armor.","mood":"neutral","topic":"technology","family":"g-phone-case"}
+{"id":"g0255","text":"Naming the Wi-Fi is the nearest most households get to public office.","mood":"neutral","topic":"technology","family":"g-network-name"}
+{"id":"g0256","text":"Technology saves us time so we can spend it remembering where the setting moved.","mood":"bored","topic":"technology","family":"g-software-relocated-settings"}
+{"id":"g0257","text":"The AI summarized my document as lengthy. At last, a machine that understands management.","mood":"neutral","topic":"technology","family":"g-ai-summary"}
+{"id":"g0258","text":"Legacy code is code that has outlived the explanation.","mood":"neutral","topic":"technology","family":"g-code-legacy"}
+{"id":"g0259","text":"I made a digital twin. It immediately asked for separate storage.","mood":"neutral","topic":"technology","family":"g-digital-twin"}
+{"id":"g0260","text":"Dark mode makes my poor choices look like evening work.","mood":"neutral","topic":"technology","family":"g-app-dark-mode"}
+{"id":"g0261","text":"The website is down for maintenance. A rare admission that doing nothing can be constructive.","mood":"neutral","topic":"technology","family":"g-software-maintenance"}
+{"id":"g0262","text":"The router has one blinking light for every possible emotion except clarity.","mood":"neutral","topic":"technology","family":"g-router-reboot"}
+{"id":"g0263","text":"An intuitive interface is obvious after the tutorial, the forum, and a small personal journey.","mood":"neutral","topic":"technology","family":"g-user-interface"}
+{"id":"g0264","text":"The computer asks if I'm sure before deleting rubbish. I wish it had attended my last purchase.","mood":"neutral","topic":"technology","family":"g-computer-trash"}
+{"id":"g0265","text":"My password hint is now a riddle left by a less helpful version of me.","mood":"neutral","topic":"technology","family":"g-password-amnesia"}
+{"id":"g0266","text":"Refactoring is cleaning the kitchen while dinner is already on the plates.","mood":"neutral","topic":"technology","family":"g-code-refactor"}
+{"id":"g0267","text":"The oven has a touchscreen. My flour-covered fingers have filed a usability report.","mood":"neutral","topic":"technology","family":"g-touchscreen-oven"}
+{"id":"g0268","text":"Video-call delay gives every conversation the timing of two actors who misplaced the same cue.","mood":"neutral","topic":"technology","family":"g-video-call-delay"}
+{"id":"g0269","text":"A patch fixes the problem that arrived dressed as an improvement.","mood":"neutral","topic":"technology","family":"g-software-patch"}
+{"id":"g0270","text":"I needed an account to read one paragraph. The paragraph was about simplifying life.","mood":"bored","topic":"technology","family":"g-sponsored-convenience"}
+{"id":"g0271","text":"My digital wallet contains three expired cards and the confidence of the future.","mood":"neutral","topic":"technology","family":"g-digital-wallet"}
+{"id":"g0272","text":"Applying a screen protector is an unpaid apprenticeship in handling dust.","mood":"neutral","topic":"technology","family":"g-screen-protector"}
+{"id":"g0273","text":"The adapter connects two devices that were designed by people who should have spoken.","mood":"neutral","topic":"technology","family":"g-tech-adapter"}
+{"id":"g0274","text":"Open-source software is a public garden maintained by one tired person with a bug tracker.","mood":"neutral","topic":"technology","family":"g-open-source"}
+{"id":"g0275","text":"My computer has more memory than I do and keeps asking me what I want to forget.","mood":"neutral","topic":"technology","family":"g-computer-memory"}
+{"id":"g0276","text":"Infinite scroll is a treadmill that delivers tiny opinions instead of fitness.","mood":"bored","topic":"technology","family":"g-infinite-scroll"}
+{"id":"g0277","text":"The release notes say minor fixes. The menu has moved to a country I've never visited.","mood":"bored","topic":"technology","family":"g-software-relocated-settings"}
+{"id":"g0278","text":"The app asked for a rating before I could decide whether it was an app.","mood":"neutral","topic":"technology","family":"g-app-rating"}
+{"id":"g0279","text":"Technical debt accrues interest in meetings nobody budgeted for.","mood":"neutral","topic":"technology","family":"g-technical-debt"}
+{"id":"g0280","text":"Airplane mode works beautifully even when my ambitions remain on the ground.","mood":"neutral","topic":"technology","family":"g-phone-airplane"}
+{"id":"g0281","text":"A search engine is a librarian who keeps offering me a sponsored ladder.","mood":"neutral","topic":"technology","family":"g-search-engine"}
+{"id":"g0282","text":"The cable drawer is a museum where every exhibit might still be important.","mood":"neutral","topic":"technology","family":"g-cable-drawer"}
+{"id":"g0283","text":"Undo is the most humane word anyone has ever put in software.","mood":"neutral","topic":"technology","family":"g-software-undo"}
+{"id":"g0284","text":"Virtual reality lets me enter another world, provided this one has enough clear floor space.","mood":"neutral","topic":"technology","family":"g-virtual-reality"}
+{"id":"g0285","text":"My digital detox started with researching the best digital detox for forty minutes.","mood":"neutral","topic":"technology","family":"g-digital-detox"}
+{"id":"g0286","text":"The button vibrated to assure me my mistake had been received.","mood":"neutral","topic":"technology","family":"g-software-haptic"}
+{"id":"g0287","text":"The chatbot is very sorry and absolutely committed to remaining a chatbot.","mood":"bored","topic":"technology","family":"g-website-chatbot"}
+{"id":"g0288","text":"The tiny library has forty dependencies. It travels with an entourage.","mood":"neutral","topic":"technology","family":"g-code-dependency"}
+{"id":"g0289","text":"A screensaver protects the screen from seeing too much of my work.","mood":"bored","topic":"technology","family":"g-computer-screensaver"}
+{"id":"g0290","text":"Beta means you get to experience the future's problems early.","mood":"neutral","topic":"technology","family":"g-software-beta"}
+{"id":"g0291","text":"The smart kettle can be started from my phone, which I left beside the kettle.","mood":"neutral","topic":"technology","family":"g-smart-kettle"}
+{"id":"g0292","text":"Appearing offline is the internet's closest approximation of a closed curtain.","mood":"neutral","topic":"technology","family":"g-online-status"}
+{"id":"g0293","text":"The settings search cannot find the setting. A refreshing lack of favoritism.","mood":"bored","topic":"technology","family":"g-software-relocated-settings"}
+{"id":"g0294","text":"Contact sync reunited me with three versions of a dentist I no longer use.","mood":"bored","topic":"technology","family":"g-contact-sync"}
+{"id":"g0295","text":"Backward compatibility is technology admitting the past still has the right cable.","mood":"neutral","topic":"technology","family":"g-tech-compatibility"}
+{"id":"g0296","text":"The disappearing scrollbar is an accessibility feature for people who enjoy hide-and-seek.","mood":"neutral","topic":"technology","family":"g-software-scrollbar"}
+{"id":"g0297","text":"My virtual background is a library of books that are also not doing any work.","mood":"neutral","topic":"technology","family":"g-virtual-background"}
+{"id":"g0298","text":"Clearing the cache is a small digital ritual performed just before admitting uncertainty.","mood":"neutral","topic":"technology","family":"g-computer-cache"}
+{"id":"g0299","text":"My reminder app reminds me to complete the tasks I created to feel productive.","mood":"neutral","topic":"technology","family":"g-software-extra-work"}
+{"id":"g0300","text":"The smart scale sends my weight to the cloud. Apparently gravity needed a witness.","mood":"neutral","topic":"technology","family":"g-smart-scale"}
+{"id":"g0301","text":"Encryption turns private information into the sort of document I already receive from payroll.","mood":"neutral","topic":"technology","family":"g-software-encryption"}
+{"id":"g0302","text":"The new phone is thinner. My reasons for buying it had to match.","mood":"neutral","topic":"technology","family":"g-phone-upgrade"}
+{"id":"g0303","text":"A missing punctuation mark stopped the whole program. English teachers have been waiting for this moment.","mood":"neutral","topic":"technology","family":"g-code-semicolon"}
+{"id":"g0304","text":"The pop-up asks if I want to leave. I hadn't until it asked.","mood":"neutral","topic":"technology","family":"g-web-modal"}
+{"id":"g0305","text":"Autoplay assumes my silence is an invitation to meet twelve more strangers.","mood":"bored","topic":"technology","family":"g-video-autoplay"}
+{"id":"g0306","text":"Scheduled downtime is a computer openly practicing the boundaries I keep postponing.","mood":"rested","topic":"technology","family":"g-software-downtime"}
+{"id":"g0307","text":"The new phone gesture is so natural I need to practice it privately.","mood":"neutral","topic":"technology","family":"g-phone-gesture"}
+{"id":"g0308","text":"Higher resolution means seeing my unfinished work with exceptional clarity.","mood":"neutral","topic":"technology","family":"g-computer-resolution"}
+{"id":"g0309","text":"Account recovery asks questions only the person who lost the account would fail to remember.","mood":"neutral","topic":"technology","family":"g-password-amnesia"}
+{"id":"g0310","text":"Crowdfunding lets you buy the emotional experience of waiting for a product to exist.","mood":"neutral","topic":"technology","family":"g-tech-crowdfunding"}
+{"id":"g0311","text":"I automated a ten-second task. The first six hours went very well.","mood":"neutral","topic":"technology","family":"g-software-extra-work"}
+{"id":"g0312","text":"The README is where developers hide the answers in the one place we agreed to look.","mood":"neutral","topic":"technology","family":"g-readme-file"}
+{"id":"g0313","text":"Website breadcrumbs tell me how far I wandered from the thing I wanted.","mood":"neutral","topic":"technology","family":"g-web-breadcrumbs"}
+{"id":"g0314","text":"The progress dialog says a moment. It is being deliberately vague about whose moment.","mood":"bored","topic":"technology","family":"g-software-progress-dialog"}
+{"id":"g0315","text":"My phone is on silent, but its mere presence has a remarkably loud personality.","mood":"neutral","topic":"technology","family":"g-phone-silent"}
+{"id":"g0316","text":"The undo history is a list of decisions that deserve less permanence.","mood":"neutral","topic":"technology","family":"g-software-undo"}
+{"id":"g0317","text":"I stopped reusing passwords. Now every account gets its own unique way to lock me out.","mood":"neutral","topic":"technology","family":"g-password-amnesia"}
+{"id":"g0318","text":"Storage cleanup found six gigabytes of things called important. It declined to judge.","mood":"neutral","topic":"technology","family":"g-software-storage-cleanup"}
+{"id":"g0319","text":"My digital calendar knows every commitment and offers no moral support.","mood":"bored","topic":"technology","family":"g-digital-calendar"}
+{"id":"g0320","text":"The extended warranty protects the product from my confidence in the standard warranty.","mood":"neutral","topic":"technology","family":"g-tech-warranty"}
+{"id":"g0321","text":"My budget has a category called miscellaneous. It has quietly become the head of the household.","mood":"neutral","topic":"money","family":"g-budget-categories"}
+{"id":"g0322","text":"I saved forty percent on something I needed zero percent of.","mood":"neutral","topic":"money","family":"g-artificial-price-anchors"}
+{"id":"g0323","text":"The loyalty card rewards me for returning to the scene of my spending.","mood":"neutral","topic":"money","family":"g-loyalty-card"}
+{"id":"g0324","text":"Compound interest is what happens when money has a better social life than you.","mood":"neutral","topic":"money","family":"g-compound-interest"}
+{"id":"g0325","text":"An abandoned shopping cart is a small monument to briefly returning to my senses.","mood":"neutral","topic":"money","family":"g-shopping-cart"}
+{"id":"g0326","text":"The luxury candle smells like the income I would need to justify it.","mood":"neutral","topic":"money","family":"g-luxury-candle"}
+{"id":"g0327","text":"Free shipping starts just above the amount I was sensible enough to spend.","mood":"neutral","topic":"money","family":"g-free-shipping"}
+{"id":"g0328","text":"My financial advisor recommended diversification. My worries now include several asset classes.","mood":"neutral","topic":"money","family":"g-financial-advisor"}
+{"id":"g0329","text":"The receipt was longer than the shopping list. Apparently my groceries had terms.","mood":"neutral","topic":"money","family":"g-receipt-length"}
+{"id":"g0330","text":"The original price exists mostly to make the current price feel like a rescue.","mood":"neutral","topic":"money","family":"g-artificial-price-anchors"}
+{"id":"g0331","text":"My rent went up. The apartment stayed at the same altitude.","mood":"neutral","topic":"money","family":"g-rent"}
+{"id":"g0332","text":"Cashback is a polite little wave from the money leaving your life.","mood":"neutral","topic":"money","family":"g-cashback"}
+{"id":"g0333","text":"The market is volatile. My reaction to it is reliably consistent.","mood":"neutral","topic":"money","family":"g-market-volatility"}
+{"id":"g0334","text":"Canceling a subscription reveals how many stages there are in a company's grief.","mood":"neutral","topic":"money","family":"g-subscription-breakup"}
+{"id":"g0335","text":"Window shopping is retail conducted with an emergency brake.","mood":"neutral","topic":"money","family":"g-window-shopping"}
+{"id":"g0336","text":"Retail therapy keeps scheduling expensive follow-up appointments.","mood":"neutral","topic":"money","family":"g-retail-therapy"}
+{"id":"g0337","text":"My credit limit is a surprisingly flattering opinion from a stranger.","mood":"neutral","topic":"money","family":"g-credit-limit"}
+{"id":"g0338","text":"The economy size is larger so you can save money by needing more cupboard.","mood":"neutral","topic":"money","family":"g-shopping-size"}
+{"id":"g0339","text":"The price tag says investment piece. My accountant calls it a chair.","mood":"neutral","topic":"money","family":"g-price-tag"}
+{"id":"g0340","text":"Coins are money that expects me to carry a small percussion section.","mood":"neutral","topic":"money","family":"g-coins"}
+{"id":"g0341","text":"I researched an ethical purchase until the need for the purchase retired.","mood":"neutral","topic":"money","family":"g-ethical-shopping"}
+{"id":"g0342","text":"My investment horizon is wherever I stop being able to see the fees.","mood":"neutral","topic":"money","family":"g-financial-forecast-certainty"}
+{"id":"g0343","text":"Limited edition means they will only make as many as scarcity can sell.","mood":"neutral","topic":"money","family":"g-limited-edition"}
+{"id":"g0344","text":"The payment plan divides one bad decision into twelve manageable reminders.","mood":"neutral","topic":"money","family":"g-payment-plan"}
+{"id":"g0345","text":"I used to compare grocery prices. Now I compare emotional recovery times.","mood":"neutral","topic":"money","family":"g-grocery-inflation"}
+{"id":"g0346","text":"The customer is king, provided the king has the original receipt.","mood":"neutral","topic":"money","family":"g-customer-is-king"}
+{"id":"g0347","text":"I spent two hours comparing prices to save enough money for half an hour of my time.","mood":"neutral","topic":"money","family":"g-price-comparison"}
+{"id":"g0348","text":"Reward points are money with a maze built around it.","mood":"neutral","topic":"money","family":"g-bonus-points"}
+{"id":"g0349","text":"My savings account has a very minimalist aesthetic.","mood":"neutral","topic":"money","family":"g-savings-account"}
+{"id":"g0350","text":"An impulse buy is a purchase made before the sensible committee can convene.","mood":"neutral","topic":"money","family":"g-impulse-buy"}
+{"id":"g0351","text":"Financial literacy is knowing exactly why the numbers are upsetting.","mood":"neutral","topic":"money","family":"g-financial-literacy"}
+{"id":"g0352","text":"Brand identity lets the same plain shirt have a much more ambitious opinion of itself.","mood":"neutral","topic":"money","family":"g-brand-identity"}
+{"id":"g0353","text":"The small print is where the price goes to finish getting dressed.","mood":"neutral","topic":"money","family":"g-small-print"}
+{"id":"g0354","text":"The checkout asked me to round up. My bank account was already feeling quite circular.","mood":"neutral","topic":"money","family":"g-charity-roundup"}
+{"id":"g0355","text":"Store credit is a refund that insists you stay in the relationship.","mood":"neutral","topic":"money","family":"g-store-credit"}
+{"id":"g0356","text":"I bought a better wallet. Now it has less work to do.","mood":"neutral","topic":"money","family":"g-new-wallet"}
+{"id":"g0357","text":"Price per ounce turns buying crackers into a short professional exam.","mood":"neutral","topic":"money","family":"g-price-per-ounce"}
+{"id":"g0358","text":"The secret to wealth seems to involve starting the explanation after the inheritance.","mood":"neutral","topic":"money","family":"g-wealth-advice"}
+{"id":"g0359","text":"A basket limits purchases. A cart encourages a different personality.","mood":"neutral","topic":"money","family":"g-shopping-basket"}
+{"id":"g0360","text":"Automatic renewal is a service's belief in itself exceeding mine.","mood":"neutral","topic":"money","family":"g-subscription-breakup"}
+{"id":"g0361","text":"My banking app celebrates payday with the urgency of someone who knows what's coming.","mood":"neutral","topic":"money","family":"g-financial-app"}
+{"id":"g0362","text":"Buying secondhand means the item has already survived someone else's optimism.","mood":"neutral","topic":"money","family":"g-secondhand"}
+{"id":"g0363","text":"Upmarket is when the price includes permission to feel above the market.","mood":"neutral","topic":"money","family":"g-upmarket"}
+{"id":"g0364","text":"The discount code didn't work. I suspect it was written by the full price.","mood":"neutral","topic":"money","family":"g-discount-code"}
+{"id":"g0365","text":"The return window closed while I was deciding whether admitting the mistake was worth the walk.","mood":"neutral","topic":"money","family":"g-slow-refunds"}
+{"id":"g0366","text":"The lowest-price guarantee comes with remarkably high paperwork standards.","mood":"neutral","topic":"money","family":"g-price-guarantee"}
+{"id":"g0367","text":"The bargain bin is where products go to reconsider their dreams.","mood":"neutral","topic":"money","family":"g-bargain-bin"}
+{"id":"g0368","text":"My emergency fund has requested a stricter definition of emergency.","mood":"neutral","topic":"money","family":"g-financial-emergency"}
+{"id":"g0369","text":"The premium plan removes the inconvenience the basic plan carefully installed.","mood":"neutral","topic":"money","family":"g-premium-plan"}
+{"id":"g0370","text":"My membership pays for access to discounts on reasons to keep my membership.","mood":"neutral","topic":"money","family":"g-membership"}
+{"id":"g0371","text":"Consumer research found I want quality, low prices, and to stop being researched.","mood":"neutral","topic":"money","family":"g-consumer-research"}
+{"id":"g0372","text":"Customers also bought is how a toaster tries to introduce me to a kayak.","mood":"neutral","topic":"money","family":"g-shopping-recommendation"}
+{"id":"g0373","text":"Passive income sounds ideal. The getting-it part appears aggressively active.","mood":"neutral","topic":"money","family":"g-passive-income"}
+{"id":"g0374","text":"Transparent pricing means I can clearly see how much I won't be paying.","mood":"neutral","topic":"money","family":"g-price-transparency"}
+{"id":"g0375","text":"Money talks. Mine mostly says it was nice meeting me.","mood":"neutral","topic":"money","family":"g-money-talks"}
+{"id":"g0376","text":"My portfolio is balanced between uncertainty and things I pretend to understand.","mood":"neutral","topic":"money","family":"g-investment-portfolio"}
+{"id":"g0377","text":"A status symbol is an object hired to do your introductions.","mood":"neutral","topic":"money","family":"g-status-symbol"}
+{"id":"g0378","text":"The store layout makes milk feel like the prize at the end of a quest.","mood":"neutral","topic":"money","family":"g-store-layout"}
+{"id":"g0379","text":"The trial size is a small, expensive way to discover a large, expensive preference.","mood":"neutral","topic":"money","family":"g-trial-size"}
+{"id":"g0380","text":"I imposed a spending freeze. The delivery app has requested a climate exemption.","mood":"neutral","topic":"money","family":"g-spending-freeze"}
+{"id":"g0381","text":"Pocket money was simpler when my pockets weren't also a shopping mall.","mood":"neutral","topic":"money","family":"g-pocket-money"}
+{"id":"g0382","text":"Negotiating a price is two people trying to sound comfortable with silence.","mood":"neutral","topic":"money","family":"g-price-negotiation"}
+{"id":"g0383","text":"Buy now, pay later is a surprisingly accurate description of several life choices.","mood":"neutral","topic":"money","family":"g-buy-now"}
+{"id":"g0384","text":"Financial freedom currently means being free to check my balance as often as I worry.","mood":"neutral","topic":"money","family":"g-financial-freedom"}
+{"id":"g0385","text":"Small talk is a weather report with a hidden exit strategy.","mood":"neutral","topic":"social","family":"g-small-talk"}
+{"id":"g0386","text":"I arrived fashionably late. Fashionably leaving remains a developing art.","mood":"neutral","topic":"social","family":"g-party-arrival"}
+{"id":"g0387","text":"The group chat has thirty people and one increasingly tired plan.","mood":"bored","topic":"social","family":"g-group-chat"}
+{"id":"g0388","text":"Choosing a restaurant together is a relationship test with bread at the end.","mood":"neutral","topic":"social","family":"g-dinner-choice"}
+{"id":"g0389","text":"Helping a friend move is how you discover the exact weight of affection.","mood":"neutral","topic":"social","family":"g-friend-moving"}
+{"id":"g0390","text":"My social battery uses a charger sold separately from society.","mood":"tired","topic":"social","family":"g-social-battery"}
+{"id":"g0391","text":"I waved at someone who wasn't waving at me. We both briefly learned about courage.","mood":"bored","topic":"social","family":"g-awkward-wave"}
+{"id":"g0392","text":"A good host makes you feel at home, then quietly hopes you remember where yours is.","mood":"neutral","topic":"social","family":"g-party-host"}
+{"id":"g0393","text":"A canceled plan is a gift with excellent timing and no wrapping.","mood":"rested","topic":"social","family":"g-plan-cancellation"}
+{"id":"g0394","text":"I have said anyway three times. The conversation has ignored all available exits.","mood":"bored","topic":"social","family":"g-conversation-exit"}
+{"id":"g0395","text":"My dating profile says spontaneous. I scheduled time to write it.","mood":"neutral","topic":"social","family":"g-planned-spontaneity"}
+{"id":"g0396","text":"A shared fridge is a treaty enforced with sticky notes.","mood":"neutral","topic":"social","family":"g-shared-fridge"}
+{"id":"g0397","text":"The hardest part of a phone call is finding an ending both parties recognize.","mood":"bored","topic":"social","family":"g-phone-goodbye"}
+{"id":"g0398","text":"The gift receipt says I care, but I also understand statistics.","mood":"neutral","topic":"social","family":"g-birthday-gift"}
+{"id":"g0399","text":"My neighbor said we should catch up. We both respected the beauty of leaving it theoretical.","mood":"neutral","topic":"social","family":"g-future-spontaneous-plans"}
+{"id":"g0400","text":"I accepted a compliment without arguing. A major administrative breakthrough.","mood":"happy","topic":"social","family":"g-compliment-response"}
+{"id":"g0401","text":"Forgetting a name turns every introduction into a delicate pronoun exercise.","mood":"bored","topic":"social","family":"g-party-name"}
+{"id":"g0402","text":"The group photo needs one more try. Apparently we haven't yet all agreed to have faces.","mood":"bored","topic":"social","family":"g-group-photo"}
+{"id":"g0403","text":"A friend gives honest advice. A great friend waits until after you've finished the chips.","mood":"neutral","topic":"social","family":"g-friend-advice"}
+{"id":"g0404","text":"A seating chart is diplomacy with chicken options.","mood":"neutral","topic":"social","family":"g-games-domestic-politics"}
+{"id":"g0405","text":"A like is a very small visit that doesn't require taking off your shoes.","mood":"neutral","topic":"social","family":"g-social-media-like"}
+{"id":"g0406","text":"Borrowing a cup of sugar is charming. Returning it is a puzzling accounting exercise.","mood":"neutral","topic":"social","family":"g-neighbor-borrowing"}
+{"id":"g0407","text":"The last piece of cake becomes public property that nobody dares to govern.","mood":"full","topic":"social","family":"g-last-piece"}
+{"id":"g0408","text":"I like people. I just prefer a sensible serving size.","mood":"neutral","topic":"social","family":"g-party-introvert"}
+{"id":"g0409","text":"Sharing a blanket is a nightly negotiation with no independent observer.","mood":"neutral","topic":"social","family":"g-relationship-blanket"}
+{"id":"g0410","text":"Just checking in is friendship sending a small maintenance crew.","mood":"neutral","topic":"social","family":"g-friend-checkin"}
+{"id":"g0411","text":"A period at the end of a text can do the work of an entire disappointed eyebrow.","mood":"neutral","topic":"social","family":"g-text-tone"}
+{"id":"g0412","text":"Maybe is a tiny waiting room built inside an invitation.","mood":"neutral","topic":"social","family":"g-future-spontaneous-plans"}
+{"id":"g0413","text":"A family recipe uses measurements such as enough and you'll know, which I absolutely will not.","mood":"neutral","topic":"social","family":"g-recipes-guessing"}
+{"id":"g0414","text":"Making a shared playlist is discovering which compromises have a chorus.","mood":"neutral","topic":"social","family":"g-shared-playlist"}
+{"id":"g0415","text":"We should do this more often is a lovely toast to something we will not schedule.","mood":"bored","topic":"social","family":"g-future-spontaneous-plans"}
+{"id":"g0416","text":"Taking my shoes off at a party feels like signing a longer contract.","mood":"neutral","topic":"social","family":"g-party-shoes"}
+{"id":"g0417","text":"My friend's dog remembered me immediately. We have met twice and discussed nothing.","mood":"happy","topic":"social","family":"g-friend-dog"}
+{"id":"g0418","text":"I am an excellent listener right up until I start rehearsing my reply.","mood":"neutral","topic":"social","family":"g-bad-listener"}
+{"id":"g0419","text":"First impressions are rushed reviews written before the product has finished loading.","mood":"neutral","topic":"social","family":"g-first-impression"}
+{"id":"g0420","text":"Love is agreeing on almost everything except the correct temperature of a room.","mood":"neutral","topic":"social","family":"g-relationship-thermostat"}
+{"id":"g0421","text":"My unsent texts have a much more exciting social life than my sent ones.","mood":"neutral","topic":"social","family":"g-text-draft"}
+{"id":"g0422","text":"A potluck is a meal where everyone's personality arrives in a covered dish.","mood":"neutral","topic":"social","family":"g-potluck"}
+{"id":"g0423","text":"Reunions are where everyone compares the brochure with the actual trip.","mood":"neutral","topic":"social","family":"g-friend-reunion"}
+{"id":"g0424","text":"A handshake is a brief agreement not to mention how strange handshakes are.","mood":"neutral","topic":"social","family":"g-handshake"}
+{"id":"g0425","text":"Come whenever means I need to guess a time that means neither now nor whenever.","mood":"neutral","topic":"social","family":"g-party-directions"}
+{"id":"g0426","text":"True intimacy is knowing which charging cable the other person has quietly taken.","mood":"neutral","topic":"social","family":"g-relationship-charger"}
+{"id":"g0427","text":"The polite laugh is a social bridge built from very little material.","mood":"neutral","topic":"social","family":"g-polite-laugh"}
+{"id":"g0428","text":"A group vacation combines the joy of travel with the governance of a small nation.","mood":"neutral","topic":"social","family":"g-games-domestic-politics"}
+{"id":"g0429","text":"A friendship is partly two people keeping different records of the same evening.","mood":"neutral","topic":"social","family":"g-friend-memory"}
+{"id":"g0430","text":"An awkward pause is just silence being given a bad reference.","mood":"neutral","topic":"social","family":"g-comfortable-silence"}
+{"id":"g0431","text":"Being a plus-one is attending a party as someone's supporting evidence.","mood":"neutral","topic":"social","family":"g-plus-one"}
+{"id":"g0432","text":"We split the chores equally. I worry about them, and someone eventually does them.","mood":"neutral","topic":"social","family":"g-relationship-dishes"}
+{"id":"g0433","text":"The upstairs neighbor appears to own a furniture-testing laboratory.","mood":"neutral","topic":"social","family":"g-neighbor-noise"}
+{"id":"g0434","text":"My social calendar is mostly tentative things that make me definitely tired.","mood":"tired","topic":"social","family":"g-social-calendar"}
+{"id":"g0435","text":"Some compliments arrive carrying their own tiny complaint.","mood":"neutral","topic":"social","family":"g-compliment-backhand"}
+{"id":"g0436","text":"A friend showed me holiday photos. The trip was ten days, but the presentation is still developing.","mood":"bored","topic":"social","family":"g-friends-photos"}
+{"id":"g0437","text":"I can keep a secret. Remembering who already knows it is the skilled part.","mood":"neutral","topic":"social","family":"g-secret-keeping"}
+{"id":"g0438","text":"Shopping together is two people discovering how differently they define almost done.","mood":"neutral","topic":"social","family":"g-relationship-shopping"}
+{"id":"g0439","text":"The music was too loud to talk. Several conversations improved dramatically.","mood":"neutral","topic":"social","family":"g-party-music"}
+{"id":"g0440","text":"My punctual friend experiences the first half of every evening as a solo project.","mood":"neutral","topic":"social","family":"g-friend-punctuality"}
+{"id":"g0441","text":"A houseguest is a pleasant reminder that your normal habits require very little explanation.","mood":"neutral","topic":"social","family":"g-houseguest"}
+{"id":"g0442","text":"An inside joke is a friendship's tiny private currency.","mood":"happy","topic":"social","family":"g-inside-joke-currency"}
+{"id":"g0443","text":"This is my friend is a generous summary of a long series of mutually tolerated decisions.","mood":"neutral","topic":"social","family":"g-social-introduction"}
+{"id":"g0444","text":"Choosing a show together takes longer than the show. We call it our shared hobby.","mood":"neutral","topic":"social","family":"g-relationship-tv"}
+{"id":"g0445","text":"Bringing salad to a party is a quiet way of telling the cake to remain alert.","mood":"neutral","topic":"social","family":"g-party-salad"}
+{"id":"g0446","text":"The typing dots disappeared. Somewhere, a sentence decided to live a private life.","mood":"neutral","topic":"social","family":"g-text-typing"}
+{"id":"g0447","text":"No rush on that favor is a clock wearing slippers.","mood":"neutral","topic":"social","family":"g-friend-favor"}
+{"id":"g0448","text":"My honest RSVP would be delighted in principle, uncertain in trousers.","mood":"neutral","topic":"social","family":"g-honest-rsvp"}
+{"id":"g0449","text":"Silent letters do less work than I do and still insist on being included.","mood":"neutral","topic":"language","family":"g-silent-letters"}
+{"id":"g0450","text":"My thesaurus lists alternatives to responsibility. None of them fool the calendar.","mood":"neutral","topic":"language","family":"g-thesaurus"}
+{"id":"g0451","text":"A semicolon is punctuation that refuses to make a clean break.","mood":"neutral","topic":"language","family":"g-semicolon"}
+{"id":"g0452","text":"Organized chaos is chaos with a label maker.","mood":"neutral","topic":"language","family":"g-oxymoron"}
+{"id":"g0453","text":"I take things literally. The metaphor department would like its ladder back.","mood":"neutral","topic":"language","family":"g-literal-meaning"}
+{"id":"g0454","text":"My essay reached the word count. The point is expected in a later revision.","mood":"neutral","topic":"language","family":"g-word-count"}
+{"id":"g0455","text":"Mistakes were made. The passive voice has excellent legal representation.","mood":"neutral","topic":"language","family":"g-passive-voice"}
+{"id":"g0456","text":"An exclamation mark is a sentence standing on tiptoe for attention.","mood":"neutral","topic":"language","family":"g-exclamation"}
+{"id":"g0457","text":"The footnote had the best joke. A classic case of low-profile work.","mood":"neutral","topic":"language","family":"g-footnote"}
+{"id":"g0458","text":"Parentheses are where a sentence keeps the thoughts it isn't ready to introduce.","mood":"neutral","topic":"language","family":"g-parenthesis"}
+{"id":"g0459","text":"It could refer to anything. The pronoun enjoys a flexible contract.","mood":"neutral","topic":"language","family":"g-vague-pronoun"}
+{"id":"g0460","text":"I confused eloquent with elephant. The speech was heavier than expected.","mood":"neutral","topic":"language","family":"g-malapropism"}
+{"id":"g0461","text":"A spelling bee is an insect with unreasonable expectations of children.","mood":"neutral","topic":"language","family":"g-spelling-bee"}
+{"id":"g0462","text":"A palindrome can leave a conversation without turning around.","mood":"neutral","topic":"language","family":"g-palindrome"}
+{"id":"g0463","text":"My run-on sentence has stamina but very little sense of occasion.","mood":"neutral","topic":"language","family":"g-run-on-sentence"}
+{"id":"g0464","text":"The apostrophe is tiny, but it owns a surprising amount of stuff.","mood":"neutral","topic":"language","family":"g-apostrophe"}
+{"id":"g0465","text":"An idiom is what happens when a language stops explaining its hobbies.","mood":"neutral","topic":"language","family":"g-idiom"}
+{"id":"g0466","text":"Word salad sounds healthy until you notice the dressing is jargon.","mood":"neutral","topic":"language","family":"g-word-salad"}
+{"id":"g0467","text":"Dangling modifiers make sentences feel as though nobody checked the scaffolding.","mood":"neutral","topic":"language","family":"g-dangling-modifier"}
+{"id":"g0468","text":"An ellipsis is a sentence slowly backing out of the room.","mood":"neutral","topic":"language","family":"g-ellipsis"}
+{"id":"g0469","text":"My metaphor ran out of steam, which was inconvenient because it was a bicycle.","mood":"neutral","topic":"language","family":"g-metaphor"}
+{"id":"g0470","text":"Proofreading is easy until you have to read what you actually wrote.","mood":"neutral","topic":"language","family":"g-proofreading"}
+{"id":"g0471","text":"Capital letters are ordinary letters with a management position.","mood":"neutral","topic":"language","family":"g-capital-letter"}
+{"id":"g0472","text":"A dictionary is a book that keeps interrupting itself to explain things.","mood":"neutral","topic":"language","family":"g-dictionary"}
+{"id":"g0473","text":"Etymology is tracing a word's family tree until you find an embarrassing cousin.","mood":"neutral","topic":"language","family":"g-etymology"}
+{"id":"g0474","text":"A synonym is a word wearing a slightly different jacket to the same event.","mood":"neutral","topic":"language","family":"g-synonym"}
+{"id":"g0475","text":"I ration my commas. Pauses should understand the household budget.","mood":"neutral","topic":"language","family":"g-punctuation-budget"}
+{"id":"g0476","text":"Irony spends a lot of time being mistaken for coincidence in public.","mood":"neutral","topic":"language","family":"g-word-irony"}
+{"id":"g0477","text":"I support brevity, and I have prepared several pages explaining why.","mood":"neutral","topic":"language","family":"g-brevity"}
+{"id":"g0478","text":"English spelling has rules the way a cat has a schedule.","mood":"neutral","topic":"language","family":"g-spelling-rule"}
+{"id":"g0479","text":"Alliteration makes a modest message mildly more marketable.","mood":"neutral","topic":"language","family":"g-alliteration"}
+{"id":"g0480","text":"I wrote free verse. The rhymes declined the unpaid placement.","mood":"neutral","topic":"language","family":"g-poetry-rhyme"}
+{"id":"g0481","text":"Thingamajig is a remarkably precise word for refusing to be precise.","mood":"neutral","topic":"language","family":"g-word-placeholder"}
+{"id":"g0482","text":"Two negatives make a positive, which is generous accounting for a sentence.","mood":"neutral","topic":"language","family":"g-double-negative"}
+{"id":"g0483","text":"Translation is carrying a joke across a border and finding its luggage stayed behind.","mood":"neutral","topic":"language","family":"g-translation"}
+{"id":"g0484","text":"We called everything awesome until actual awe had to find a stronger adjective.","mood":"neutral","topic":"language","family":"g-word-awesome"}
+{"id":"g0485","text":"Fine print proves words can become more powerful by physically shrinking.","mood":"neutral","topic":"language","family":"g-small-font"}
+{"id":"g0486","text":"And is a word that sees a complete thought and suggests adding responsibilities.","mood":"neutral","topic":"language","family":"g-conjunction"}
+{"id":"g0487","text":"A buzzword is an ordinary word that has started attending conferences.","mood":"neutral","topic":"language","family":"g-buzzword"}
+{"id":"g0488","text":"Literally has taken on so much extra work that it now means the opposite on weekends.","mood":"neutral","topic":"language","family":"g-word-literally"}
+{"id":"g0489","text":"A haiku is a poem that knows exactly when it has taken up enough of your afternoon.","mood":"neutral","topic":"language","family":"g-haiku"}
+{"id":"g0490","text":"The grammar police gave me a warning. I asked whether I could move it to the end of the sentence.","mood":"neutral","topic":"language","family":"g-grammar-police"}
+{"id":"g0491","text":"Nuance is difficult to fit on a banner. It keeps asking for a smaller banner underneath.","mood":"neutral","topic":"language","family":"g-word-nuance"}
+{"id":"g0492","text":"A long word is not always a big idea. Sometimes it just packed too many letters.","mood":"neutral","topic":"language","family":"g-long-word"}
+{"id":"g0493","text":"Deadline is a dramatic name for Thursday at three.","mood":"neutral","topic":"language","family":"g-deadline-drama"}
+{"id":"g0494","text":"Voicemail is a tiny performance with no rehearsal and a permanent audience of one.","mood":"neutral","topic":"language","family":"g-voice-mail"}
+{"id":"g0495","text":"A misplaced comma can change everything, or at least make everything wait awkwardly.","mood":"neutral","topic":"language","family":"g-comma-placement"}
+{"id":"g0496","text":"Sustainable is a word often asked to carry more weight than the product.","mood":"neutral","topic":"language","family":"g-word-sustainable"}
+{"id":"g0497","text":"Um is my brain putting a chair in the doorway while it looks for the next word.","mood":"neutral","topic":"language","family":"g-verbal-filler"}
+{"id":"g0498","text":"Overdue has a lovely sense of occasion for something that already missed one.","mood":"neutral","topic":"language","family":"g-word-overdue"}
+{"id":"g0499","text":"An acronym is a phrase trying to avoid being recognized in public.","mood":"neutral","topic":"language","family":"g-acronym"}
+{"id":"g0500","text":"I wrote an ambiguous note. It may have been successful.","mood":"neutral","topic":"language","family":"g-word-ambiguous"}
+{"id":"g0501","text":"At the poetry reading, every pause seemed to own a very expensive scarf.","mood":"neutral","topic":"language","family":"g-poetry-reading"}
+{"id":"g0502","text":"Et cetera is a list admitting it would rather be doing something else.","mood":"neutral","topic":"language","family":"g-word-et-cetera"}
+{"id":"g0503","text":"A hyphen is the shortest possible relationship counselor.","mood":"neutral","topic":"language","family":"g-hyphen"}
+{"id":"g0504","text":"Neutral language takes a side against interesting adjectives.","mood":"neutral","topic":"language","family":"g-word-neutral"}
+{"id":"g0505","text":"A question mark is a full stop that hasn't accepted the situation.","mood":"neutral","topic":"language","family":"g-question-mark"}
+{"id":"g0506","text":"Tiny is a wonderfully small word. Microscopic has clearly lost perspective.","mood":"neutral","topic":"language","family":"g-word-tiny"}
+{"id":"g0507","text":"Unprecedented is having such a busy decade it may soon need a less ordinary name.","mood":"neutral","topic":"language","family":"g-word-unprecedented"}
+{"id":"g0508","text":"Suddenly is the writer's way of admitting the transition needed help.","mood":"neutral","topic":"language","family":"g-word-suddenly"}
+{"id":"g0509","text":"Paltry sounds like poultry with a disappointing budget.","mood":"neutral","topic":"language","family":"g-word-paltry"}
+{"id":"g0510","text":"Sarcasm lets a sentence put on a hat only some listeners can see.","mood":"neutral","topic":"language","family":"g-word-sarcasm"}
+{"id":"g0511","text":"Perhaps is a sturdy little umbrella for an opinion expecting rain.","mood":"neutral","topic":"language","family":"g-word-perhaps"}
+{"id":"g0512","text":"I don't need the last word. I would just like to approve it.","mood":"neutral","topic":"language","family":"g-last-word"}
+{"id":"g0513","text":"Entropy is why cleaning feels less like a victory and more like a temporary injunction.","mood":"neutral","topic":"science","family":"g-entropy"}
+{"id":"g0514","text":"Gravity never takes a day off. I admire the commitment but dislike the attitude.","mood":"neutral","topic":"science","family":"g-gravity"}
+{"id":"g0515","text":"Quantum physics suggests observation changes things. My laundry remains impressively resistant.","mood":"neutral","topic":"science","family":"g-quantum-observer"}
+{"id":"g0516","text":"I joined the control group. Finally, an experiment that respects my preference for doing nothing.","mood":"neutral","topic":"science","family":"g-control-group"}
+{"id":"g0517","text":"Peer review is asking other experts to explain why your excitement needs more footnotes.","mood":"neutral","topic":"science","family":"g-peer-review"}
+{"id":"g0518","text":"My null hypothesis is that this meeting changes nothing. Results look promising.","mood":"neutral","topic":"science","family":"g-null-hypothesis"}
+{"id":"g0519","text":"A black hole absorbs everything nearby and explains very little. Familiar management style.","mood":"neutral","topic":"science","family":"g-black-hole"}
+{"id":"g0520","text":"The periodic table is what happens when elements finally agree to assigned seating.","mood":"neutral","topic":"science","family":"g-periodic-table"}
+{"id":"g0521","text":"A lab coat lets you spill things with an air of discovery.","mood":"neutral","topic":"science","family":"g-lab-coat"}
+{"id":"g0522","text":"The difference was statistically significant. Emotionally, we are still deciding.","mood":"neutral","topic":"science","family":"g-statistical-significance"}
+{"id":"g0523","text":"Light travels fast because it has never stopped to choose a podcast.","mood":"neutral","topic":"science","family":"g-light-speed"}
+{"id":"g0524","text":"The placebo did nothing, which was exactly what made its results so awkward.","mood":"neutral","topic":"science","family":"g-placebo"}
+{"id":"g0525","text":"The scientific method is changing your mind with enough notes to make it respectable.","mood":"neutral","topic":"science","family":"g-scientific-method"}
+{"id":"g0526","text":"Evolution works with what it has. That explains both thumbs and the urge to check email.","mood":"neutral","topic":"science","family":"g-evolution"}
+{"id":"g0527","text":"Friction is the universe charging a handling fee.","mood":"neutral","topic":"science","family":"g-friction"}
+{"id":"g0528","text":"The petri dish became crowded. Nobody wanted to discuss the culture.","mood":"neutral","topic":"science","family":"g-petri-dish"}
+{"id":"g0529","text":"Space is mostly vacuum. Disappointing news for anyone hoping the universe kept spare chairs.","mood":"neutral","topic":"science","family":"g-space-vacuum"}
+{"id":"g0530","text":"Absolute zero sounds like a very confident review score.","mood":"neutral","topic":"science","family":"g-absolute-zero"}
+{"id":"g0531","text":"Label your samples. Future you is not as psychic as present you keeps assuming.","mood":"neutral","topic":"science","family":"g-lab-labels"}
+{"id":"g0532","text":"Probability says anything could happen. My toast prefers to maintain a routine.","mood":"neutral","topic":"science","family":"g-probability"}
+{"id":"g0533","text":"Chemical bonds are relationships with unusually good documentation.","mood":"neutral","topic":"science","family":"g-chemistry-bond"}
+{"id":"g0534","text":"The model explains everything except the parts of reality that insist on showing up.","mood":"neutral","topic":"science","family":"g-scientific-model"}
+{"id":"g0535","text":"Astronomy helps keep problems in perspective by adding much larger problems very far away.","mood":"neutral","topic":"science","family":"g-astronomy-scale"}
+{"id":"g0536","text":"The average person has a suspiciously fractional number of almost everything.","mood":"neutral","topic":"science","family":"g-math-average"}
+{"id":"g0537","text":"A research grant is money awarded for promising to turn uncertainty into a longer document.","mood":"neutral","topic":"science","family":"g-research-grant"}
+{"id":"g0538","text":"Chaos theory means the mess may be sophisticated. I am awaiting professional confirmation.","mood":"neutral","topic":"science","family":"g-chaos-theory"}
+{"id":"g0539","text":"Inertia is a law of physics, which gives my chair a strong legal position.","mood":"neutral","topic":"science","family":"g-inertia"}
+{"id":"g0540","text":"The results were inconclusive, so we concluded that we needed more results.","mood":"neutral","topic":"science","family":"g-lab-results"}
+{"id":"g0541","text":"Prime numbers refuse to split the bill conveniently.","mood":"neutral","topic":"science","family":"g-prime-number"}
+{"id":"g0542","text":"Pi goes on forever without repeating itself. A challenging standard for a dinner guest.","mood":"neutral","topic":"science","family":"g-pi"}
+{"id":"g0543","text":"Changing units can make a problem look smaller without improving it. An underrated political skill.","mood":"neutral","topic":"science","family":"g-scientific-units"}
+{"id":"g0544","text":"A magnet has two poles and very little interest in the middle ground.","mood":"neutral","topic":"science","family":"g-magnet"}
+{"id":"g0545","text":"Plants turn sunlight into lunch. My curtains are clearly limiting my career options.","mood":"neutral","topic":"science","family":"g-photosynthesis"}
+{"id":"g0546","text":"Space-time is a fabric. Mine seems to have shrunk in the wash.","mood":"neutral","topic":"science","family":"g-space-time"}
+{"id":"g0547","text":"We measured to six decimal places so our uncertainty would look well dressed.","mood":"neutral","topic":"science","family":"g-lab-precision"}
+{"id":"g0548","text":"A mathematical proof is an argument that won't let either person leave early.","mood":"neutral","topic":"science","family":"g-math-proof"}
+{"id":"g0549","text":"I repeated the experiment. The surprise was unfortunately reproducible.","mood":"neutral","topic":"science","family":"g-experiment-replication"}
+{"id":"g0550","text":"Atoms contain a lot of empty space. Finally, a scientific defense of my packing strategy.","mood":"neutral","topic":"science","family":"g-atom-empty"}
+{"id":"g0551","text":"Scientists gather to discuss unanswered questions, then form a queue for answered coffee.","mood":"neutral","topic":"science","family":"g-scientific-conference"}
+{"id":"g0552","text":"Things expand when heated. This includes both metal and arguments about the thermostat.","mood":"neutral","topic":"science","family":"g-thermal-expansion"}
+{"id":"g0553","text":"A pendulum has excellent balance and no ability to make a lasting decision.","mood":"neutral","topic":"science","family":"g-physics-pendulum"}
+{"id":"g0554","text":"A cell has a membrane because even tiny things need boundaries.","mood":"neutral","topic":"science","family":"g-biology-cell"}
+{"id":"g0555","text":"Error bars are the graph admitting it would like a little room to negotiate.","mood":"neutral","topic":"science","family":"g-science-error-bars"}
+{"id":"g0556","text":"A space probe travels for years to send a photo. My relatives call that poor communication.","mood":"neutral","topic":"science","family":"g-space-probe"}
+{"id":"g0557","text":"Infinity is a number's way of declining to finish the conversation.","mood":"neutral","topic":"science","family":"g-math-infinity"}
+{"id":"g0558","text":"Some chemical reactions need a catalyst. Mine usually need a deadline and tea.","mood":"neutral","topic":"science","family":"g-chemical-reaction"}
+{"id":"g0559","text":"The clean room has stricter entry standards than most exclusive clubs and much less dancing.","mood":"neutral","topic":"science","family":"g-lab-clean-room"}
+{"id":"g0560","text":"Scientists name a new species in Latin so it can sound established immediately.","mood":"neutral","topic":"science","family":"g-scientific-naming"}
+{"id":"g0561","text":"Parallel lines never meet. Even geometry can decline a networking event.","mood":"neutral","topic":"science","family":"g-geometry-parallel"}
+{"id":"g0562","text":"Discovery is finding something nobody expected, then explaining why it makes perfect sense.","mood":"neutral","topic":"science","family":"g-science-discovery"}
+{"id":"g0563","text":"Negative numbers are what happened when zero realized it could still have a worse day.","mood":"neutral","topic":"science","family":"g-math-negative"}
+{"id":"g0564","text":"DNA is an instruction manual with no customer support and a very long family history.","mood":"neutral","topic":"science","family":"g-biology-dna"}
+{"id":"g0565","text":"My sample size is one, but the opinion is already remarkably confident.","mood":"neutral","topic":"science","family":"g-science-sample-size"}
+{"id":"g0566","text":"Planets keep circling the same issue. Apparently perspective takes a while.","mood":"neutral","topic":"science","family":"g-planet-orbits"}
+{"id":"g0567","text":"Safety goggles are the scientific community admitting excitement can splash.","mood":"neutral","topic":"science","family":"g-lab-safety-goggles"}
+{"id":"g0568","text":"Scientific notation is a large number trying to travel with hand luggage.","mood":"neutral","topic":"science","family":"g-scientific-notation"}
+{"id":"g0569","text":"A vector has direction and magnitude. I am currently interviewing candidates for both.","mood":"neutral","topic":"science","family":"g-math-vector"}
+{"id":"g0570","text":"The water cycle is recycling without a reminder email.","mood":"neutral","topic":"science","family":"g-water-cycle"}
+{"id":"g0571","text":"A blind study prevents expectations from leaning over the experiment's shoulder.","mood":"neutral","topic":"science","family":"g-science-blind-study"}
+{"id":"g0572","text":"A lever can move the world. First, someone has to approve where it stands.","mood":"neutral","topic":"science","family":"g-physics-leverage"}
+{"id":"g0573","text":"The cell has a powerhouse. My apartment has a kettle and a more modest outlook.","mood":"neutral","topic":"science","family":"g-biology-mitochondria"}
+{"id":"g0574","text":"Extrapolation is continuing the line until reality objects.","mood":"neutral","topic":"science","family":"g-science-extrapolation"}
+{"id":"g0575","text":"Rounding is mathematics deciding the little details deserve a peaceful retirement.","mood":"neutral","topic":"science","family":"g-math-rounding"}
+{"id":"g0576","text":"In space, nobody can hear your voicemail. A compelling relocation package.","mood":"neutral","topic":"science","family":"g-space-silence"}
+{"id":"g0577","text":"Moss grows where conditions suit it. A refreshingly clear career policy.","mood":"neutral","topic":"nature","family":"g-moss-direction"}
+{"id":"g0578","text":"Tree rings record the years without requiring a birthday post.","mood":"neutral","topic":"nature","family":"g-tree-rings"}
+{"id":"g0579","text":"A pigeon walks like it has a meeting and no intention of arriving prepared.","mood":"neutral","topic":"nature","family":"g-pigeon-purpose"}
+{"id":"g0580","text":"Clouds drift across the sky without explaining the gap in their resume.","mood":"rested","topic":"nature","family":"g-nature-opinion-on-hurry"}
+{"id":"g0581","text":"An octopus has eight arms and still hasn't volunteered to help me move.","mood":"neutral","topic":"nature","family":"g-octopus-arms"}
+{"id":"g0582","text":"A fern unfurls one leaf at a time. Nature understands a manageable rollout.","mood":"neutral","topic":"nature","family":"g-fern-unfurl"}
+{"id":"g0583","text":"Bees dance to give directions. My navigation app lacks that commitment to presentation.","mood":"neutral","topic":"nature","family":"g-bee-dance"}
+{"id":"g0584","text":"The cat ignored the expensive bed and chose the box. A devastating independent product review.","mood":"neutral","topic":"nature","family":"g-cat-box"}
+{"id":"g0585","text":"A snail leaves a trail so everyone can appreciate exactly how little hurry was involved.","mood":"neutral","topic":"nature","family":"g-snail-trail"}
+{"id":"g0586","text":"Autumn is trees unsubscribing from leaves in bulk.","mood":"neutral","topic":"nature","family":"g-season-autumn"}
+{"id":"g0587","text":"The river takes the path of least resistance and still gets called majestic.","mood":"neutral","topic":"nature","family":"g-nature-opinion-on-hurry"}
+{"id":"g0588","text":"A woodpecker works from home and makes that everyone else's problem.","mood":"neutral","topic":"nature","family":"g-woodpecker"}
+{"id":"g0589","text":"A cactus thrives on limited attention. An excellent roommate with poor hugging policies.","mood":"neutral","topic":"nature","family":"g-cactus-care"}
+{"id":"g0590","text":"Dandelions respond to being removed by expanding the distribution department.","mood":"neutral","topic":"nature","family":"g-dandelion"}
+{"id":"g0591","text":"The mountain has achieved impressive things by staying where it is.","mood":"rested","topic":"nature","family":"g-quiet-comfortable-stillness"}
+{"id":"g0592","text":"The urban fox explores the nightlife mainly to review our bins.","mood":"neutral","topic":"nature","family":"g-fox-urban"}
+{"id":"g0593","text":"Mushrooms have an underground network. Somehow they manage without branded lanyards.","mood":"neutral","topic":"nature","family":"g-mushroom-network"}
+{"id":"g0594","text":"A heron can stand motionless for ages and call it fishing. I respect a well-named pause.","mood":"rested","topic":"nature","family":"g-heron-patience"}
+{"id":"g0595","text":"The smell after rain is the earth opening a very old window.","mood":"neutral","topic":"nature","family":"g-rain-smell"}
+{"id":"g0596","text":"Fetch is a dog proving that a pointless task can still deserve wholehearted enthusiasm.","mood":"happy","topic":"nature","family":"g-dog-fetch"}
+{"id":"g0597","text":"A falling leaf makes letting go look like it rehearsed.","mood":"happy","topic":"nature","family":"g-leaf-fall"}
+{"id":"g0598","text":"Earthworms improve the soil without ever appearing on a panel about impact.","mood":"neutral","topic":"nature","family":"g-worm-job"}
+{"id":"g0599","text":"The moon has phases. Nobody tells it to pick a consistent personal brand.","mood":"neutral","topic":"nature","family":"g-moon-phases"}
+{"id":"g0600","text":"A frog sits beside a pond as if it has already read the news and chosen wisely.","mood":"neutral","topic":"nature","family":"g-frog-pond"}
+{"id":"g0601","text":"Ivy sees a wall and hears career opportunity.","mood":"neutral","topic":"nature","family":"g-ivy-wall"}
+{"id":"g0602","text":"A seagull treats every sandwich as an opening offer.","mood":"neutral","topic":"nature","family":"g-seagull-audacity"}
+{"id":"g0603","text":"The forest is quiet because none of the trees have a speakerphone.","mood":"rested","topic":"nature","family":"g-comfortable-silence"}
+{"id":"g0604","text":"A hedgehog has a very clear system for declining unwanted contact.","mood":"neutral","topic":"nature","family":"g-hedgehog"}
+{"id":"g0605","text":"A flower opens when it's ready. The marketing team has somehow survived.","mood":"happy","topic":"nature","family":"g-flower-opening"}
+{"id":"g0606","text":"A chameleon changes color to fit in. My strategy is nodding at the correct intervals.","mood":"neutral","topic":"nature","family":"g-chameleon"}
+{"id":"g0607","text":"Erosion is what happens when water maintains a polite but persistent complaint.","mood":"neutral","topic":"nature","family":"g-rock-erosion"}
+{"id":"g0608","text":"Lichen is a partnership built on staying close and asking very little of the weekend.","mood":"neutral","topic":"nature","family":"g-lichen"}
+{"id":"g0609","text":"Owls keep unusual hours and get called wise. I would like that branding opportunity.","mood":"neutral","topic":"nature","family":"g-owl-hours"}
+{"id":"g0610","text":"A squirrel stores food everywhere. Finally, a financial plan I can physically understand.","mood":"neutral","topic":"nature","family":"g-squirrel-storage"}
+{"id":"g0611","text":"A coral reef builds a whole neighborhood without one brochure about vibrant living.","mood":"neutral","topic":"nature","family":"g-coral-reef"}
+{"id":"g0612","text":"Water rolls off a duck's back. The duck has excellent complaint handling.","mood":"neutral","topic":"nature","family":"g-duck-feathers"}
+{"id":"g0613","text":"The seed packet promises a garden. The small print is weather, patience, and whatever I did wrong last year.","mood":"neutral","topic":"nature","family":"g-seed-packet"}
+{"id":"g0614","text":"A butterfly changes its entire lifestyle without announcing a personal rebrand.","mood":"neutral","topic":"nature","family":"g-butterfly"}
+{"id":"g0615","text":"Crabs move sideways. Sometimes the most direct route is somebody else's problem.","mood":"neutral","topic":"nature","family":"g-crab-sideways"}
+{"id":"g0616","text":"Every snowflake is unique. The driveway still treats them as a bulk delivery.","mood":"neutral","topic":"nature","family":"g-snowflake"}
+{"id":"g0617","text":"The orchid has specific requirements. Apparently beauty comes with a rider.","mood":"neutral","topic":"nature","family":"g-orchid-care"}
+{"id":"g0618","text":"A bat asks the room where everything is. At last, a reasonable approach to entering a party.","mood":"neutral","topic":"nature","family":"g-bat-echolocation"}
+{"id":"g0619","text":"Trees offer shade without asking whether I'd like the premium coolness plan.","mood":"neutral","topic":"nature","family":"g-tree-shade"}
+{"id":"g0620","text":"Sunflowers follow the light. My desk plant follows a less encouraging narrative.","mood":"neutral","topic":"nature","family":"g-sunflower"}
+{"id":"g0621","text":"A beaver builds a dam and immediately creates a waterfront property.","mood":"neutral","topic":"nature","family":"g-beaver-dam"}
+{"id":"g0622","text":"The weather forecast has probabilities so the sky can maintain some professional freedom.","mood":"neutral","topic":"nature","family":"g-weather-forecast"}
+{"id":"g0623","text":"Migrating birds leave when conditions stop suiting them. Their exit strategy is excellent.","mood":"neutral","topic":"nature","family":"g-migration"}
+{"id":"g0624","text":"The tide comes in, changes its mind, and remains a respected natural force.","mood":"neutral","topic":"nature","family":"g-sea-tide"}
+{"id":"g0625","text":"The rooster announces sunrise as though it personally arranged the lighting.","mood":"neutral","topic":"nature","family":"g-rooster"}
+{"id":"g0626","text":"Compost is yesterday's poor decisions becoming tomorrow's tomatoes.","mood":"neutral","topic":"nature","family":"g-compost"}
+{"id":"g0627","text":"A spider's web is a home office where the lunch arrives by surprise.","mood":"neutral","topic":"nature","family":"g-spider-web"}
+{"id":"g0628","text":"A rabbit looks alert enough for several creatures. I appreciate the subcontracting opportunity.","mood":"neutral","topic":"nature","family":"g-rabbit-alert"}
+{"id":"g0629","text":"Dew is the lawn looking refreshed without having slept particularly well.","mood":"neutral","topic":"nature","family":"g-dew"}
+{"id":"g0630","text":"Whales sing across oceans. My neighbor considers that a reasonable target volume.","mood":"neutral","topic":"nature","family":"g-whale-song"}
+{"id":"g0631","text":"A fallen log becomes a whole new habitat. Nature has an excellent second-career program.","mood":"neutral","topic":"nature","family":"g-fallen-log"}
+{"id":"g0632","text":"A pinecone is a seed packet with much more ambitious packaging.","mood":"neutral","topic":"nature","family":"g-pinecone"}
+{"id":"g0633","text":"The peacock's appearance suggests a meeting where nobody was allowed to say maybe less.","mood":"neutral","topic":"nature","family":"g-peacock"}
+{"id":"g0634","text":"A sand dune changes shape with the wind and never apologizes for the revised layout.","mood":"neutral","topic":"nature","family":"g-sand-dune"}
+{"id":"g0635","text":"A seal resting on a rock makes leisure look like a professional qualification.","mood":"rested","topic":"nature","family":"g-quiet-comfortable-stillness"}
+{"id":"g0636","text":"Roots do the important work underground. The flowers handle publicity.","mood":"neutral","topic":"nature","family":"g-root-system"}
+{"id":"g0637","text":"Crickets provide background music without asking if I'm still listening.","mood":"neutral","topic":"nature","family":"g-cricket-song"}
+{"id":"g0638","text":"A water lily lives on the surface and somehow avoids being called shallow.","mood":"neutral","topic":"nature","family":"g-water-lily"}
+{"id":"g0639","text":"An acorn is a tree's extremely compact business proposal.","mood":"neutral","topic":"nature","family":"g-acorn"}
+{"id":"g0640","text":"Lichen grows slowly enough to make deadlines feel like a local superstition.","mood":"rested","topic":"nature","family":"g-nature-opinion-on-hurry"}
+{"id":"g0641","text":"The toaster has seven settings and two outcomes.","mood":"hungry","topic":"food","family":"g-toast-settings"}
+{"id":"g0642","text":"The recipe says ten minutes of prep. It assumes the onions have already accepted their fate.","mood":"hungry","topic":"food","family":"g-recipe-prep"}
+{"id":"g0643","text":"Croutons are bread that joined a salad to see how the other half lives.","mood":"hungry","topic":"food","family":"g-salad-crouton"}
+{"id":"g0644","text":"Leftovers are yesterday's dinner with a more practical marketing strategy.","mood":"full","topic":"food","family":"g-leftovers"}
+{"id":"g0645","text":"The avocado has scheduled ripeness for a brief period while I am out.","mood":"full","topic":"food","family":"g-fruit-ripeness-window"}
+{"id":"g0646","text":"A cheese board is a meal that has learned to negotiate from a position of leisure.","mood":"full","topic":"food","family":"g-cheese-board"}
+{"id":"g0647","text":"Pasta comes in many shapes so you can express a complex personality through the same sauce.","mood":"hungry","topic":"food","family":"g-pasta-shapes"}
+{"id":"g0648","text":"A pinch of salt is a measurement based on how confident the cook feels about fingers.","mood":"hungry","topic":"food","family":"g-recipes-guessing"}
+{"id":"g0649","text":"A sourdough starter is a pet you eventually bake part of. An unusual household arrangement.","mood":"full","topic":"food","family":"g-sourdough"}
+{"id":"g0650","text":"My lunch looked better in the photo. It has always been more ambitious than I am.","mood":"full","topic":"food","family":"g-food-photography"}
+{"id":"g0651","text":"Banana bread is what happens when fruit receives a generous performance improvement plan.","mood":"full","topic":"food","family":"g-banana-bread"}
+{"id":"g0652","text":"The menu described the potatoes as humble. The price had not received that briefing.","mood":"full","topic":"food","family":"g-menu-description"}
+{"id":"g0653","text":"My coffee has traveled across the world so I can remain at the kitchen table.","mood":"hungry","topic":"food","family":"g-coffee-origin"}
+{"id":"g0654","text":"Popcorn is corn reacting dramatically to a change in working conditions.","mood":"hungry","topic":"food","family":"g-popcorn"}
+{"id":"g0655","text":"The spice rack holds six regular employees and twenty-seven consultants from one recipe.","mood":"hungry","topic":"food","family":"g-spice-rack"}
+{"id":"g0656","text":"The recipe tells the dough to rest. Finally, cooking advice I can follow personally.","mood":"rested","topic":"food","family":"g-dough-rest"}
+{"id":"g0657","text":"Today's special is yesterday's ingredients with renewed confidence.","mood":"hungry","topic":"food","family":"g-restaurant-special"}
+{"id":"g0658","text":"Tea improves when you leave it alone for a few minutes. I feel represented.","mood":"rested","topic":"food","family":"g-rest-through-tea"}
+{"id":"g0659","text":"The jar lid is a small physical exam between me and a reasonable snack.","mood":"hungry","topic":"food","family":"g-jar-lid"}
+{"id":"g0660","text":"Cutting a sandwich into triangles makes it taste like someone has plans for the afternoon.","mood":"hungry","topic":"food","family":"g-sandwich-triangle"}
+{"id":"g0661","text":"Eating soup with a fork is possible if you are less interested in outcomes.","mood":"hungry","topic":"food","family":"g-soup-fork"}
+{"id":"g0662","text":"The best-before date suggests food has a brief artistic peak.","mood":"full","topic":"food","family":"g-food-expiry"}
+{"id":"g0663","text":"A buffet is a planning exercise in which optimism holds the plate.","mood":"hungry","topic":"food","family":"g-buffet"}
+{"id":"g0664","text":"A pear can be stone, perfect, and soup without changing its expression.","mood":"full","topic":"food","family":"g-fruit-ripeness-window"}
+{"id":"g0665","text":"Season to taste is a recipe suddenly remembering it doesn't know me.","mood":"hungry","topic":"food","family":"g-recipes-guessing"}
+{"id":"g0666","text":"The muffin arrived in a paper collar, looking unusually formal for something I planned to eat over the sink.","mood":"full","topic":"food","family":"g-muffin"}
+{"id":"g0667","text":"Broccoli looks like a tiny tree with very firm opinions about what counts as dinner.","mood":"hungry","topic":"food","family":"g-broccoli"}
+{"id":"g0668","text":"I substituted several ingredients. The recipe has requested that I stop using its name.","mood":"hungry","topic":"food","family":"g-food-substitution"}
+{"id":"g0669","text":"Pizza crust is the handle that accidentally became part of lunch.","mood":"hungry","topic":"food","family":"g-pizza-crust"}
+{"id":"g0670","text":"A slow cooker turns patience into a meal and gives me excellent plausible involvement.","mood":"hungry","topic":"food","family":"g-slow-cooker"}
+{"id":"g0671","text":"The kitchen scale insists baking is chemistry. My measuring cup prefers interpretation.","mood":"hungry","topic":"food","family":"g-kitchen-scale"}
+{"id":"g0672","text":"Wine pairing is deciding which drink best understands the cheese.","mood":"full","topic":"food","family":"g-food-pairing"}
+{"id":"g0673","text":"A tomato is botanically a fruit and socially unwilling to discuss it.","mood":"full","topic":"food","family":"g-tomato-fruit"}
+{"id":"g0674","text":"The fridge light comes on like it is delighted to see me. Excellent customer service.","mood":"full","topic":"food","family":"g-fridge-light"}
+{"id":"g0675","text":"Burnt toast is a breakfast that took the concept of well done personally.","mood":"full","topic":"food","family":"g-burnt-toast"}
+{"id":"g0676","text":"Fresh herbs are sold in quantities that assume I run a small restaurant.","mood":"full","topic":"food","family":"g-food-surplus"}
+{"id":"g0677","text":"Dip is a sauce with a social life.","mood":"full","topic":"food","family":"g-food-dip"}
+{"id":"g0678","text":"Spaghetti is delicious evidence that elegance is not required for a successful dinner.","mood":"full","topic":"food","family":"g-spaghetti"}
+{"id":"g0679","text":"Meal prep lets me make all of next week's food decisions while I still feel optimistic.","mood":"full","topic":"food","family":"g-meal-prep"}
+{"id":"g0680","text":"Jam is fruit that has decided to be considerably more persuasive.","mood":"full","topic":"food","family":"g-jam"}
+{"id":"g0681","text":"The bread basket is a meal's way of saying the main event is still getting ready.","mood":"hungry","topic":"food","family":"g-restaurant-bread"}
+{"id":"g0682","text":"Crunch is an ingredient you can hear making its case.","mood":"hungry","topic":"food","family":"g-food-crunch"}
+{"id":"g0683","text":"A poached egg requires the sort of calm authority I cannot supply before breakfast.","mood":"hungry","topic":"food","family":"g-poached-egg"}
+{"id":"g0684","text":"The chocolate bar has squares to give stopping a fair opportunity.","mood":"hungry","topic":"food","family":"g-chocolate-square"}
+{"id":"g0685","text":"Cooking is a creative process that leaves unusually detailed evidence.","mood":"full","topic":"food","family":"g-cooking-cleanup"}
+{"id":"g0686","text":"I doubled the garlic. The recipe and I have agreed to see other people.","mood":"full","topic":"food","family":"g-garlic-amount"}
+{"id":"g0687","text":"Comfort food rarely asks whether I've reached my full potential.","mood":"hungry","topic":"food","family":"g-food-comfort"}
+{"id":"g0688","text":"Peas are proof that dinner can be both nutritious and mechanically evasive.","mood":"hungry","topic":"food","family":"g-peas"}
+{"id":"g0689","text":"Artisan bread has an irregular shape so every slice can negotiate its own toaster arrangement.","mood":"hungry","topic":"food","family":"g-artisan-bread"}
+{"id":"g0690","text":"Soup spends half its life too hot and the other half being a missed opportunity.","mood":"full","topic":"food","family":"g-soup-temperature"}
+{"id":"g0691","text":"Minimalist cooking uses fewer ingredients and somehow every pan I own.","mood":"full","topic":"food","family":"g-food-minimalism"}
+{"id":"g0692","text":"A reservation is a promise that hunger will have a chair at a specific time.","mood":"hungry","topic":"food","family":"g-restaurant-reservation"}
+{"id":"g0693","text":"I measure rice for one and receive enough to support a brief community initiative.","mood":"hungry","topic":"food","family":"g-food-surplus"}
+{"id":"g0694","text":"The garnish makes the meal look as though it remembered an important appointment.","mood":"full","topic":"food","family":"g-food-garnish"}
+{"id":"g0695","text":"The string on a teabag is a remarkably small rescue operation.","mood":"neutral","topic":"food","family":"g-teabag-string"}
+{"id":"g0696","text":"The kitchen timer has one message and no interest in whether I'm ready to hear it.","mood":"full","topic":"food","family":"g-kitchen-timer"}
+{"id":"g0697","text":"Spicy food is flavor asking for a more dramatic response.","mood":"full","topic":"food","family":"g-chili-heat"}
+{"id":"g0698","text":"The cereal box says part of a balanced breakfast. So is the table, technically.","mood":"full","topic":"food","family":"g-cereal-box"}
+{"id":"g0699","text":"Cooking by instinct is wonderful until the instinct develops a strong opinion about cumin.","mood":"full","topic":"food","family":"g-recipes-guessing"}
+{"id":"g0700","text":"A free sample is a tiny snack with a sales representative attached.","mood":"hungry","topic":"food","family":"g-food-samples"}
+{"id":"g0701","text":"A thin slice of cake is an excellent opening position.","mood":"hungry","topic":"food","family":"g-cake-slice"}
+{"id":"g0702","text":"Pickling is a vegetable choosing a more complicated retirement.","mood":"full","topic":"food","family":"g-pickles"}
+{"id":"g0703","text":"Sharing fries is a negotiation where the evidence keeps disappearing.","mood":"hungry","topic":"food","family":"g-food-sharing"}
+{"id":"g0704","text":"The microwave beeps until I thank it by opening the door. Even appliances need closure.","mood":"full","topic":"food","family":"g-microwave-beep"}
+{"id":"g0705","text":"The alarm made a strong opening argument. I responded with nine minutes of mediation.","mood":"tired","topic":"sleep","family":"g-alarm-bargaining"}
+{"id":"g0706","text":"The cool side of the pillow is a small country with an excellent climate policy.","mood":"rested","topic":"sleep","family":"g-pillow-cool"}
+{"id":"g0707","text":"I read before bed. The same paragraph and I are developing a lasting relationship.","mood":"tired","topic":"sleep","family":"g-bedtime-reading"}
+{"id":"g0708","text":"Dreams have plots that would be rejected by a committee of mildly distracted goldfish.","mood":"sleeping","topic":"sleep","family":"g-dream-poor-screenwriting"}
+{"id":"g0709","text":"A nap is a meeting where every participant agrees on the objective.","mood":"sleeping","topic":"sleep","family":"g-nap-as-meeting"}
+{"id":"g0710","text":"A weighted blanket is a hug that has done the paperwork to become furniture.","mood":"rested","topic":"sleep","family":"g-blanket-weight"}
+{"id":"g0711","text":"My sleeping position starts as a choice and ends as a piece of modern sculpture.","mood":"sleeping","topic":"sleep","family":"g-sleep-position"}
+{"id":"g0712","text":"I woke early on the weekend. My body enjoys wasting its best material.","mood":"tired","topic":"sleep","family":"g-unwanted-dawn"}
+{"id":"g0713","text":"At night my brain schedules a panel discussion on things nobody remembers except me.","mood":"tired","topic":"sleep","family":"g-night-thoughts"}
+{"id":"g0714","text":"The glass of water beside the bed is optimism with a dust cover made of air.","mood":"neutral","topic":"sleep","family":"g-bedtime-water"}
+{"id":"g0715","text":"The snooze button is democracy held at nine-minute intervals.","mood":"tired","topic":"sleep","family":"g-alarm-bargaining"}
+{"id":"g0716","text":"My dream job appeared in a dream. Even there, the application required a cover letter.","mood":"sleeping","topic":"sleep","family":"g-dream-job"}
+{"id":"g0717","text":"The best naps happen somewhere you had no intention of proving a point about rest.","mood":"sleeping","topic":"sleep","family":"g-nap-location"}
+{"id":"g0718","text":"I arranged the pillows for comfort. They have since formed a decorative majority.","mood":"neutral","topic":"sleep","family":"g-pillow-stack"}
+{"id":"g0719","text":"I am a morning person in the sense that mornings continue to happen to me.","mood":"tired","topic":"sleep","family":"g-unwanted-dawn"}
+{"id":"g0720","text":"Sleep hygiene sounds like I should be flossing a dream.","mood":"neutral","topic":"sleep","family":"g-sleep-hygiene"}
+{"id":"g0721","text":"I put my phone across the room. Now bad decisions count as getting out of bed.","mood":"tired","topic":"sleep","family":"g-bedtime-phone"}
+{"id":"g0722","text":"In dreams I can fly. My subconscious apparently refuses to cover baggage fees.","mood":"sleeping","topic":"sleep","family":"g-dream-travel"}
+{"id":"g0723","text":"Nap guilt is productivity culture knocking on a door I've sensibly closed.","mood":"tired","topic":"sleep","family":"g-rest-needs-approval"}
+{"id":"g0724","text":"Being a night owl sounds majestic until you are eating crackers beside a laundry basket.","mood":"tired","topic":"sleep","family":"g-night-owl"}
+{"id":"g0725","text":"My sleep schedule is a series of suggestions exchanged by people who never meet.","mood":"tired","topic":"sleep","family":"g-sleep-schedule"}
+{"id":"g0726","text":"Changing a pillowcase is a small wrestling match with an opponent committed to softness.","mood":"tired","topic":"sleep","family":"g-pillowcase"}
+{"id":"g0727","text":"A rest day is a day that has finally read the terms of the body it belongs to.","mood":"rested","topic":"sleep","family":"g-rest-day"}
+{"id":"g0728","text":"I had an amazing dream. My brain saved it in a format unsupported by daylight.","mood":"sleeping","topic":"sleep","family":"g-dream-memory"}
+{"id":"g0729","text":"A short nap is a promise made by someone who is about to stop supervising.","mood":"sleeping","topic":"sleep","family":"g-nap-length"}
+{"id":"g0730","text":"Making the bed every morning is preparing a formal apology to the room.","mood":"tired","topic":"sleep","family":"g-bed-making"}
+{"id":"g0731","text":"Mattress shopping is lying down in public while a stranger discusses your future.","mood":"tired","topic":"sleep","family":"g-mattress-shopping"}
+{"id":"g0732","text":"The bedside clock glows just enough to keep me informed about a problem it cannot solve.","mood":"tired","topic":"sleep","family":"g-bedtime-clock"}
+{"id":"g0733","text":"A sleeping cat is proof that a household can operate with very little managerial involvement.","mood":"sleeping","topic":"sleep","family":"g-sleeping-cat"}
+{"id":"g0734","text":"Every little noise at night auditions for the role of Something Important.","mood":"tired","topic":"sleep","family":"g-night-noise"}
+{"id":"g0735","text":"A weekend nap is a short holiday with exceptionally convenient luggage requirements.","mood":"sleeping","topic":"sleep","family":"g-weekend-nap"}
+{"id":"g0736","text":"Dream staircases lead everywhere except a sensible building inspection.","mood":"sleeping","topic":"sleep","family":"g-dream-stairs"}
+{"id":"g0737","text":"My window of sleep opens just as my alarm begins preparing a statement.","mood":"tired","topic":"sleep","family":"g-sleep-window"}
+{"id":"g0738","text":"Pajamas are clothes that have withdrawn from the competition.","mood":"rested","topic":"sleep","family":"g-pajama-day"}
+{"id":"g0739","text":"My bedtime routine includes preparing to begin my bedtime routine.","mood":"tired","topic":"sleep","family":"g-bedtime-routine"}
+{"id":"g0740","text":"Rain is nature quietly endorsing the indoor horizontal option.","mood":"sleeping","topic":"sleep","family":"g-nap-weather"}
+{"id":"g0741","text":"Sleeping in is a luxury whose main ingredient is nobody expecting an answer.","mood":"sleeping","topic":"sleep","family":"g-sleep-in"}
+{"id":"g0742","text":"I dreamed of an exam I hadn't studied for. My brain keeps an unnecessarily thorough archive.","mood":"sleeping","topic":"sleep","family":"g-dream-exam"}
+{"id":"g0743","text":"A tucked-in blanket can turn a grown adult into a lightly supervised parcel.","mood":"sleeping","topic":"sleep","family":"g-blanket-tuck"}
+{"id":"g0744","text":"Resting my eyes is a phrase with an ambitious public relations department.","mood":"tired","topic":"sleep","family":"g-resting-eyes"}
+{"id":"g0745","text":"A midnight snack is dinner admitting it left some business unfinished.","mood":"hungry","topic":"sleep","family":"g-night-snack"}
+{"id":"g0746","text":"Counting sheep seems unfair to sheep, who were having a perfectly quiet evening.","mood":"sleeping","topic":"sleep","family":"g-sleep-counting"}
+{"id":"g0747","text":"A sunbeam on the floor is a very small resort with no check-in desk.","mood":"sleeping","topic":"sleep","family":"g-nap-sunbeam"}
+{"id":"g0748","text":"One foot outside the blanket is precision engineering with no formal training.","mood":"neutral","topic":"sleep","family":"g-bedtime-temperature"}
+{"id":"g0749","text":"Hotel sleep teaches me that a different ceiling does not improve my negotiations with dawn.","mood":"sleeping","topic":"sleep","family":"g-sleep-travel"}
+{"id":"g0750","text":"Dream conversations end just before anyone can clarify what on earth that meant.","mood":"sleeping","topic":"sleep","family":"g-dream-poor-screenwriting"}
+{"id":"g0751","text":"I put rest in my calendar. It looked alarmingly like another obligation.","mood":"rested","topic":"sleep","family":"g-rest-appointment"}
+{"id":"g0752","text":"A morning stretch is my body opening all the tabs it left running overnight.","mood":"rested","topic":"sleep","family":"g-morning-stretch"}
+{"id":"g0753","text":"Blackout curtains are the rare purchase that delivers exactly what I don't want to see.","mood":"sleeping","topic":"sleep","family":"g-sleep-darkness"}
+{"id":"g0754","text":"Being woken from a nap is receiving an urgent invitation to be somewhere you already are.","mood":"tired","topic":"sleep","family":"g-nap-interrupted"}
+{"id":"g0755","text":"My bookmark advances optimistically. My understanding prefers to remain on the previous page.","mood":"tired","topic":"sleep","family":"g-bedtime-bookmark"}
+{"id":"g0756","text":"A sleeping bag is a blanket that has decided to handle the entire relationship.","mood":"sleeping","topic":"sleep","family":"g-sleeping-bag"}
+{"id":"g0757","text":"Rain on the roof is a podcast with excellent pacing and no advertisements.","mood":"sleeping","topic":"sleep","family":"g-night-rain"}
+{"id":"g0758","text":"My dreams have lavish production values and almost no continuity budget.","mood":"sleeping","topic":"sleep","family":"g-dream-poor-screenwriting"}
+{"id":"g0759","text":"I gave myself permission to rest. The internal committee requested a supporting document.","mood":"rested","topic":"sleep","family":"g-rest-needs-approval"}
+{"id":"g0760","text":"Morning light enters the room with the confidence of someone who never checked my availability.","mood":"tired","topic":"sleep","family":"g-unwanted-dawn"}
+{"id":"g0761","text":"I am researching rest. The fieldwork is excellent, though the notes are mostly blank.","mood":"sleeping","topic":"sleep","family":"g-nap-research"}
+{"id":"g0762","text":"Bedtime tea is hot water wearing a very reassuring cardigan.","mood":"rested","topic":"sleep","family":"g-rest-through-tea"}
+{"id":"g0763","text":"An extra alarm is a vote of no confidence in the first alarm and in me.","mood":"tired","topic":"sleep","family":"g-alarm-bargaining"}
+{"id":"g0764","text":"Staring at the ceiling is a hobby with very low equipment costs and unreliable results.","mood":"tired","topic":"sleep","family":"g-night-ceiling"}
+{"id":"g0765","text":"I took a trip to the couch. The journey changed me, mostly into someone lying down.","mood":"sleeping","topic":"sleep","family":"g-nap-travel"}
+{"id":"g0766","text":"Folding the duvet cover is a chore invented by someone who had never met a duvet cover.","mood":"tired","topic":"sleep","family":"g-sleep-chore"}
+{"id":"g0767","text":"The alarm entered my dream as a tiny unpopular musician.","mood":"sleeping","topic":"sleep","family":"g-dream-soundtrack"}
+{"id":"g0768","text":"A good rest leaves you refreshed enough to consider the possibility of another good rest.","mood":"rested","topic":"sleep","family":"g-sloth-rest-program"}
+{"id":"g0769","text":"I don't miss deadlines. I allow them to pass without making a scene.","mood":"neutral","topic":"sloth","family":"g-deadline-drama"}
+{"id":"g0770","text":"Hanging around is much easier when it is your actual area of expertise.","mood":"neutral","topic":"sloth","family":"g-sloth-hanging"}
+{"id":"g0771","text":"My branch office offers flexible hours and exceptionally literal branching opportunities.","mood":"neutral","topic":"sloth","family":"g-sloth-branch-office"}
+{"id":"g0772","text":"My five-year plan is to reach a slightly more comfortable part of this tree.","mood":"neutral","topic":"sloth","family":"g-sloth-small-radius"}
+{"id":"g0773","text":"I entered a race. The scenery and I are developing a meaningful connection.","mood":"bored","topic":"sloth","family":"g-sloth-race"}
+{"id":"g0774","text":"My ambition is quiet enough that we can comfortably share a branch.","mood":"rested","topic":"sloth","family":"g-sloth-ambition"}
+{"id":"g0775","text":"I answer emails at sloth speed. Some problems mature into solutions while they wait.","mood":"neutral","topic":"sloth","family":"g-sloth-email"}
+{"id":"g0776","text":"Leaves for lunch again. I appreciate a menu that doesn't require a committee.","mood":"hungry","topic":"sloth","family":"g-sloth-lunch"}
+{"id":"g0777","text":"I look at things upside down. It saves me a great deal of changing my mind.","mood":"neutral","topic":"sloth","family":"g-sloth-upside"}
+{"id":"g0778","text":"My claws are not long nails. They are a highly specialized refusal to let go.","mood":"neutral","topic":"sloth","family":"g-sloth-claws"}
+{"id":"g0779","text":"My wardrobe is one fur coat. Decision fatigue never stood a chance.","mood":"neutral","topic":"sloth","family":"g-sloth-fashion"}
+{"id":"g0780","text":"The speed limit feels less like a rule and more like an inspiring biography.","mood":"neutral","topic":"sloth","family":"g-sloth-speed-limit"}
+{"id":"g0781","text":"I can hang and think at the same time. The thinking is on a flexible schedule.","mood":"neutral","topic":"sloth","family":"g-sloth-multitasking"}
+{"id":"g0782","text":"I reviewed the leaf. Strong structure, subtle flavor, no unnecessary subscription.","mood":"hungry","topic":"sloth","family":"g-sloth-leaf-review"}
+{"id":"g0783","text":"My fitness tracker thinks I am a piece of furniture with an occasional change of heart.","mood":"neutral","topic":"sloth","family":"g-sloth-fitness"}
+{"id":"g0784","text":"Treetop living is expensive in effort but wonderfully free of door-to-door sales.","mood":"neutral","topic":"sloth","family":"g-sloth-treetop"}
+{"id":"g0785","text":"I'll be there in five minutes. Please note the minutes are locally sourced.","mood":"bored","topic":"sloth","family":"g-sloth-measured-arrival"}
+{"id":"g0786","text":"I move slowly enough to hear a bad idea lose confidence before I act on it.","mood":"bored","topic":"sloth","family":"g-sloth-opinion-deadline"}
+{"id":"g0787","text":"I have an open-door policy. The lack of doors has made this surprisingly affordable.","mood":"neutral","topic":"sloth","family":"g-sloth-open-door"}
+{"id":"g0788","text":"I left my calendar blank. It looks so peaceful I hate to disturb it.","mood":"rested","topic":"sloth","family":"g-sloth-calendar"}
+{"id":"g0789","text":"Choosing a branch is real estate research with immediate consequences for comfort.","mood":"neutral","topic":"sloth","family":"g-sloth-branch-selection"}
+{"id":"g0790","text":"My professional network is mostly branches. At least the connections support something.","mood":"neutral","topic":"sloth","family":"g-sloth-networking"}
+{"id":"g0791","text":"I shop slowly. By the time I decide, the impulse has usually moved away.","mood":"neutral","topic":"sloth","family":"g-sloth-shopping"}
+{"id":"g0792","text":"I have the confidence of someone who knows nobody expects a sprint.","mood":"neutral","topic":"sloth","family":"g-sloth-confidence"}
+{"id":"g0793","text":"My morning routine is noticing that it is no longer morning.","mood":"neutral","topic":"sloth","family":"g-sloth-morning"}
+{"id":"g0794","text":"I am always exactly on time for the part of the day I am actually in.","mood":"neutral","topic":"sloth","family":"g-sloth-punctuality"}
+{"id":"g0795","text":"I took a vacation from hanging around. The change was mostly in how I described it.","mood":"rested","topic":"sloth","family":"g-sloth-rest-program"}
+{"id":"g0796","text":"Ask me how things are going. Set aside a leaf or two for the reply.","mood":"neutral","topic":"sloth","family":"g-sloth-smalltalk"}
+{"id":"g0797","text":"I streamlined my routine by removing most of the routine.","mood":"bored","topic":"sloth","family":"g-sloth-streamlining"}
+{"id":"g0798","text":"My address is a tree. The branch number is subject to personal development.","mood":"neutral","topic":"sloth","family":"g-sloth-home-address"}
+{"id":"g0799","text":"I have a firm grip on the situation. Understanding it is a separate project.","mood":"neutral","topic":"sloth","family":"g-sloth-grip"}
+{"id":"g0800","text":"Urgent is a fascinating word. I like to sit with it until it becomes less interesting.","mood":"bored","topic":"sloth","family":"g-sloth-opinion-deadline"}
+{"id":"g0801","text":"I take the long view. It is often the only view I've reached so far.","mood":"bored","topic":"sloth","family":"g-sloth-long-view"}
+{"id":"g0802","text":"Fast food is food that arrives before I have finished considering lunch.","mood":"hungry","topic":"sloth","family":"g-sloth-fast-food"}
+{"id":"g0803","text":"I underpromise and very gradually deliver.","mood":"neutral","topic":"sloth","family":"g-sloth-measured-arrival"}
+{"id":"g0804","text":"My social life is thriving within a carefully managed radius of one branch.","mood":"neutral","topic":"sloth","family":"g-sloth-small-radius"}
+{"id":"g0805","text":"My commute is short. I remain committed to getting the full experience.","mood":"neutral","topic":"sloth","family":"g-sloth-commute"}
+{"id":"g0806","text":"Progress is progress, even when a leaf can provide the before-and-after measurement.","mood":"happy","topic":"sloth","family":"g-sloth-progress"}
+{"id":"g0807","text":"My self-help book has one chapter: put down the self-help book.","mood":"neutral","topic":"sloth","family":"g-expectations-optional"}
+{"id":"g0808","text":"I founded a startup. We are still carefully exploring the up part.","mood":"neutral","topic":"sloth","family":"g-sloth-entrepreneur"}
+{"id":"g0809","text":"Pacing yourself is easier when your pace has never been accused of enthusiasm.","mood":"rested","topic":"sloth","family":"g-nature-opinion-on-hurry"}
+{"id":"g0810","text":"I turned over a new leaf. It looked edible on that side too.","mood":"hungry","topic":"sloth","family":"g-sloth-new-leaf"}
+{"id":"g0811","text":"I am not hiding in the canopy. I am maintaining a tasteful distance from requests.","mood":"neutral","topic":"sloth","family":"g-sloth-visibility"}
+{"id":"g0812","text":"I lift my own body weight every day. Usually to a nearly identical position.","mood":"neutral","topic":"sloth","family":"g-sloth-lift"}
+{"id":"g0813","text":"I don't chase sunshine. We have an arrangement where it comes around eventually.","mood":"neutral","topic":"sloth","family":"g-sloth-weather"}
+{"id":"g0814","text":"A queue is a public space that finally appreciates my natural rhythm.","mood":"bored","topic":"sloth","family":"g-sloth-queue"}
+{"id":"g0815","text":"People call it meditation when they pay someone to sit still. I was born qualified.","mood":"neutral","topic":"sloth","family":"g-sloth-meditation"}
+{"id":"g0816","text":"Sprint planning sounds exhausting. I offer a competitive amble-planning service.","mood":"neutral","topic":"sloth","family":"g-sloth-sprint-planning"}
+{"id":"g0817","text":"I stayed late at the branch office. It is difficult to leave a place you are hanging from.","mood":"neutral","topic":"sloth","family":"g-sloth-branch-office"}
+{"id":"g0818","text":"I prefer a low profile, though the tree makes that technically complicated.","mood":"neutral","topic":"sloth","family":"g-sloth-fame"}
+{"id":"g0819","text":"I found a shortcut. I am taking my time appreciating the discovery.","mood":"bored","topic":"sloth","family":"g-sloth-measured-arrival"}
+{"id":"g0820","text":"I have strong opinions, weak urgency, and a very comfortable grip.","mood":"neutral","topic":"sloth","family":"g-sloth-opinion"}
+{"id":"g0821","text":"My delivery estimate includes a generous allowance for being a sloth.","mood":"neutral","topic":"sloth","family":"g-sloth-measured-arrival"}
+{"id":"g0822","text":"My dance moves are subtle. Watch the leaf beside me for confirmation.","mood":"happy","topic":"sloth","family":"g-sloth-tiny-dance"}
+{"id":"g0823","text":"Work-life balance is simple when both take place on the same sturdy branch.","mood":"neutral","topic":"sloth","family":"g-sloth-branch-office"}
+{"id":"g0824","text":"You are welcome to visit. Please bring patience and nothing that requires assembly.","mood":"neutral","topic":"sloth","family":"g-sloth-guest"}
+{"id":"g0825","text":"My personal brand is unhurried. Rebranding would undermine the whole arrangement.","mood":"neutral","topic":"sloth","family":"g-sloth-branding"}
+{"id":"g0826","text":"I have no competitors at my pace. They all seem to be somewhere else.","mood":"bored","topic":"sloth","family":"g-sloth-competition"}
+{"id":"g0827","text":"Today's small win was finding that yesterday's comfortable spot remains available.","mood":"happy","topic":"sloth","family":"g-small-joy-no-business-plan"}
+{"id":"g0828","text":"I drew a map of my plans. Most of it is a promising branch and a substantial pause.","mood":"neutral","topic":"sloth","family":"g-sloth-map"}
+{"id":"g0829","text":"My yearbook prediction was most likely to remain approximately here.","mood":"bored","topic":"sloth","family":"g-sloth-small-radius"}
+{"id":"g0830","text":"I disagree slowly. It gives the other person time to discover my point independently.","mood":"neutral","topic":"sloth","family":"g-sloth-opinion-deadline"}
+{"id":"g0831","text":"I prioritize carefully because changing branches is a serious administrative event.","mood":"neutral","topic":"sloth","family":"g-sloth-priority"}
+{"id":"g0832","text":"My legacy will be a well-used branch and a suspiciously relaxed set of expectations.","mood":"neutral","topic":"sloth","family":"g-sloth-legacy"}
+{"id":"g0833","text":"I keep a spare glass half full in case the first optimist gets thirsty.","mood":"neutral","topic":"absurd","family":"g-optimism-backup"}
+{"id":"g0834","text":"I questioned the meaning of life. The chair offered immediate practical support.","mood":"neutral","topic":"absurd","family":"g-existential-chair"}
+{"id":"g0835","text":"I became a minimalist. My junk now meets in smaller, more exclusive groups.","mood":"neutral","topic":"absurd","family":"g-minimalist-junk"}
+{"id":"g0836","text":"Tomorrow has agreed to handle everything. I admire its confidence given its record.","mood":"neutral","topic":"absurd","family":"g-deferred-work"}
+{"id":"g0837","text":"I believe in free will, although I do seem to be choosing the same snack again.","mood":"neutral","topic":"absurd","family":"g-free-will"}
+{"id":"g0838","text":"My inner child wants to play. My inner accountant wants to know whether the crayons are deductible.","mood":"neutral","topic":"absurd","family":"g-inner-child"}
+{"id":"g0839","text":"Personal growth is recognizing a familiar mistake while making it in better shoes.","mood":"neutral","topic":"absurd","family":"g-expectations-optional"}
+{"id":"g0840","text":"I buried a time capsule. Future people deserve a drawer of nonsense too.","mood":"neutral","topic":"absurd","family":"g-time-capsule"}
+{"id":"g0841","text":"My perfectionism is nearly finished setting the conditions under which we can begin.","mood":"neutral","topic":"absurd","family":"g-perfectionism"}
+{"id":"g0842","text":"My good intentions have a spacious waiting room and no receptionist.","mood":"neutral","topic":"absurd","family":"g-deferred-work"}
+{"id":"g0843","text":"I paused to find meaning. The pause turned out to be the most useful part.","mood":"rested","topic":"absurd","family":"g-meaningful-pause"}
+{"id":"g0844","text":"The missing socks have probably formed a very comfortable breakaway republic.","mood":"neutral","topic":"absurd","family":"g-lost-socks"}
+{"id":"g0845","text":"Carrying an umbrella is how I personally negotiate with the weather.","mood":"neutral","topic":"absurd","family":"g-umbrella-forecast"}
+{"id":"g0846","text":"A blank notebook is a very convincing impersonation of a future organized person.","mood":"neutral","topic":"absurd","family":"g-shopping-optimistic-life"}
+{"id":"g0847","text":"I travel light emotionally. The worries insist on bringing their own luggage.","mood":"neutral","topic":"absurd","family":"g-existential-luggage"}
+{"id":"g0848","text":"Positive thinking works best when it doesn't insist on chairing every difficult conversation.","mood":"neutral","topic":"absurd","family":"g-positive-thinking"}
+{"id":"g0849","text":"Future me is remarkably reliable for someone I keep leaving with all the work.","mood":"neutral","topic":"absurd","family":"g-deferred-work"}
+{"id":"g0850","text":"Life has no instruction manual, but plenty of people are selling the accessories.","mood":"neutral","topic":"absurd","family":"g-life-manual"}
+{"id":"g0851","text":"My comfort zone is well maintained. I see no reason to describe that as a structural defect.","mood":"rested","topic":"absurd","family":"g-comfort-zone"}
+{"id":"g0852","text":"I have set aside Thursday for a surprising lack of planning.","mood":"neutral","topic":"absurd","family":"g-planned-spontaneity"}
+{"id":"g0853","text":"A small pleasure is a large pleasure that has sensibly avoided management.","mood":"happy","topic":"absurd","family":"g-small-joy-no-business-plan"}
+{"id":"g0854","text":"The spoon has a clear purpose. Some days I find that a little showy.","mood":"neutral","topic":"absurd","family":"g-existential-spoon"}
+{"id":"g0855","text":"I lowered my expectations. They look much more comfortable at this altitude.","mood":"neutral","topic":"absurd","family":"g-ambition-ladder"}
+{"id":"g0856","text":"The universal remote has a disappointingly narrow definition of the universe.","mood":"neutral","topic":"absurd","family":"g-universal-remote"}
+{"id":"g0857","text":"I set a personal best today. The judging panel was me, and the event was sitting comfortably.","mood":"rested","topic":"absurd","family":"g-personal-best"}
+{"id":"g0858","text":"Serendipity is finding what you needed while avoiding what you meant to do.","mood":"happy","topic":"absurd","family":"g-serendipity"}
+{"id":"g0859","text":"I suspect my house is slowly moving objects to test how confidently I remember things.","mood":"neutral","topic":"absurd","family":"g-conspiracy-house"}
+{"id":"g0860","text":"Self-awareness means I can now explain my bad habits while continuing to provide examples.","mood":"neutral","topic":"absurd","family":"g-expectations-optional"}
+{"id":"g0861","text":"I saved room in the budget for joy. It turns out a ridiculous little dance accepts no payment.","mood":"happy","topic":"absurd","family":"g-joy-budget"}
+{"id":"g0862","text":"I found a lucky penny. So far its greatest achievement is being worth a penny.","mood":"neutral","topic":"absurd","family":"g-lucky-penny"}
+{"id":"g0863","text":"I pondered whether anything truly matters. Then the toast popped up with a counterargument.","mood":"hungry","topic":"absurd","family":"g-philosophy-toast"}
+{"id":"g0864","text":"A spare key is a small investment in the version of me who thinks pockets are optional.","mood":"neutral","topic":"absurd","family":"g-spare-key"}
+{"id":"g0865","text":"I practiced being present. It was less dramatic than the promotional material suggested, which was lovely.","mood":"rested","topic":"absurd","family":"g-being-present"}
+{"id":"g0866","text":"I laughed at my own joke. Nice to see the production team enjoying the show.","mood":"happy","topic":"absurd","family":"g-spontaneous-laughter"}
+{"id":"g0867","text":"Life took a detour. At least the new route has interesting trees.","mood":"neutral","topic":"absurd","family":"g-life-detour"}
+{"id":"g0868","text":"I keep an open mind, but I would appreciate people wiping their feet on the way in.","mood":"neutral","topic":"absurd","family":"g-open-mind"}
+{"id":"g0869","text":"I finished a tiny task and celebrated extravagantly. Proportion is not invited to every party.","mood":"happy","topic":"absurd","family":"g-small-victory"}
+{"id":"g0870","text":"Tying my shoes is a daily reminder that even leaving requires a small ceremony.","mood":"neutral","topic":"absurd","family":"g-shoe-laces"}
+{"id":"g0871","text":"The afternoon has no plans. I find its leadership style persuasive.","mood":"rested","topic":"absurd","family":"g-slow-afternoon"}
+{"id":"g0872","text":"A chance meeting is a meeting with the decency not to send a calendar invitation.","mood":"neutral","topic":"absurd","family":"g-chance-meeting"}
+{"id":"g0873","text":"I aspire to the level of calm displayed by a spoon resting beside an empty bowl.","mood":"rested","topic":"absurd","family":"g-calm-ambition"}
+{"id":"g0874","text":"The mirror reflects my choices without offering to help clean up.","mood":"neutral","topic":"absurd","family":"g-existential-mirror"}
+{"id":"g0875","text":"I take play seriously, which is the only respectable way I have found to be thoroughly ridiculous.","mood":"happy","topic":"absurd","family":"g-play-serious"}
+{"id":"g0876","text":"I need personal space. A modest amount of impersonal space would also help.","mood":"neutral","topic":"absurd","family":"g-personal-space"}
+{"id":"g0877","text":"Hope is opening the cupboard again, as though the biscuits may have reconsidered.","mood":"hungry","topic":"absurd","family":"g-hope-cupboard"}
+{"id":"g0878","text":"Finding money in an old coat is a magic trick performed by someone with my exact spending habits.","mood":"happy","topic":"absurd","family":"g-ordinary-magic"}
+{"id":"g0879","text":"The chair with clothes on it has become a small, unelected wardrobe.","mood":"neutral","topic":"absurd","family":"g-laundry-chair"}
+{"id":"g0880","text":"If patience came in a hurry, I would probably order it express.","mood":"neutral","topic":"absurd","family":"g-patience-shop"}
+{"id":"g0881","text":"I relaxed my shoulders and discovered they had been trying to become earrings.","mood":"rested","topic":"absurd","family":"g-relaxed-shoulders"}
+{"id":"g0882","text":"Waiting for meaning feels remarkably similar to waiting for a bus with no timetable.","mood":"neutral","topic":"absurd","family":"g-existential-queue"}
+{"id":"g0883","text":"Confetti is joy committing to a long-term relationship with the carpet.","mood":"happy","topic":"absurd","family":"g-celebration-confetti"}
+{"id":"g0884","text":"I apologized to a table after bumping into it. We have agreed to keep the matter private.","mood":"neutral","topic":"absurd","family":"g-unnecessary-apology"}
+{"id":"g0885","text":"Success today is a cup of tea I remembered to drink while it was still tea-temperature.","mood":"neutral","topic":"absurd","family":"g-quiet-success"}
+{"id":"g0886","text":"I wrote myself a permission slip to do nothing. The handwriting was surprisingly enthusiastic.","mood":"rested","topic":"absurd","family":"g-rest-needs-approval"}
+{"id":"g0887","text":"A tiny decorative ladder has all the ambition of a ladder and none of the responsibility.","mood":"neutral","topic":"absurd","family":"g-whimsical-object"}
+{"id":"g0888","text":"I try to keep things in proportion. Unfortunately, worry owns a very large zoom lens.","mood":"neutral","topic":"absurd","family":"g-life-proportion"}
+{"id":"g0889","text":"A stranger held the door. My faith in humanity renewed its short-term lease.","mood":"happy","topic":"absurd","family":"g-restored-faith"}
+{"id":"g0890","text":"I considered the nature of desire. Lunch provided a useful concrete example.","mood":"hungry","topic":"absurd","family":"g-philosophy-lunch"}
+{"id":"g0891","text":"Sharing a joke is an economical way to turn one silly thought into two better afternoons.","mood":"happy","topic":"absurd","family":"g-joy-sharing"}
+{"id":"g0892","text":"I finished the puzzle and felt briefly qualified to manage the universe.","mood":"happy","topic":"absurd","family":"g-finished-puzzle"}
+{"id":"g0893","text":"Pocket lint is what happens when your clothes begin compiling a private history.","mood":"neutral","topic":"absurd","family":"g-pocket-lint"}
+{"id":"g0894","text":"An empty hour is a room I no longer feel obliged to furnish.","mood":"rested","topic":"absurd","family":"g-unburdened-hour"}
+{"id":"g0895","text":"I keep my feet on the ground. The ground has been extremely consistent about insisting.","mood":"neutral","topic":"absurd","family":"g-absurd-balance"}
+{"id":"g0896","text":"Contentment is realizing the chair, the light, and the afternoon don't need a better business plan.","mood":"rested","topic":"absurd","family":"g-small-joy-no-business-plan"}
+{"id":"g0897","text":"Please provide the original copy, a phrase that has already failed its own identity check.","mood":"neutral","topic":"bureaucracy","family":"g-proof-original"}
+{"id":"g0898","text":"The rope barrier organizes people using the same technology as a modest vegetable patch.","mood":"neutral","topic":"bureaucracy","family":"g-queue-barrier"}
+{"id":"g0899","text":"Training on the new policy covered how to acknowledge that we had received training on the new policy.","mood":"bored","topic":"bureaucracy","family":"g-policy-training"}
+{"id":"g0900","text":"The form changed overnight. My information stayed the same, but it must now express itself differently.","mood":"neutral","topic":"bureaucracy","family":"g-form-changes-not-facts"}
+{"id":"g0901","text":"Business days are ordinary days that have persuaded the calendar to exclude the weekend.","mood":"bored","topic":"bureaucracy","family":"g-processing-days"}
+{"id":"g0902","text":"The official envelope says important. It is usually about proving something unimportant twice.","mood":"neutral","topic":"bureaucracy","family":"g-admin-envelope"}
+{"id":"g0903","text":"This document is for reference only. Even the document declines responsibility for its contents.","mood":"neutral","topic":"bureaucracy","family":"g-reference-only"}
+{"id":"g0904","text":"The appeal must be submitted promptly. The reply is allowed a more contemplative lifestyle.","mood":"neutral","topic":"bureaucracy","family":"g-appeal-deadline"}
+{"id":"g0905","text":"We value your input, especially when it confirms the output.","mood":"neutral","topic":"bureaucracy","family":"g-consultation-after-decision"}
+{"id":"g0906","text":"Certification turns being able to do something into being able to show someone a PDF.","mood":"neutral","topic":"bureaucracy","family":"g-certification"}
+{"id":"g0907","text":"The frequently asked questions carefully avoid the question that brought me here.","mood":"neutral","topic":"bureaucracy","family":"g-policy-faq"}
+{"id":"g0908","text":"None of the checkboxes fit my situation. Reality has been asked to use the nearest available option.","mood":"neutral","topic":"bureaucracy","family":"g-optional-mandatory"}
+{"id":"g0909","text":"The service counter is high enough to give even a simple request a sense of occasion.","mood":"neutral","topic":"bureaucracy","family":"g-admin-counter"}
+{"id":"g0910","text":"The map says you are here. A rare official statement I can immediately verify.","mood":"neutral","topic":"bureaucracy","family":"g-public-map"}
+{"id":"g0911","text":"Please resubmit means the information needs another trip through the building.","mood":"bored","topic":"bureaucracy","family":"g-form-resubmit"}
+{"id":"g0912","text":"Official language is ordinary language wearing shoes too stiff to walk naturally.","mood":"neutral","topic":"bureaucracy","family":"g-official-language"}
+{"id":"g0913","text":"The sign says ask for assistance. The assistance is behind the sign saying closed.","mood":"neutral","topic":"bureaucracy","family":"g-admin-signage"}
+{"id":"g0914","text":"The pilot policy will run until we forget it was supposed to be temporary.","mood":"neutral","topic":"bureaucracy","family":"g-policy-pilot"}
+{"id":"g0915","text":"A notarized document is a piece of paper with a professional alibi.","mood":"neutral","topic":"bureaucracy","family":"g-paperwork-authority"}
+{"id":"g0916","text":"The service-level agreement guarantees someone will acknowledge how long I've been waiting.","mood":"neutral","topic":"bureaucracy","family":"g-service-level"}
+{"id":"g0917","text":"We retain records for seven years so the cupboard can develop institutional memory.","mood":"neutral","topic":"bureaucracy","family":"g-records-retention"}
+{"id":"g0918","text":"Initial here means sign your name, but try not to make a full commitment.","mood":"neutral","topic":"bureaucracy","family":"g-form-initial"}
+{"id":"g0919","text":"The feedback session had excellent acoustics. Every concern echoed back to its owner.","mood":"neutral","topic":"bureaucracy","family":"g-consultation-after-decision"}
+{"id":"g0920","text":"I meet all the requirements except the one about proving I meet all the requirements.","mood":"neutral","topic":"bureaucracy","family":"g-administrative-recursion"}
+{"id":"g0921","text":"In principle, the request is approved. In practice, principle appears to be on leave.","mood":"neutral","topic":"bureaucracy","family":"g-policy-principle"}
+{"id":"g0922","text":"My handwriting is illegible enough that the form now contains confidential information.","mood":"neutral","topic":"bureaucracy","family":"g-form-handwriting"}
+{"id":"g0923","text":"Please do not fold is an ambitious request to print on something being mailed in thirds.","mood":"neutral","topic":"bureaucracy","family":"g-admin-original"}
+{"id":"g0924","text":"The town meeting established that everyone favors improvement somewhere slightly farther from their house.","mood":"neutral","topic":"bureaucracy","family":"g-public-meeting"}
+{"id":"g0925","text":"The review date on the policy has passed. The policy itself is displaying admirable patience.","mood":"bored","topic":"bureaucracy","family":"g-policy-review-date"}
+{"id":"g0926","text":"Certified mail is a letter paying extra to make sure someone feels it arriving.","mood":"neutral","topic":"bureaucracy","family":"g-admin-certified-mail"}
+{"id":"g0927","text":"Read all instructions before beginning is the form's first unrealistic demand.","mood":"neutral","topic":"bureaucracy","family":"g-form-instructions"}
+{"id":"g0928","text":"The policy is open to interpretation, provided the interpretation stays closed to alternatives.","mood":"neutral","topic":"bureaucracy","family":"g-policy-interpretation"}
+{"id":"g0929","text":"The coupon expired yesterday, which explains why I finally found it today.","mood":"neutral","topic":"money","family":"g-coupon-expiry"}
+{"id":"g0930","text":"I went shopping for one thing and returned with a broader understanding of the word one.","mood":"neutral","topic":"money","family":"g-shopping-tour"}
+{"id":"g0931","text":"The bank has considerable interest in my money. It expresses that interest very sparingly in return.","mood":"neutral","topic":"money","family":"g-bank-interest"}
+{"id":"g0932","text":"Refurbished means the product has learned from mistakes I didn't have to make personally.","mood":"neutral","topic":"money","family":"g-refurbished"}
+{"id":"g0933","text":"The price ends in 99 so the last penny can do unpaid psychological work.","mood":"neutral","topic":"money","family":"g-artificial-price-anchors"}
+{"id":"g0934","text":"Premium water tastes like someone has successfully billed me for typography.","mood":"neutral","topic":"money","family":"g-luxury-water"}
+{"id":"g0935","text":"I keep receipts to preserve the option of regretting things in an organized fashion.","mood":"neutral","topic":"money","family":"g-receipt-keeping"}
+{"id":"g0936","text":"The seasonal sale celebrates the ancient retail season of needing more sales.","mood":"neutral","topic":"money","family":"g-seasonal-sale"}
+{"id":"g0937","text":"The shopping app knows what I want before I do. A troubling development for my budget.","mood":"neutral","topic":"money","family":"g-shopping-app"}
+{"id":"g0938","text":"My financial confidence improves noticeably when I stop opening statements.","mood":"neutral","topic":"money","family":"g-financial-confidence"}
+{"id":"g0939","text":"The store music suggests buying a sweater is part of a much more exciting evening.","mood":"neutral","topic":"money","family":"g-store-music"}
+{"id":"g0940","text":"A value pack gives you enough of something to start questioning whether you like it.","mood":"neutral","topic":"money","family":"g-value-pack"}
+{"id":"g0941","text":"Payment takes a second. A refund enjoys the scenic route.","mood":"neutral","topic":"money","family":"g-slow-refunds"}
+{"id":"g0942","text":"The price rose due to increased costs. When costs fell, the price discovered independence.","mood":"neutral","topic":"money","family":"g-price-rise"}
+{"id":"g0943","text":"The charity shop sells the possessions of people who previously had the same excellent idea as me.","mood":"neutral","topic":"money","family":"g-charity-shop"}
+{"id":"g0944","text":"The shop display shows a life I could have if I owned no mail, dishes, or visible cables.","mood":"neutral","topic":"money","family":"g-shopping-optimistic-life"}
+{"id":"g0945","text":"The free gift is an item nobody could convince me to buy, included to convince me to buy something else.","mood":"neutral","topic":"money","family":"g-free-gift"}
+{"id":"g0946","text":"I set a savings goal. It is pleasant to give distant money somewhere specific to go.","mood":"neutral","topic":"money","family":"g-savings-goal"}
+{"id":"g0947","text":"My decor budget is mostly the cost of containers to hide the evidence of the decor budget.","mood":"neutral","topic":"money","family":"g-decor-budget"}
+{"id":"g0948","text":"A reusable shopping bag is only useful if the part of me that remembers it also comes shopping.","mood":"neutral","topic":"money","family":"g-shopping-bag"}
+{"id":"g0949","text":"My financial forecast is cloudy with a strong chance of checking it again.","mood":"neutral","topic":"money","family":"g-financial-forecast-certainty"}
+{"id":"g0950","text":"The sale countdown resets every morning. A touching display of retail optimism.","mood":"neutral","topic":"money","family":"g-sale-countdown"}
+{"id":"g0951","text":"The shop lighting makes every object look as though it has already improved my life.","mood":"neutral","topic":"money","family":"g-shopping-optimistic-life"}
+{"id":"g0952","text":"Printing a return label is the final exam in deciding that I genuinely don't want the thing.","mood":"neutral","topic":"money","family":"g-slow-refunds"}
+{"id":"g0953","text":"My risk tolerance depends heavily on whether the risk has already happened.","mood":"neutral","topic":"money","family":"g-financial-risk"}
+{"id":"g0954","text":"Pausing a subscription is breaking up while assuring the company it is very much a timing issue.","mood":"neutral","topic":"money","family":"g-subscription-breakup"}
+{"id":"g0955","text":"Buy it for life is a bold slogan for something I could misplace by Thursday.","mood":"neutral","topic":"money","family":"g-shopping-quality"}
+{"id":"g0956","text":"I found enough loose change for a coffee, if the coffee agrees to return to 1998.","mood":"neutral","topic":"money","family":"g-loose-change"}
+{"id":"g0957","text":"A market correction sounds politely educational for something that happens to my savings.","mood":"neutral","topic":"money","family":"g-market-correction"}
+{"id":"g0958","text":"The decimal point does a great deal of security work for such a small employee.","mood":"neutral","topic":"money","family":"g-price-decimal"}
+{"id":"g0959","text":"A wish list is a budget with no adult supervision.","mood":"neutral","topic":"money","family":"g-shopping-wish-list"}
+{"id":"g0960","text":"The long-term forecast is reassuringly precise about a future that hasn't been consulted.","mood":"neutral","topic":"money","family":"g-financial-forecast-certainty"}
+{"id":"g0961","text":"A walk with a friend is a meeting where the minutes become scenery.","mood":"happy","topic":"social","family":"g-friend-walk"}
+{"id":"g0962","text":"We laughed so hard we forgot the point. A very successful outcome for the point.","mood":"happy","topic":"social","family":"g-shared-laugh"}
+{"id":"g0963","text":"Game night lets adults argue about tiny wooden pieces instead of anything consequential.","mood":"happy","topic":"social","family":"g-game-night"}
+{"id":"g0964","text":"A kind comment can improve my whole afternoon. An unusually efficient use of words.","mood":"happy","topic":"social","family":"g-compliment-saved"}
+{"id":"g0965","text":"My friend cheered for my tiny achievement. Finally, an audience with realistic production expectations.","mood":"happy","topic":"social","family":"g-friend-cheer"}
+{"id":"g0966","text":"An old inside joke can reopen a conversation faster than any sensible introduction.","mood":"happy","topic":"social","family":"g-inside-joke-currency"}
+{"id":"g0967","text":"Reading board-game rules is the price adults pay for pretending play needs a constitution.","mood":"happy","topic":"social","family":"g-games-domestic-politics"}
+{"id":"g0968","text":"A comfortable silence is friendship admitting the room already has enough content.","mood":"rested","topic":"social","family":"g-comfortable-silence"}
+{"id":"g0969","text":"Offering someone a snack is affection expressed in a highly practical format.","mood":"hungry","topic":"social","family":"g-shared-snack"}
+{"id":"g0970","text":"Our friendly rivalry is very friendly until someone counts the points accurately.","mood":"happy","topic":"social","family":"g-friendly-rivalry"}
+{"id":"g0971","text":"A thank-you note is proof that good manners can still operate without a charging cable.","mood":"happy","topic":"social","family":"g-thank-you-note"}
+{"id":"g0972","text":"Dancing in the kitchen has excellent acoustics and a very forgiving ticket policy.","mood":"happy","topic":"social","family":"g-shared-music-enthusiasm"}
+{"id":"g0973","text":"My friend sent a terrible drawing. The artistic quality was low, but the friendship was in full color.","mood":"happy","topic":"social","family":"g-friend-doodle"}
+{"id":"g0974","text":"Doing a puzzle together is teamwork with a picture of what success should look like.","mood":"happy","topic":"social","family":"g-shared-jigsaw"}
+{"id":"g0975","text":"A small kindness improved my whole Tuesday. My calendar had budgeted for something less pleasant.","mood":"happy","topic":"social","family":"g-small-kindness"}
+{"id":"g0976","text":"The family joke gets less funny every year and somehow more necessary.","mood":"happy","topic":"social","family":"g-inside-joke-currency"}
+{"id":"g0977","text":"The scorekeeper insists numbers are neutral. A suspicious claim from someone currently winning.","mood":"happy","topic":"social","family":"g-friendly-rivalry"}
+{"id":"g0978","text":"My friend brought surprise cake. A rare surprise with a well-established recovery plan.","mood":"hungry","topic":"social","family":"g-friend-surprise"}
+{"id":"g0979","text":"A shared park bench is the most affordable venue for a conversation with no objective.","mood":"rested","topic":"social","family":"g-quiet-comfortable-stillness"}
+{"id":"g0980","text":"My friend praised my cooking. The smoke alarm submitted a minority report.","mood":"full","topic":"social","family":"g-friend-praise"}
+{"id":"g0981","text":"A rematch is optimism asking the evidence for another meeting.","mood":"happy","topic":"social","family":"g-friendly-rivalry"}
+{"id":"g0982","text":"The dance floor welcomes people who have mistaken enthusiasm for coordination. My kind of institution.","mood":"happy","topic":"social","family":"g-shared-music-enthusiasm"}
+{"id":"g0983","text":"A handwritten letter is a message that took the trouble to put on shoes and travel.","mood":"happy","topic":"social","family":"g-friend-letter"}
+{"id":"g0984","text":"Singing badly together makes two wrong notes into a surprisingly good afternoon.","mood":"happy","topic":"social","family":"g-shared-music-enthusiasm"}
+{"id":"g0985","text":"A reliable friend lets me be myself, then gently suggests I bring a coat.","mood":"happy","topic":"social","family":"g-friend-reliability"}
+{"id":"g0986","text":"House rules are what happens when losing meets access to the constitution.","mood":"happy","topic":"social","family":"g-games-domestic-politics"}
+{"id":"g0987","text":"A toast turns a drink into a tiny public statement of optimism.","mood":"happy","topic":"social","family":"g-celebration-toast"}
+{"id":"g0988","text":"A good friend asks how you are and has the alarming patience to hear the answer.","mood":"happy","topic":"social","family":"g-friend-curiosity"}
+{"id":"g0989","text":"Cooperative games let everyone blame the cardboard together. Excellent team design.","mood":"happy","topic":"social","family":"g-play-cooperation"}
+{"id":"g0990","text":"A picnic is lunch deciding the table was getting too much credit.","mood":"full","topic":"social","family":"g-shared-picnic"}
+{"id":"g0991","text":"An old friend remembers your awkward phase and has the grace not to number it.","mood":"happy","topic":"social","family":"g-friend-long-time"}
+{"id":"g0992","text":"I invited joy over without tidying first. It seemed much less concerned about the laundry than I expected.","mood":"happy","topic":"social","family":"g-joy-invitation"}
+{"id":"g0993","text":"An otter floats on its back like the river has personally guaranteed a relaxing afternoon.","mood":"rested","topic":"nature","family":"g-quiet-comfortable-stillness"}
+{"id":"g0994","text":"The willow bends in the breeze. It has a flexible policy and very little paperwork.","mood":"rested","topic":"nature","family":"g-willow-sway"}
+{"id":"g0995","text":"A firefly brings its own lighting to the evening. Excellent event preparation.","mood":"happy","topic":"nature","family":"g-firefly"}
+{"id":"g0996","text":"A turtle on a warm rock has solved several lifestyle problems at once.","mood":"rested","topic":"nature","family":"g-quiet-comfortable-stillness"}
+{"id":"g0997","text":"Birdsong is an alarm that has made a sincere effort to be worth waking up for.","mood":"neutral","topic":"nature","family":"g-morning-birdsong"}
+{"id":"g0998","text":"The sunset received excellent reviews despite refusing to provide the same performance twice.","mood":"rested","topic":"nature","family":"g-sunset-review"}
+{"id":"g0999","text":"A bench in the woods is civilization briefly admitting the trees had a point.","mood":"rested","topic":"nature","family":"g-quiet-comfortable-stillness"}
+{"id":"g1000","text":"Fern shadows decorate the wall without asking whether they match the furniture.","mood":"rested","topic":"nature","family":"g-fern-shadow"}
+{"id":"g1001","text":"The moth approaches the lamp with the enthusiasm of someone ignoring all previous feedback.","mood":"neutral","topic":"nature","family":"g-moth-lamp"}
+{"id":"g1002","text":"A puddle is a small sky that has agreed to meet us at ground level.","mood":"neutral","topic":"nature","family":"g-rain-puddle"}
+{"id":"g1003","text":"A napping seal makes the beach look like a perfectly sensible full-time occupation.","mood":"sleeping","topic":"nature","family":"g-seal-nap"}
+{"id":"g1004","text":"The cat moved with the sunbeam. A highly successful relocation with no moving boxes.","mood":"sleeping","topic":"nature","family":"g-cat-sunbeam"}
+{"id":"g1005","text":"Moss makes a rock look like it finally invested in comfortable upholstery.","mood":"rested","topic":"nature","family":"g-moss-softness"}
+{"id":"g1006","text":"The bird bath has no booking system. Somehow the sparrows manage a lively public discussion about access.","mood":"neutral","topic":"nature","family":"g-bird-bath"}
+{"id":"g1007","text":"The night garden keeps growing without asking whether anyone noticed the extra effort.","mood":"rested","topic":"nature","family":"g-night-garden"}
+{"id":"g1008","text":"I saw a dragon in the clouds. The sky has a generous policy on letting viewers write the plot.","mood":"happy","topic":"nature","family":"g-cloud-shapes"}
+{"id":"g1009","text":"My bedtime story is a leaf moving slightly. Please, no spoilers about where it lands.","mood":"sleeping","topic":"sloth","family":"g-sloth-bedtime"}
+{"id":"g1010","text":"I dreamed I was moving quickly. Very creative of my subconscious, but poorly researched.","mood":"sleeping","topic":"sloth","family":"g-sloth-dream"}
+{"id":"g1011","text":"That nap had excellent pacing, strong atmosphere, and a thoroughly unnecessary ending.","mood":"sleeping","topic":"sloth","family":"g-nap-interrupted"}
+{"id":"g1012","text":"I feel refreshed. I may celebrate by moving my other arm.","mood":"rested","topic":"sloth","family":"g-sloth-rested"}
+{"id":"g1013","text":"My batteries are recharged. I plan to spend the energy responsibly, over several afternoons.","mood":"rested","topic":"sloth","family":"g-sloth-recharged"}
+{"id":"g1014","text":"Being awake is quite enough of an opening act. Let's not demand an immediate sequel.","mood":"rested","topic":"sloth","family":"g-sloth-awake"}
+{"id":"g1015","text":"Tonight I plan to explore the inside of my eyelids. The transport connections are excellent.","mood":"sleeping","topic":"sloth","family":"g-sloth-night-plan"}
+{"id":"g1016","text":"I prepared for sleep by doing very little. It was reassuring to discover my training was relevant.","mood":"sleeping","topic":"sloth","family":"g-sloth-sleeping-plan"}
+{"id":"g1017","text":"A good nap improves my outlook without requiring me to change the actual view.","mood":"rested","topic":"sloth","family":"g-sloth-good-nap"}
+{"id":"g1018","text":"I did a happy dance. The branch swayed once, but those present understood the significance.","mood":"happy","topic":"sloth","family":"g-sloth-tiny-dance"}
+{"id":"g1019","text":"I am feeling playful. Please allow extra time for the mischief to arrive.","mood":"happy","topic":"sloth","family":"g-sloth-playful"}
+{"id":"g1020","text":"My dream adventure had three branches and no connecting flights. Exceptionally well planned.","mood":"sleeping","topic":"sloth","family":"g-dream-travel"}
+{"id":"g1021","text":"I have energy in reserve. The reserve is protected land.","mood":"rested","topic":"sloth","family":"g-sloth-rest-reserve"}
+{"id":"g1022","text":"Quiet time is my favorite group activity. Attendance can be as low as one.","mood":"rested","topic":"sloth","family":"g-nap-as-meeting"}
+{"id":"g1023","text":"I scheduled a nap between two rests. It is important to vary the program.","mood":"sleeping","topic":"sloth","family":"g-sloth-rest-program"}
+{"id":"g1024","text":"Evening has lowered the lights. A thoughtful hint from a planet with good hosting instincts.","mood":"rested","topic":"sloth","family":"g-sloth-evening"}
