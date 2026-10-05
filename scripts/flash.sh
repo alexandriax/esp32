@@ -7,6 +7,8 @@ backup=backups/original-esp32c6-16mb.bin
 for file in sloth_pet.ino.bootloader.bin sloth_pet.ino.partitions.bin sloth_pet.ino.bin; do
   test -f "build/$file" || { echo 'Build firmware first: scripts/build.sh' >&2; exit 1; }
 done
+app_bytes=$(wc -c < build/sloth_pet.ino.bin | tr -d ' ')
+test "$app_bytes" -le 6291456 || { echo 'Moss image exceeds its 6 MiB factory partition' >&2; exit 1; }
 mkdir -p backups artifacts
 "$esptool" --chip esp32c6 --port "$port" --after no_reset flash_id
 if [ ! -f "$backup" ]; then

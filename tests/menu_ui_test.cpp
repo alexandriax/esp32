@@ -14,9 +14,11 @@ static void openPage(MenuUi& ui, MenuPage page) {
   if (page == MenuPage::Utilities) { ui.activate(MenuUi::kMainUtilities); return; }
   ui.activate(MenuUi::kMainGames);
   if (page == MenuPage::Games) return;
+  const bool doom = page == MenuPage::Doom;
   const bool tetris = page == MenuPage::Tetris || page == MenuPage::TetrisSettings;
   const bool leaf = page == MenuPage::LeafSweep || page == MenuPage::LeafSweepSettings;
-  ui.activate(leaf ? MenuUi::kGamesLeafSweep : tetris ? MenuUi::kGamesTetris : MenuUi::kGamesPong);
+  ui.activate(doom ? MenuUi::kGamesDoom : leaf ? MenuUi::kGamesLeafSweep :
+      tetris ? MenuUi::kGamesTetris : MenuUi::kGamesPong);
   if (page == MenuPage::PongSettings || page == MenuPage::TetrisSettings || page == MenuPage::LeafSweepSettings) ui.activate(1);
   assert(ui.page() == page);
 }
@@ -52,7 +54,7 @@ static void navigationAndExternalHandoffs() {
   assert(hardwareSelect(ui,ui.rowCount())==MenuEvent::None);
   assert(ui.page()==MenuPage::Main&&ui.focus()==MenuUi::kMainUtilities);
   assert(hardwareSelect(ui, MenuUi::kMainGames) == MenuEvent::None);
-  assert(ui.page() == MenuPage::Games && ui.rowCount() == 4 && ui.targetCount() == 5);
+  assert(ui.page() == MenuPage::Games && ui.rowCount() == 5 && ui.targetCount() == 6);
   for (unsigned game = 0; game < 3; ++game) {
     const MenuPage gamePages[] = {MenuPage::Pong, MenuPage::Tetris, MenuPage::LeafSweep};
     const MenuPage options[] = {MenuPage::PongSettings, MenuPage::TetrisSettings, MenuPage::LeafSweepSettings};
@@ -75,7 +77,7 @@ static void navigationAndExternalHandoffs() {
   assert(hardwareSelect(ui, MenuUi::kGamesForestFidget) == MenuEvent::PlayForestFidget);
   assert(ui.isOpen() && ui.page() == MenuPage::Games && ui.focus() == 3);
   assert(ui.activate() == MenuEvent::PlayForestFidget); // Return/relaunch keeps direct row focus.
-  assert(ui.rowCount() == 4 && ui.targetCount() == 5);
+  assert(ui.rowCount() == 5 && ui.targetCount() == 6);
   assert(hardwareSelect(ui, ui.rowCount()) == MenuEvent::None);
   assert(ui.page() == MenuPage::Main && ui.focus() == MenuUi::kMainGames);
   assert(hardwareSelect(ui, ui.rowCount()) == MenuEvent::Closed && !ui.isOpen());
@@ -177,7 +179,8 @@ static void touchHitTargetsAndRendering() {
   assert(ui.hitTest(120, 227) == -1 && ui.hitTest(120, 240) == -1);
   assert(ui.activate(-2) == MenuEvent::None && ui.activate(6) == MenuEvent::None);
   const MenuPage pages[] = {MenuPage::Main, MenuPage::Utilities, MenuPage::Games, MenuPage::Pong, MenuPage::PongSettings,
-                            MenuPage::Tetris, MenuPage::TetrisSettings, MenuPage::LeafSweep, MenuPage::LeafSweepSettings};
+                            MenuPage::Tetris, MenuPage::TetrisSettings, MenuPage::LeafSweep, MenuPage::LeafSweepSettings,
+                            MenuPage::Doom};
   for (MenuPage page : pages) {
     openPage(ui, page);
     for (int focus = 0; focus < ui.targetCount(); ++focus) {
@@ -201,7 +204,7 @@ static void touchHitTargetsAndRendering() {
   openPage(ui, MenuPage::Games);
   for(int target = 0; target < 4; ++target) {
     const int top = 51 + target * 36;
-    for(int y = top; y < top + 30; ++y)
+    for(int y = top; y < top + 30 && y < 187; ++y)
       for(int x = 12; x < 228; ++x) assert(ui.hitTest(x,y) == target);
     assert(ui.hitTest(11,top) == -1 && ui.hitTest(228,top) == -1);
     assert(ui.hitTest(120,top+30) == -1 && ui.hitTest(120,top+35) == -1);
@@ -275,7 +278,7 @@ static void mainScrollAndFocus() {
   assert(ui.back() == MenuEvent::None && ui.focus() == MenuUi::kMainUtilities);
   assertMainFocusVisible(ui);
   assert(hardwareSelect(ui, MenuUi::kMainGames) == MenuEvent::None);
-  assert(ui.page() == MenuPage::Games && ui.scrollOffset() == 0 && ui.maxScroll() == 0);
+  assert(ui.page() == MenuPage::Games && ui.scrollOffset() == 0 && ui.maxScroll() == 39);
   assert(ui.back() == MenuEvent::None && ui.focus() == MenuUi::kMainGames);
   assertMainFocusVisible(ui);
   ui.close(); ui.open();
@@ -399,8 +402,62 @@ static void scrollingRenderClipsBehindFixedControls() {
   }
 }
 
+static void doomScrollTouchAndHardware() {
+  MenuUi ui;
+  openPage(ui, MenuPage::Games);
+  assert(ui.rowCount() == 5 && ui.targetCount() == 6 && ui.maxScroll() == 39);
+  assert(ui.hitTest(120, 170) == MenuUi::kGamesForestFidget);
+  assert(ui.hitTest(120, 186) == MenuUi::kGamesForestFidget);
+  assert(ui.hitTest(120, 187) == -1); // The fixed footer masks the fifth row.
+
+  uint16_t top[50 * 240], bottom[53 * 240], frame[240 * 240 + 2];
+  frame[0] = frame[240 * 240 + 1] = 0xA55A;
+  sloth::drawMenu(frame + 1, ui);
+  memcpy(top, frame + 1, sizeof(top));
+  memcpy(bottom, frame + 1 + 187 * 240, sizeof(bottom));
+
+  // A swipe reveals Doom but never activates the row under the lifted finger.
+  assert(ui.touch(true, 120, 160) == MenuEvent::None);
+  assert(ui.touch(true, 120, 100) == MenuEvent::None);
+  assert(ui.scrollOffset() == ui.maxScroll());
+  assert(ui.touch(false, 120, 100) == MenuEvent::None);
+  assert(ui.page() == MenuPage::Games && ui.focus() == 0);
+  assert(ui.hitTest(120, 156) == MenuUi::kGamesDoom);
+  assert(ui.hitTest(120, 185) == MenuUi::kGamesDoom);
+  assert(ui.hitTest(120, 186) == -1 && ui.hitTest(120, 195) == -1);
+  sloth::drawMenu(frame + 1, ui);
+  assert(frame[0] == 0xA55A && frame[240 * 240 + 1] == 0xA55A);
+  assert(memcmp(top, frame + 1, sizeof(top)) == 0);
+  assert(memcmp(bottom, frame + 1 + 187 * 240, sizeof(bottom)) == 0);
+
+  assert(ui.touch(true, 120, 170) == MenuEvent::None);
+  assert(ui.page() == MenuPage::Games);
+  assert(ui.touch(false, 120, 170) == MenuEvent::None);
+  assert(ui.page() == MenuPage::Doom && ui.focus() == 0 && ui.rowCount() == 1);
+  assert(ui.hitTest(120, 60) == 0);
+  assert(ui.activate() == MenuEvent::PlayDoom); // The caller owns the handoff.
+  assert(ui.page() == MenuPage::Doom);
+  assert(ui.touch(true, 120, 215) == MenuEvent::None);
+  assert(ui.touch(false, 120, 215) == MenuEvent::None);
+  assert(ui.page() == MenuPage::Games && ui.focus() == MenuUi::kGamesDoom);
+  assert(ui.scrollOffset() == ui.maxScroll() && ui.hitTest(120, 170) == MenuUi::kGamesDoom);
+
+  // Hardware Next exposes hidden rows, Select enters Doom, and Back returns
+  // with Doom still focused; another Next reaches the fixed Back footer.
+  openPage(ui, MenuPage::Games);
+  for (int target = 0; target < MenuUi::kGamesDoom; ++target) ui.next();
+  assert(ui.focus() == MenuUi::kGamesDoom && ui.scrollOffset() == ui.maxScroll());
+  assert(ui.activate() == MenuEvent::None && ui.page() == MenuPage::Doom);
+  assert(ui.activate() == MenuEvent::PlayDoom);
+  assert(ui.back() == MenuEvent::None && ui.page() == MenuPage::Games);
+  assert(ui.focus() == MenuUi::kGamesDoom && ui.scrollOffset() == ui.maxScroll());
+  ui.next();
+  assert(ui.focus() == ui.rowCount() && ui.hitTest(120, 215) == MenuUi::kBack);
+  assert(ui.activate() == MenuEvent::None && ui.page() == MenuPage::Main);
+}
+
 int main() {
   navigationAndExternalHandoffs(); independentPreferences(); navigationRailTouchActions(); touchHitTargetsAndRendering();
-  mainScrollAndFocus(); mainTouchGestures(); scrollingRenderClipsBehindFixedControls();
-  puts("menu_ui: ordered main menu, four games with direct Forest Fidget launch, three score/audio game preferences, hardware Back cycle, scrolling main menu, release-only taps, drag cancellation, fixed chrome and render bounds passed");
+  mainScrollAndFocus(); mainTouchGestures(); scrollingRenderClipsBehindFixedControls(); doomScrollTouchAndHardware();
+  puts("menu_ui: ordered main menu, five games including Doom, scrolling games and main menus, score/audio preferences, hardware Back cycle, release-only taps, drag cancellation, fixed chrome and render bounds passed");
 }

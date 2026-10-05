@@ -4,11 +4,11 @@
 
 namespace sloth {
 
-enum class MenuPage : uint8_t { Main, Games, Pong, PongSettings, Tetris, TetrisSettings, LeafSweep, LeafSweepSettings, Utilities };
+enum class MenuPage : uint8_t { Main, Games, Pong, PongSettings, Tetris, TetrisSettings, LeafSweep, LeafSweepSettings, Utilities, Doom };
 enum class MenuEvent : uint8_t {
   None, OpenSettings, RemoteDisplay, PlayPong, SpeedsChanged, Closed,
   PlayTetris, ShowPongScores, ShowTetrisScores, GamePreferencesChanged,
-  PlayLeafSweep, ShowLeafSweepScores, PlayForestFidget, WifiExplorer, BluetoothExplorer, WifiNetworks, Browser
+  PlayLeafSweep, ShowLeafSweepScores, PlayForestFidget, WifiExplorer, BluetoothExplorer, WifiNetworks, Browser, PlayDoom
 };
 
 // Portable menu navigation. External destinations leave the menu open so their
@@ -20,7 +20,7 @@ class MenuUi {
   enum {
     kMainGames = 0, kMainBrowser = 1, kMainWifiNetworks = 2, kMainUtilities = 3, kMainSettings = 4,
     kUtilitiesRemoteDisplay = 0, kUtilitiesWifi = 1, kUtilitiesBluetooth = 2,
-    kGamesPong = 0, kGamesTetris = 1, kGamesLeafSweep = 2, kGamesForestFidget = 3,
+    kGamesPong = 0, kGamesTetris = 1, kGamesLeafSweep = 2, kGamesForestFidget = 3, kGamesDoom = 4,
     kPongPlay = 0, kPongSettings = 1, kPongScores = 2,
     kTetrisPlay = 0, kTetrisSettings = 1, kTetrisScores = 2,
     kLeafSweepPlay = 0, kLeafSweepSettings = 1, kLeafSweepScores = 2,

@@ -1,0 +1,7 @@
+/build/
+/build_docker/
+/build-host/
+/sdkconfig
+/sdkconfig.old
+/dependencies.lock
+/managed_components/

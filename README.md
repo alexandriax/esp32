@@ -12,6 +12,12 @@ music/effects, pause confirmation, and persistent named top-ten scoreboards.
 The hamburger menu opens **Games**, **Browser**, **Wi-Fi Networks**, **Utilities**, then
 **Settings**;
 **Back to Pet** is also selectable with the hardware buttons.
+The Games menu also includes **Doom**, a separate companion app for the original
+shareware episode. It uses the 480 × 480 AMOLED with touch controls for movement,
+turning, firing, using, the map, and menus; KEY and BOOT provide hardware fire
+and use controls. A short PWR press returns to Moss. Gameplay runs entirely on
+the device without Bluetooth or a network. Doom requires its own app
+and game-data partitions; see [Doom build, install, controls, and source terms](firmware/doom/README.md).
 Tap the pet for a dry, deadpan joke from a bank of **2,048 lines**, with mood-aware
 selection and persistent history. Short PWR presses go back in menus or pause
 an active scored game; Forest Fidget returns directly to Games. On pet home PWR
@@ -171,6 +177,11 @@ cycle, including **Back to Pet** on the main menu. The order is **Games**,
 **Browser**, **Wi-Fi Networks**, **Utilities**, **Settings**, then **Back to Pet**. Utilities
 contains Remote Display and the two radio explorers. Pet controls and live
 desktop volume controls keep their existing mappings.
+
+**Games → Doom → Play Doom** saves Moss and starts the separate Doom companion.
+The game picture is above two rows of touch controls. Use **KEY** to fire or
+confirm, **BOOT** to use or go back, and a short **PWR** press to return to Moss.
+The [Doom guide](firmware/doom/README.md) covers its install steps and full controls.
 
 **Games → Moss Pong → Play** opens the two-player game. Front-left **BOOT/−**
 controls P1's leafy paddle; front-right **+/KEY** controls P2's. Either button
@@ -570,11 +581,13 @@ The first upgrade from a v1/v2 save also needs this clock synchronization.
 
 Tested on Apple Silicon macOS with Arduino CLI 1.5.2-rc.1, Arduino-ESP32 **3.3.0**,
 and esptool **4.9.0**. The compiler and Python environment live under `.tools/`.
-The custom partition table reserves **8 MiB** for the factory app at `0x10000`
+The custom partition table reserves **6 MiB** for the factory app at `0x10000`
 in the board's **16 MiB** flash. This is reserved capacity, not the installed image
-size; Settings → Storage reports both. V1.28 expands the old app allocation while
+size; Settings → Storage reports both. This allocation expands the original app slot while
 preserving core NVS at `0xFE0000`, pet NVS at `0xFF0000`, and the original factory
-configuration at `0x9000`. Flashing writes only the bootloader, partition table,
+configuration at `0x9000`. The Doom companion uses separate app, game-data, save,
+and OTA metadata regions between the factory app and NVS; see its
+[flash map](firmware/doom/README.md#build-and-install). The Moss flash script writes only the bootloader, partition table,
 and application sectors; it does not erase saved care, settings, jokes, scores,
 or wireless pairing. No PSRAM is needed. The browser build also requires CMake
 3.24+ and Make or Ninja; it downloads and verifies a pinned libwebsockets source

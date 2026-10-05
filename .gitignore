@@ -1,6 +1,9 @@
 .tools/
 .cache/
 build/
+firmware/doom/build_docker/
+firmware/doom/sdkconfig
+firmware/doom/sdkconfig.old
 backups/
 feedforward-firmware
 feedforward-firmware.partial
@@ -25,4 +28,5 @@ build-compile.log
 *.log
 *.elf
 *.bin
+*.d
 core

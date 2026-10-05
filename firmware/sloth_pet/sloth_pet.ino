@@ -52,6 +52,10 @@
 #include <stdarg.h>
 #include "esp_random.h"
 #include "esp_heap_caps.h"
+#include "esp_image_format.h"
+#include "esp_ota_ops.h"
+#include "esp_partition.h"
+#include <string.h>
 
 namespace {
 sloth::PetState pet;
@@ -934,6 +938,78 @@ void savePendingGameRecords() {
       gameRecords.tables[0].count, gameRecords.tables[1].count, gameRecords.tables[2].count);
 }
 
+// Doom is a separate app because its renderer and converted IWAD need more
+// memory than the pet's foreground game workspace. Only switch the boot target
+// after checking both flash partitions and saving the current pet snapshot.
+void doomLaunchFailed(const char* reason, const char* message, uint32_t now) {
+  Serial.printf("DOOM launch unavailable: %s\n", reason);
+  feedback = message;
+  messageSince = now;
+  menuUi.close();
+  displayIdle.visibleInteraction(now);
+  resetScreenInputs();
+  lastFrame = 0;
+}
+
+void launchDoom(uint32_t now) {
+  const esp_partition_t* doom = esp_partition_find_first(
+      ESP_PARTITION_TYPE_APP, ESP_PARTITION_SUBTYPE_APP_OTA_0, "doom");
+  const esp_partition_t* wad = esp_partition_find_first(
+      ESP_PARTITION_TYPE_DATA, static_cast<esp_partition_subtype_t>(0x40), "wad");
+  if (!doom || doom->address != 0x610000u || doom->size != 0x400000u) {
+    doomLaunchFailed("Doom app partition missing or misplaced", "DOOM needs its firmware", now);
+    return;
+  }
+  if (!wad || wad->address != 0xA10000u || wad->size < 36u) {
+    doomLaunchFailed("WHD partition missing or misplaced", "DOOM needs its game data", now);
+    return;
+  }
+
+  // The converted WHD starts with the WAD count/directory, followed by a
+  // 24-byte WHD header whose first word gives the complete data length.
+  uint8_t header[36];
+  if (esp_partition_read(wad, 0, header, sizeof(header)) != ESP_OK ||
+      memcmp(header, "IWHD", 4)) {
+    doomLaunchFailed("WHD header unreadable or invalid", "DOOM game data is invalid", now);
+    return;
+  }
+  const uint32_t lumps = sloth::record_detail::read32(header + 4);
+  const uint32_t directory = sloth::record_detail::read32(header + 8);
+  const uint32_t length = sloth::record_detail::read32(header + 12);
+  if (!lumps || directory != sizeof(header) || length > wad->size ||
+      static_cast<uint64_t>(directory) + (static_cast<uint64_t>(lumps) + 1u) * 4u > length) {
+    doomLaunchFailed("WHD count or length exceeds partition", "DOOM game data is invalid", now);
+    return;
+  }
+
+  esp_partition_pos_t image = {};
+  image.offset = doom->address;
+  image.size = doom->size;
+  esp_image_metadata_t metadata = {};
+  if (esp_image_verify(ESP_IMAGE_VERIFY_SILENT, &image, &metadata) != ESP_OK ||
+      !metadata.image_len || metadata.image_len > doom->size) {
+    doomLaunchFailed("Doom firmware image invalid", "DOOM firmware is invalid", now);
+    return;
+  }
+
+  savePet();
+  if (saveFailed) {
+    doomLaunchFailed("pet snapshot save failed", "Save failed. Try DOOM again", now);
+    return;
+  }
+  const esp_err_t selected = esp_ota_set_boot_partition(doom);
+  if (selected != ESP_OK) {
+    Serial.printf("DOOM boot selection failed: %d\n", static_cast<int>(selected));
+    doomLaunchFailed("could not select Doom app", "DOOM could not start", now);
+    return;
+  }
+  Serial.printf("DOOM launch app=0x%lx image=%lu WHD=%lu\n",
+      static_cast<unsigned long>(doom->address), static_cast<unsigned long>(metadata.image_len),
+      static_cast<unsigned long>(length));
+  Serial.flush();
+  esp_restart();
+}
+
 void applyMenuEvent(sloth::MenuEvent event, uint32_t now) {
   interact(now);
   if (event == sloth::MenuEvent::Browser) openBrowser(now);
@@ -942,6 +1018,7 @@ void applyMenuEvent(sloth::MenuEvent event, uint32_t now) {
   else if (event == sloth::MenuEvent::RemoteDisplay) startRemoteAuto(now);
   else if (event == sloth::MenuEvent::WifiExplorer) openRadio(sloth::RadioKind::Wifi, now);
   else if (event == sloth::MenuEvent::BluetoothExplorer) openRadio(sloth::RadioKind::Bluetooth, now);
+  else if (event == sloth::MenuEvent::PlayDoom) { launchDoom(now); return; }
   else if (event == sloth::MenuEvent::PlayPong) {
     clearGameModes();
     pong.setSpeeds(menuUi.speed(0), menuUi.speed(1));

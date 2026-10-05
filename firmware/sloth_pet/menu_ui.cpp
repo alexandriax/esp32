@@ -83,7 +83,8 @@ int MenuUi::rowCount() const {
   switch (page_) {
     case MenuPage::Main: return 5;
     case MenuPage::Utilities: return 3;
-    case MenuPage::Games: return 4;
+    case MenuPage::Games: return 5;
+    case MenuPage::Doom: return 1;
     case MenuPage::Pong: return 3;
     case MenuPage::PongSettings: return 4;
     case MenuPage::Tetris: return 3;
@@ -97,18 +98,24 @@ int MenuUi::rowCount() const {
 int MenuUi::targetCount() const { return open_ ? rowCount() + 1 : 0; }
 
 int MenuUi::maxScroll() const {
-  return open_ && page_ == MenuPage::Main
-      ? kFirstRow + (rowCount() - 1) * kRowPitch + kRowHeight + 1 - kViewportBottom : 0;
+  if (!open_) return 0;
+  if (page_ == MenuPage::Main)
+    return kFirstRow + (rowCount() - 1) * kRowPitch + kRowHeight + 1 - kViewportBottom;
+  if (page_ == MenuPage::Games)
+    return kFirstRow + (rowCount() - 1) * kCompactPitch + kCompactHeight + 1 - kViewportBottom;
+  return 0;
 }
 
 void MenuUi::cancelTouch() { touching_ = dragged_ = scrollGesture_ = false; touchTarget_ = -1; }
 
 void MenuUi::revealFocus() {
-  if (page_ != MenuPage::Main) { scroll_ = 0; return; }
+  if (page_ != MenuPage::Main && page_ != MenuPage::Games) { scroll_ = 0; return; }
   if (focus_ >= rowCount()) return; // Back is always visible in the fixed footer.
-  const int top = focus_ * kRowPitch, viewport = kViewportBottom - kViewportTop;
+  const int pitch = page_ == MenuPage::Games ? kCompactPitch : kRowPitch;
+  const int height = page_ == MenuPage::Games ? kCompactHeight : kRowHeight;
+  const int top = focus_ * pitch, viewport = kViewportBottom - kViewportTop;
   if (top < scroll_) scroll_ = top;
-  if (top + kRowHeight + 2 > scroll_ + viewport) scroll_ = top + kRowHeight + 2 - viewport;
+  if (top + height + 2 > scroll_ + viewport) scroll_ = top + height + 2 - viewport;
   if (scroll_ > maxScroll()) scroll_ = maxScroll();
 }
 
@@ -166,8 +173,11 @@ MenuEvent MenuUi::activate(int target) {
              target == kUtilitiesWifi ? MenuEvent::WifiExplorer : MenuEvent::BluetoothExplorer;
     case MenuPage::Games:
       if (target == kGamesForestFidget) return MenuEvent::PlayForestFidget;
-      page_ = target == kGamesPong ? MenuPage::Pong : target == kGamesTetris ? MenuPage::Tetris : MenuPage::LeafSweep; focus_ = 0;
+      page_ = target == kGamesPong ? MenuPage::Pong : target == kGamesTetris ? MenuPage::Tetris :
+              target == kGamesLeafSweep ? MenuPage::LeafSweep : MenuPage::Doom; focus_ = 0;
       break;
+    case MenuPage::Doom:
+      return MenuEvent::PlayDoom;
     case MenuPage::Pong:
       if (target == kPongPlay) return MenuEvent::PlayPong;
       if (target == kPongScores) return MenuEvent::ShowPongScores;
@@ -217,6 +227,7 @@ MenuEvent MenuUi::back() {
     case MenuPage::TetrisSettings: page_ = MenuPage::Tetris; focus_ = kTetrisSettings; break;
     case MenuPage::LeafSweep: page_ = MenuPage::Games; focus_ = kGamesLeafSweep; break;
     case MenuPage::LeafSweepSettings: page_ = MenuPage::LeafSweep; focus_ = kLeafSweepSettings; break;
+    case MenuPage::Doom: page_ = MenuPage::Games; focus_ = kGamesDoom; break;
   }
   scroll_ = 0;
   revealFocus();
@@ -227,7 +238,7 @@ int MenuUi::hitTest(int x, int y) const {
   if (!open_ || x < 0 || x >= 240 || y < 0 || y >= 240) return -1;
   if (inside(x, y, 20, 8, 200, 16)) return x < 86 ? kNext : x < 154 ? kBack : kSelect;
   if (inside(x, y, kLeft, kBackY, kWidth, kBackHeight)) return kBack;
-  if (page_ == MenuPage::Main && (y < kViewportTop || y >= kViewportBottom)) return -1;
+  if ((page_ == MenuPage::Main || page_ == MenuPage::Games) && (y < kViewportTop || y >= kViewportBottom)) return -1;
   const bool compact = page_ == MenuPage::PongSettings || page_ == MenuPage::Games;
   for (int target = 0; target < rowCount(); ++target) {
     const int top = kFirstRow + target * (compact ? kCompactPitch : kRowPitch) - scroll_;
@@ -280,10 +291,25 @@ void drawMenu(uint16_t* pixels, const MenuUi& ui) {
     row(c, 98, "WI-FI EXPLORER", "NEARBY 2.4GHZ NETWORKS", ui.focus() == MenuUi::kUtilitiesWifi, UiIcon::Wifi);
     row(c, 145, "BLUETOOTH EXPLORER", "NEARBY BLE ADVERTISEMENTS", ui.focus() == MenuUi::kUtilitiesBluetooth, UiIcon::Bluetooth);
   } else if (page == MenuPage::Games) {
-    row(c, 51, "MOSS PONG", "TWO PLAYERS / TWO BUTTONS", ui.focus() == MenuUi::kGamesPong, UiIcon::Pong, true);
-    row(c, 87, "3-TOED TETRIS", "STACK BLOCKS / CLEAR LINES", ui.focus() == MenuUi::kGamesTetris, UiIcon::Tetris, true);
-    row(c, 123, "LEAF SWEEP", "SWEEP LEAVES / DODGE CANS", ui.focus() == MenuUi::kGamesLeafSweep, UiIcon::LeafSweep, true);
-    row(c, 159, "FOREST FIDGET", "TOUCH / TILT / UNWIND", ui.focus() == MenuUi::kGamesForestFidget, UiIcon::ForestFidget, true);
+    const char* labels[] = {"MOSS PONG", "3-TOED TETRIS", "LEAF SWEEP", "FOREST FIDGET", "DOOM"};
+    const char* details[] = {"TWO PLAYERS / TWO BUTTONS", "STACK BLOCKS / CLEAR LINES",
+                             "SWEEP LEAVES / DODGE CANS", "TOUCH / TILT / UNWIND", "THE ORIGINAL SHAREWARE EPISODE"};
+    const UiIcon icons[] = {UiIcon::Pong, UiIcon::Tetris, UiIcon::LeafSweep, UiIcon::ForestFidget, UiIcon::Games};
+    for (int index = 0; index < ui.rowCount(); ++index) {
+      const int y = kFirstRow + index * kCompactPitch - ui.scrollOffset();
+      if (y + kCompactHeight + 1 <= kViewportTop || y - 1 >= kViewportBottom) continue;
+      row(c, y, labels[index], details[index], ui.focus() == index, icons[index], true);
+    }
+    c.rect(0, 0, 240, kViewportTop, ink);
+    c.rect(0, kViewportBottom, 240, 240 - kViewportBottom, ink);
+    const int track = kViewportBottom - kViewportTop;
+    const int thumb = track * track / (track + ui.maxScroll());
+    const int y = kViewportTop + ui.scrollOffset() * (track - thumb) / ui.maxScroll();
+    c.roundRect(232, kViewportTop, 3, track, 1, rgb(37, 60, 49));
+    c.roundRect(232, y, 3, thumb, 1, mint);
+    c.centered(193, "SWIPE TO SCROLL", muted);
+  } else if (page == MenuPage::Doom) {
+    row(c, 51, "PLAY DOOM", "TOUCH + SIDE BUTTONS", ui.focus() == 0, UiIcon::Play);
   } else if (page == MenuPage::Pong || page == MenuPage::Tetris || page == MenuPage::LeafSweep) {
     row(c, 51, "PLAY", page == MenuPage::Pong ? "LET THE RALLY BEGIN" : page == MenuPage::Tetris ? "A LITTLE BLOCK THERAPY" : "A LITTLE LEAF DETECTIVE", ui.focus() == 0, UiIcon::Play);
     row(c, 98, "SOUND / OPTIONS", "MAKE THE GAME YOUR OWN", ui.focus() == 1, UiIcon::Settings);
@@ -303,7 +329,7 @@ void drawMenu(uint16_t* pixels, const MenuUi& ui) {
              page == MenuPage::Utilities ? "UTILITIES" :
              page == MenuPage::Pong ? "MOSS PONG" : page == MenuPage::PongSettings ? "PONG OPTIONS" :
              page == MenuPage::Tetris ? "3-TOED TETRIS" : page == MenuPage::TetrisSettings ? "3-TOED OPTIONS" :
-             page == MenuPage::LeafSweep ? "LEAF SWEEP" : "SWEEP OPTIONS", cream, 2);
+             page == MenuPage::LeafSweep ? "LEAF SWEEP" : page == MenuPage::Doom ? "DOOM" : "SWEEP OPTIONS", cream, 2);
   if (ui.focus() == ui.rowCount()) c.roundRect(kLeft - 1, kBackY - 1, kWidth + 2, kBackHeight + 2, 5, gold);
   c.roundRect(kLeft, kBackY, kWidth, kBackHeight, 4, rgb(29, 53, 47));
   const char* back = page == MenuPage::Main ? "BACK TO PET" : "BACK";

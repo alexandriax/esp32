@@ -1,0 +1,9 @@
+# Keep in sync with firmware/sloth_pet/partitions.csv.
+# Name, Type, SubType, Offset, Size, Flags
+factory, app, factory, 0x10000, 0x600000,
+doom, app, ota_0, 0x610000, 0x400000,
+wad, data, 0x40, 0xA10000, 0x400000,
+saves, data, 0x41, 0xE10000, 0x20000,
+otadata, data, ota, 0xE30000, 0x2000,
+nvs, data, nvs, 0xFE0000, 0x10000,
+pet_nvs, data, nvs, 0xFF0000, 0x10000,

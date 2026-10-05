@@ -160,7 +160,7 @@ def main():
     extra = '-DLWS_ESP_PLATFORM=1 ' + includes
     firmware = work / 'firmware'
     build = [cli, 'compile', '--config-file', config, '--fqbn', FQBN,
-             '--build-property', 'upload.maximum_size=' + ('8388608' if args.application else '3145728'),
+             '--build-property', 'upload.maximum_size=' + ('6291456' if args.application else '3145728'),
              '--build-property', 'compiler.c.extra_flags=' + extra,
              '--build-property', 'compiler.cpp.extra_flags=-DMOSS_DISPLAY_SPEED_OPT=1 ' + extra,
              '--build-property', 'compiler.libraries.ldflags=' + shlex.quote(str(lib_build / 'lib/libwebsockets.a')),
