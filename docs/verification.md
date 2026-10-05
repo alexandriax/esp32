@@ -2304,3 +2304,53 @@ timeline on return or action, rather than advancing every hidden frame.
 Numeric evidence and test logs are retained in ignored `artifacts/runtime-v1.38/`;
 firmware, checksums and validation metadata are in `artifacts/releases/v1.38/`,
 in the browser worktree and primary checkout. v1.37 remains available for rollback.
+
+## v1.39 — Global screen rotation and public Mac builds — 2026-10-05
+
+Settings → Screen Rotation offers 0°, 90°, 180° and 270° clockwise. Save applies
+and persists the choice; Cancel leaves the current orientation intact. The same
+setting controls local full-frame and partial rendering, browser rows, touch
+press/release coordinates, tilt input and the orientation sent to Moss Display.
+Already rotated host frames bypass the local transform. Rotation reuses the
+existing DMA stripe and adds no framebuffer.
+
+- The full host suite passed with ASan/UBSan, including exhaustive 240 × 240 and
+  480 × 480 pixel/touch round trips at every orientation, native/scaled/RLE
+  rectangle rendering, Settings save/cancel, and old-record migration. The v3
+  settings record remains 28 bytes; v1/v2 records retain preferences and default
+  to upright. The universal arm64/x86_64 companion build and transport tests passed.
+- The production ESP32-C6 build used 2,468,651 / 8,388,608 program bytes and
+  66,280 / 327,680 static RAM bytes, only 24 more static bytes than v1.38. All 129
+  staged firmware source files matched. The application is 2,468,752 bytes with
+  SHA-256 `a7accd0b57773d8ba3e7cc4a1e0acb5da0954df3052d0bb60dc9b13535b34fd5`.
+  Only application offset `0x10000` was flashed; device digest verification passed.
+- All 25 device checkpoints had intact heaps. Each angle saved successfully,
+  loaded Hacker News with HTTP 200 and a ready reader, and announced the matching
+  Remote Display angle. A saved 90° setting survived reboot. Existing pet
+  preferences were preserved. Browser and display exits released tracked app
+  buffers. Final home was upright with 148,944 free heap bytes and zero tracked
+  browser, display, Wi-Fi queue and radio UI allocations.
+- The signed companion negotiated 90° during a real Wi-Fi session. A 15-second
+  video-only scrolling check stayed connected until intentional quit; nine
+  periodic samples after warm-up measured 7.51 acknowledged changed frames/s
+  and 124.9 ms median transfer time. These are transfer measurements, not capture
+  FPS or end-to-end latency. The separate audio-enabled run ended with a device
+  STOP before intentional quit, so intermittent audio/connection stability remains
+  a known limitation. This release does not claim to fix that issue. The prior
+  audio-enabled preference was restored after testing.
+- Device input used USB-injected events through production handlers. Host render
+  previews were visually checked; physical finger feel still needs human review.
+  The device was left at home, upright, with browser and Remote Display closed.
+- The public repository starts from a reviewed source snapshot, with no imported
+  private development history. Gitleaks and the tracked-source privacy guard
+  passed. Local credentials, tools, caches, device logs and firmware backups were
+  excluded. New public commits use a GitHub no-reply address. The pre-existing
+  public MIT copyright and the app's public certificate identity remain visible.
+  Both initial GitHub workflows passed, including the universal Mac test build.
+  Pull requests have no release credentials; signed/notarized publishing is
+  restricted to trusted main builds and requires the release configuration gate.
+
+Numeric evidence is retained locally in ignored `artifacts/rotation-v1.39/`;
+firmware and validation metadata are in `artifacts/releases/v1.39/`. v1.38 remains
+available for rollback. The downloadable companion is separate from firmware and
+does not flash the device.
